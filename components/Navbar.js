@@ -40,7 +40,7 @@ const Nav = () => (
       <SocialIcons href="https://github.com/dikology">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com/dikology">
+      <SocialIcons href="https://linkedin.com/in/dikology">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://instagram.com/unpotato_lifestyle">
