@@ -1,8 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Конференция матемаркетинг
-pubDate: 2024-11-10
-description: 
+date: 2024-11-10
 ---
 #november #work #channel #p52 
 

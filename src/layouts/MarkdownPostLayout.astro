@@ -1,8 +1,13 @@
 ---
 import Layout from './Layout.astro';
+import PostHeader from '../components/PostHeader.astro';
+
 const { frontmatter } = Astro.props;
+const { title, date } = frontmatter;
 ---
-<Layout title={frontmatter.title}>
-  <p>{frontmatter.pubDate.toString().slice(0,10)}</p>
-  <slot />
+<Layout {title}>
+  <PostHeader {title} {date} />
+  <main class="post-content">
+    <slot />
+  </main>
 </Layout>
