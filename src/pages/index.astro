@@ -1,12 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
 
 const allPosts = await Astro.glob('./posts/*.md');
 const pageTitle = "Home Page";
 ---
 <Layout title={pageTitle}>
-  <h2>My awesome blog subtitle</h2>
   <ul>
-    {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+    {allPosts.map((post) => <Card href={post.url} title={post.frontmatter.title}/>)}
   </ul>
 </Layout>
