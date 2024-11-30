@@ -1,18 +1,24 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Sidebar from '../components/Sidebar.astro';
 
 const allPosts = await Astro.glob('./posts/*.md');
 const pageTitle = "Home Page";
 ---
 <Layout title={pageTitle}>
-  <ul>
-    {allPosts.map((post) => (
-      <Card
-        href={post.url ?? '#'}
-        title={post.frontmatter.title ?? 'Untitled'}
-        body={post.frontmatter.description ?? 'No description available'}
-      />
-    ))}
-  </ul>
+  <div class="antialiased bg-gray-50 dark:bg-gray-900">
+    <Sidebar />
+     <main class="p-4 md:ml-64 h-auto pt-20">
+        <ul>
+          {allPosts.map((post) => (
+            <Card
+              href={post.url ?? '#'}
+              title={post.frontmatter.title ?? 'Untitled'}
+              body={post.frontmatter.description ?? 'No description available'}
+            />
+          ))}
+        </ul>
+     </main>
+  </div>
 </Layout>
