@@ -11,9 +11,7 @@ const pageTitle = "Home Page";
       <Card
         href={post.url ?? '#'} // Default to '#' if undefined
         title={post.frontmatter.title ?? 'Untitled'} // Default to 'Untitled' if undefined
-        body={post.frontmatter.description ?? 'No description available'} // Default body text
       />
     ))}
-    
   </ul>
 </Layout>

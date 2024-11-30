@@ -2,6 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: ChatGPT helps with layout and styling
 date: 2024-11-16
+description: "a guide to create a `MarkdownPostLayout.astro` component and accompanying CSS to make your markdown articles look polished and professional"
 ---
 Here’s a guide to create a `MarkdownPostLayout.astro` component and accompanying CSS to make your markdown articles look polished and professional. 
 
