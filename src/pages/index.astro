@@ -7,6 +7,13 @@ const pageTitle = "Home Page";
 ---
 <Layout title={pageTitle}>
   <ul>
-    {allPosts.map((post) => <Card href={post.url} title={post.frontmatter.title}/>)}
+    {allPosts.map((post) => (
+      <Card
+        href={post.url ?? '#'} // Default to '#' if undefined
+        title={post.frontmatter.title ?? 'Untitled'} // Default to 'Untitled' if undefined
+        body={post.frontmatter.description ?? 'No description available'} // Default body text
+      />
+    ))}
+    
   </ul>
 </Layout>
