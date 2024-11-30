@@ -1,0 +1,17 @@
+---
+import GalleryItem from '../components/GalleryItem.astro';
+import Layout from '../layouts/Layout.astro';
+
+const galleryPosts = await Astro.glob('./posts/gallery/*.md');
+const pageTitle = "Gallery";
+---
+<Layout title={pageTitle}>
+    <section class="gallery">
+        {galleryPosts.map(post => (
+          <GalleryItem
+            title={post.frontmatter.title}
+            image={post.frontmatter.image}
+          />
+        ))}
+      </section>
+</Layout>
