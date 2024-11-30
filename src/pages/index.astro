@@ -9,8 +9,9 @@ const pageTitle = "Home Page";
   <ul>
     {allPosts.map((post) => (
       <Card
-        href={post.url ?? '#'} // Default to '#' if undefined
-        title={post.frontmatter.title ?? 'Untitled'} // Default to 'Untitled' if undefined
+        href={post.url ?? '#'}
+        title={post.frontmatter.title ?? 'Untitled'}
+        body={post.frontmatter.description ?? 'No description available'}
       />
     ))}
   </ul>
