@@ -7,9 +7,8 @@ const allPosts = await Astro.glob('./posts/*.md');
 const pageTitle = "Home Page";
 ---
 <Layout title={pageTitle}>
-  <div class="antialiased bg-gray-50 dark:bg-gray-900">
      <main class="p-4 md:ml-64 h-auto pt-20">
-        <ul>
+        <ul role="list" class="link-card-grid">
           {allPosts.map((post) => (
             <Card
               href={post.url ?? '#'}
@@ -121,5 +120,4 @@ const pageTitle = "Home Page";
           </div>
       </div>
      </main>
-  </div>
 </Layout>

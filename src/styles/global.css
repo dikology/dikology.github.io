@@ -104,6 +104,13 @@ body {
     font-size: 0.9rem;
     color: #aaaaaa;
   }
+
+  .link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 2rem;
+		padding: 0;
+	}
   
   /* Navigation */
   /* Navigation Bar Styles */
