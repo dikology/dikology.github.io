@@ -3,8 +3,12 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Creating a blog using Astro framework
 description: In this article I try to keep some notes about creating a blog section on my [[astro]] website.
 date: 2024-12-02
-image: 
-featured: "true"
+image: {
+    src: ""
+}
+featured: true
+draft: false
+category:
 ---
 In this article I'll try to keep some notes about creating a blog section on my [[astro]] website.
 Starting with ...
@@ -22,3 +26,8 @@ also, how do images work in markdown layouts if they are not in frontmatter?
 
 ### Client-side js to show what page are we on
 at 1:03
+
+```
+Sidenote. can make midjourney image for 404 page
+```
+
