@@ -1,13 +1,15 @@
 ---
 import Layout from './Layout.astro';
 import PostHeader from '../components/PostHeader.astro';
+import Sidebar from '../components/Sidebar.astro';
 
 const { frontmatter } = Astro.props;
 const { title, date } = frontmatter;
 ---
 <Layout {title}>
   <PostHeader {title} {date} />
-  <main class="post-content">
+  <Sidebar />
+  <main class="p-4 md:ml-64 h-auto pt-20 post-content">
     <slot />
   </main>
 </Layout>
