@@ -9,3 +9,5 @@ featured: "true"
 In this article I'll try to keep some notes about creating a blog section on my [[astro]] website.
 Starting with ...
 ## a youtube course
+[here](https://www.youtube.com/watch?v=6XzyobQYQVQ)
+
