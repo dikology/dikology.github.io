@@ -4,7 +4,7 @@ title: Creating a blog using Astro framework
 description: In this article I try to keep some notes about creating a blog section on my [[astro]] website.
 date: 2024-12-02
 image: {
-    src: ""
+    src: "https://cdn.midjourney.com/d5205413-1fed-4ef0-bef5-27c5f0f4a6fb/0_0.png"
 }
 featured: true
 draft: false

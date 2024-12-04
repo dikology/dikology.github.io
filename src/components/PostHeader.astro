@@ -1,9 +1,9 @@
 ---
-const { title, date } = Astro.props;
+const { title, date, image } = Astro.props;
 ---
 <header class="post-header">
     <h1 class="post-title">{title}</h1>
-    <img src="" alt="">
+    <img src={image.src} alt={image.alt}>
     <div class="post-meta">
       <time datetime={date}>{new Date(date).toLocaleDateString()}</time> 
     </div>
