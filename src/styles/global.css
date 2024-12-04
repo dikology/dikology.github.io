@@ -156,12 +156,6 @@ body {
   font-style: italic;
 }
 
-/* Optional: Add hover effect */
-.post-content pre:hover {
-  background-color: #252538; /* Slightly lighter shade on hover */
-  transition: background-color 0.3s ease-in-out;
-}
-
 
 /* Navigation Bar */
 .nav-bar {
@@ -199,4 +193,12 @@ body {
 .nav-list a.active {
   background-color: #ffa07a;
   color: #ffffff;
+}
+
+/* Link Grid */
+.link-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+  gap: 2rem;
+  padding: 0;
 }

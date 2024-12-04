@@ -8,8 +8,7 @@ const { title, date, category, description, image } = frontmatter;
 ---
 <Layout {title}>
   <PostHeader {title} {date} {image} />
-  <!-- <Sidebar /> -->
-  <main class="post-content">
+  <div class="post-content">
     <slot />
-  </main>
+  </div>
 </Layout>
