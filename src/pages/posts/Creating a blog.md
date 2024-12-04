@@ -31,3 +31,11 @@ at 1:03
 Sidenote. can make midjourney image for 404 page
 ```
 
+### Format blog posts (date / draft)
+at 1:50
+
+
+
+---
+
+Finally, I'll try future improvements as separate posts and branches.
