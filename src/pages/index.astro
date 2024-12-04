@@ -9,11 +9,7 @@ const pageTitle = "Home Page";
         <h2>Featured posts</h2>
         <ul role="list" class="link-card-grid">
           {allPosts.map((post) => (
-            <Card
-              href={post.url ?? '#'}
-              title={post.frontmatter.title ?? 'Untitled'}
-              body={post.frontmatter.description ?? 'No description available'}
-            />
+            <Card frontmatter={post.frontmatter} url={post.url} />
           ))}
         </ul>
 </Layout>

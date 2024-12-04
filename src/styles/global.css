@@ -156,6 +156,68 @@ body {
   font-style: italic;
 }
 
+/* Unordered List (ul) */
+.post-content ul {
+  list-style-type: disc; /* Default bullet style */
+  padding-left: 1.5rem; /* Indentation */
+  margin: 1rem 0;
+}
+
+.post-content ul li {
+  margin: 0.5rem 0; /* Spacing between items */
+  color: #dddddd; /* Light color for text */
+  font-size: 1rem;
+}
+
+.post-content ul li::marker {
+  color: #007acc; /* Custom bullet color */
+  font-size: 1.2rem; /* Slightly larger marker */
+}
+
+/* Ordered List (ol) */
+.post-content ol {
+  list-style-type: decimal; /* Default number style */
+  padding-left: 1.5rem; /* Indentation */
+  margin: 1rem 0;
+}
+
+.post-content ol li {
+  margin: 0.5rem 0;
+  color: #dddddd;
+  font-size: 1rem;
+}
+
+.post-content ol li::marker {
+  color: #1e90ff; /* Custom number color */
+  font-weight: bold;
+}
+
+/* Fancy List Styling (Custom Bullets) */
+.post-content ul.custom-list li {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.post-content ul.custom-list li::before {
+  content: "⚡"; /* Custom bullet symbol */
+  position: absolute;
+  left: 0;
+  color: #ff79c6; /* Bright pink color */
+  font-size: 1.2rem;
+}
+
+/* Hover Effect for List Items */
+.post-content li:hover {
+  color: #63c5ff;
+  transition: color 0.3s ease;
+}
+
+/* Nested Lists */
+.post-content ul ul,
+.post-content ol ol {
+  margin-left: 1rem;
+  list-style-type: circle; /* Change style for nested lists */
+}
 
 /* Navigation Bar */
 .nav-bar {
