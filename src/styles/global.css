@@ -260,7 +260,27 @@ body {
 /* Link Grid */
 .link-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-  gap: 2rem;
-  padding: 0;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adjust as needed */
+  gap: 1.5rem;
+  padding: 0 1rem; /* Add some side padding */
 }
+
+	/* Grid for small screens (default: 1 column) */
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr); /* 1 card per row */
+		gap: 2rem;
+		padding: 0;
+	}
+  
+	@media (min-width: 900px) {
+		.link-card-grid {
+			grid-template-columns: repeat(2, 1fr); /* 3 cards per row */
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.link-card-grid {
+			grid-template-columns: repeat(3, 1fr); /* 4 cards per row */
+		}
+	}
