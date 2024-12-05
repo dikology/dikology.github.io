@@ -15,7 +15,12 @@
 </nav>
 
 <script>
-  document.querySelector('.nav-toggle').addEventListener('click', () => {
-    document.querySelector('.nav-list').classList.toggle('nav-active');
-  });
+  const navToggle = document.querySelector(".nav-toggle");
+  const navList = document.querySelector(".nav-list");
+
+  if (navToggle && navList) {
+    navToggle.addEventListener("click", () => {
+      navList.classList.toggle("nav-active");
+    });
+  }
 </script>
