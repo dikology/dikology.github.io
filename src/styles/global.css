@@ -52,35 +52,44 @@ body {
 
 /* Headers - Make them stand out */
 .post-content h1 {
-  font-size: 3rem; /* Larger size for H1 */
-  color: #ff7f50; /* Bright coral for H1 */
-  text-transform: uppercase; /* Optional: make it bold in feel */
+  font-size: 3rem;
+  /* Larger size for H1 */
+  color: #ff7f50;
+  /* Bright coral for H1 */
+  text-transform: uppercase;
+  /* Optional: make it bold in feel */
   margin-top: 2.5rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #ff6347; /* Adds a bottom border for emphasis */
+  border-bottom: 2px solid #ff6347;
+  /* Adds a bottom border for emphasis */
   padding-bottom: 0.5rem;
 }
 
 .post-content h2 {
   font-size: 2.5rem;
-  color: #ffa07a; /* Softer coral for H2 */
+  color: #ffa07a;
+  /* Softer coral for H2 */
   margin-top: 2rem;
   margin-bottom: 0.75rem;
-  border-left: 5px solid #ff7f50; /* Decorative left border */
+  border-left: 5px solid #ff7f50;
+  /* Decorative left border */
   padding-left: 1rem;
 }
 
 .post-content h3 {
   font-size: 2rem;
-  color: #ffffff; /* White for contrast */
+  color: #ffffff;
+  /* White for contrast */
   margin-top: 1.75rem;
   margin-bottom: 0.5rem;
-  font-weight: 600; /* Slightly lighter */
+  font-weight: 600;
+  /* Slightly lighter */
 }
 
 .post-content h4 {
   font-size: 1.75rem;
-  color: #dddddd; /* Subtle gray for smaller headers */
+  color: #dddddd;
+  /* Subtle gray for smaller headers */
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -120,64 +129,85 @@ body {
 
 /* Code Block Container */
 .post-content pre {
-  background-color: #1e1e2f; /* Dark background for contrast */
-  color: #f8f8f2; /* Light text color for readability */
-  padding: 1rem; /* Add padding for spacing */
-  border-radius: 8px; /* Rounded corners */
-  overflow-x: auto; /* Horizontal scrolling for long lines */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  background-color: #1e1e2f;
+  /* Dark background for contrast */
+  color: #f8f8f2;
+  /* Light text color for readability */
+  padding: 1rem;
+  /* Add padding for spacing */
+  border-radius: 8px;
+  /* Rounded corners */
+  overflow-x: auto;
+  /* Horizontal scrolling for long lines */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  /* Subtle shadow for depth */
   margin: 1.5rem 0;
 }
 
 /* Inline Code Styling */
 .post-content code {
-  background-color: #2e2e3e; /* Slightly different background for inline code */
-  color: #ff79c6; /* Accent color */
+  background-color: #2e2e3e;
+  /* Slightly different background for inline code */
+  color: #ff79c6;
+  /* Accent color */
   padding: 0.2rem 0.5rem;
   border-radius: 5px;
-  font-size: 0.95rem; /* Smaller font for inline code */
+  font-size: 0.95rem;
+  /* Smaller font for inline code */
 }
 
 /* Syntax Highlighting for Code Blocks (Manual CSS) */
 .post-content .keyword {
-  color: #ff79c6; /* Pink for keywords */
+  color: #ff79c6;
+  /* Pink for keywords */
 }
 
 .post-content .string {
-  color: #50fa7b; /* Green for strings */
+  color: #50fa7b;
+  /* Green for strings */
 }
 
 .post-content .function {
-  color: #8be9fd; /* Cyan for function names */
+  color: #8be9fd;
+  /* Cyan for function names */
 }
 
 .post-content .comment {
-  color: #6272a4; /* Soft purple for comments */
+  color: #6272a4;
+  /* Soft purple for comments */
   font-style: italic;
 }
 
 /* Unordered List (ul) */
 .post-content ul {
-  list-style-type: disc; /* Default bullet style */
-  padding-left: 1.5rem; /* Indentation */
+  list-style-type: disc;
+  /* Default bullet style */
+  padding-left: 1.5rem;
+  /* Indentation */
   margin: 1rem 0;
 }
 
 .post-content ul li {
-  margin: 0.5rem 0; /* Spacing between items */
-  color: #dddddd; /* Light color for text */
+  margin: 0.5rem 0;
+  /* Spacing between items */
+  color: #dddddd;
+  /* Light color for text */
   font-size: 1rem;
 }
 
 .post-content ul li::marker {
-  color: #007acc; /* Custom bullet color */
-  font-size: 1.2rem; /* Slightly larger marker */
+  color: #007acc;
+  /* Custom bullet color */
+  font-size: 1.2rem;
+  /* Slightly larger marker */
 }
 
 /* Ordered List (ol) */
 .post-content ol {
-  list-style-type: decimal; /* Default number style */
-  padding-left: 1.5rem; /* Indentation */
+  list-style-type: decimal;
+  /* Default number style */
+  padding-left: 1.5rem;
+  /* Indentation */
   margin: 1rem 0;
 }
 
@@ -188,7 +218,8 @@ body {
 }
 
 .post-content ol li::marker {
-  color: #1e90ff; /* Custom number color */
+  color: #1e90ff;
+  /* Custom number color */
   font-weight: bold;
 }
 
@@ -199,10 +230,12 @@ body {
 }
 
 .post-content ul.custom-list li::before {
-  content: "⚡"; /* Custom bullet symbol */
+  content: "⚡";
+  /* Custom bullet symbol */
   position: absolute;
   left: 0;
-  color: #ff79c6; /* Bright pink color */
+  color: #ff79c6;
+  /* Bright pink color */
   font-size: 1.2rem;
 }
 
@@ -216,17 +249,21 @@ body {
 .post-content ul ul,
 .post-content ol ol {
   margin-left: 1rem;
-  list-style-type: circle; /* Change style for nested lists */
+  list-style-type: circle;
+  /* Change style for nested lists */
 }
 
 /* Navigation Bar */
 .nav-bar {
   background-color: #333333;
   padding: 1rem 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-list {
@@ -252,35 +289,92 @@ body {
   color: #ffffff;
 }
 
-.nav-list a.active {
-  background-color: #ffa07a;
-  color: #ffffff;
+/* Hamburger Button */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  display: block;
+  position: relative;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+}
+
+.hamburger::before {
+  top: -8px;
+}
+
+.hamburger::after {
+  top: 8px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 1rem;
+    display: none;
+    background-color: #333333;
+    padding: 1rem;
+    border-radius: 8px;
+    position: absolute;
+    top: 60px;
+    right: 2rem;
+  }
+
+  .nav-list.nav-active {
+    display: flex;
+  }
 }
 
 /* Link Grid */
 .link-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adjust as needed */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  /* Adjust as needed */
   gap: 1.5rem;
-  padding: 0 1rem; /* Add some side padding */
+  padding: 0 1rem;
+  /* Add some side padding */
 }
 
-	/* Grid for small screens (default: 1 column) */
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr); /* 1 card per row */
-		gap: 2rem;
-		padding: 0;
-	}
-  
-	@media (min-width: 900px) {
-		.link-card-grid {
-			grid-template-columns: repeat(2, 1fr); /* 3 cards per row */
-		}
-	}
+/* Grid for small screens (default: 1 column) */
+.link-card-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* 1 card per row */
+  gap: 2rem;
+  padding: 0;
+}
 
-	@media (min-width: 1200px) {
-		.link-card-grid {
-			grid-template-columns: repeat(3, 1fr); /* 4 cards per row */
-		}
-	}
+@media (min-width: 900px) {
+  .link-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* 3 cards per row */
+  }
+}
+
+@media (min-width: 1200px) {
+  .link-card-grid {
+    grid-template-columns: repeat(3, 1fr);
+    /* 4 cards per row */
+  }
+}

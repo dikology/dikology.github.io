@@ -1,17 +1,21 @@
----
-// Import any necessary components or styles if needed
----
 <nav class="nav-bar">
-  <ul class="nav-list">
-    <li><a href="/">Home</a></li>
-    <li><a href="/p52">p52</a></li>
-    <li><a href="/portfolio">Portfolio</a></li>
-    <li><a href="/gallery-2">Gallery</a></li>
-    <li><a href="/sailboating">Sailboating</a></li>
-    <li><a href="/data">Data</a></li>
-  </ul>
+  <div class="nav-container">
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <ul class="nav-list">
+      <li><a href="/">Home</a></li>
+      <li><a href="/p52">p52</a></li>
+      <li><a href="/portfolio">Portfolio</a></li>
+      <li><a href="/gallery-2">Gallery</a></li>
+      <li><a href="/sailboating">Sailboating</a></li>
+      <li><a href="/data">Data</a></li>
+    </ul>
+  </div>
 </nav>
 
 <script>
-  import "../js/nav.js"
+  document.querySelector('.nav-toggle').addEventListener('click', () => {
+    document.querySelector('.nav-list').classList.toggle('nav-active');
+  });
 </script>
