@@ -194,3 +194,134 @@ jobs:
 ### Conclusion
 
 This setup automates the generation and distribution of Anki decks via GitHub, making it easy to manage and update your study material collaboratively.
+
+Let's address the problems and your questions systematically.
+
+---
+
+### Problem 1: Cloze Example Without `**Back**`
+
+The script assumes every card has a `**Front:**` and `**Back:**`, but Cloze cards do not have `**Back:**`. A solution is to parse the YAML front matter for the card type and process it accordingly.
+
+Here's an updated version of `load_card` and the script to handle multiple card types, including Cloze:
+
+#### Updated `load_card` Function:
+```python
+import yaml
+
+def load_card(file_path):
+    with open(file_path, 'r') as f:
+        content = f.read()
+    meta, body = content.split('---', 2)[1:]  # Split YAML front matter and card body
+    meta = yaml.safe_load(meta)
+    card_type = meta.get('type', 'basic')
+
+    if card_type == 'cloze':
+        text = body.strip().split('**Text:**', 1)[-1].strip()
+        return {'type': 'cloze', 'text': text, 'id': meta.get('id', None), 'tags': meta.get('tags', [])}
+    else:
+        front, back = body.split('**Back:**', 1)
+        front = front.split('**Front:**', 1)[-1].strip()
+        back = back.strip()
+        return {'type': 'basic', 'front': front, 'back': back, 'id': meta.get('id', None), 'tags': meta.get('tags', [])}
+```
+
+#### Updated `main` Function:
+```python
+def main():
+    deck = create_deck(1234567890, "GitHub Anki Deck")
+    
+    for filename in os.listdir('src/pages/posts/analytics'):  # Adjusted path
+        if filename.endswith('.md'):
+            card_data = load_card(os.path.join('src/pages/posts/analytics', filename))
+            
+            if card_data['type'] == 'basic':
+                deck.add_note(create_basic_card(card_data['front'], card_data['back']))
+            elif card_data['type'] == 'cloze':
+                deck.add_note(
+                    genanki.Note(
+                        model=genanki.CLOZE_MODEL,
+                        fields=[card_data['text']],
+                        tags=card_data['tags']
+                    )
+                )
+
+    if not os.path.exists('output'):
+        os.makedirs('output')  # Ensure the output directory exists
+
+    genanki.Package(deck).write_to_file('output/anki_deck.apkg')
+```
+
+---
+
+### Problem 2: Directory Does Not Exist for Output File
+
+The error occurs because the `output/` directory is missing. The updated script now creates the `output` directory if it doesn't exist.
+
+```python
+if not os.path.exists('output'):
+    os.makedirs('output')  # Create the directory if it doesn't exist
+```
+
+---
+
+### Question: Adjusting the Path for Cards in Workflow
+
+Yes, changing `os.listdir('cards')` to `os.listdir('src/pages/posts/analytics')` will work as long as the path is valid relative to the root of your repository. GitHub Actions runs workflows at the root of the repository, so ensure the script uses the correct relative path.
+
+You do not need the script and the cards to be on the same level; the directory structure you provided should work with the changes above.
+
+---
+
+### Final Adjusted Workflow
+
+Here’s the adjusted workflow snippet to match your setup:
+
+```yaml
+- name: Generate Anki Deck
+  run: python utils/generate_anki.py
+```
+
+Make sure the repository has the following structure:
+
+```plaintext
+.
+├── src/
+│   ├── pages/
+│       └── posts/
+│           └── analytics/
+│               ├── card1.md
+│               ├── card2.md
+│               └── ...
+├── utils/
+│   └── generate_anki.py
+├── .github/
+│   └── workflows/
+│       └── generate-deck.yml
+└── requirements.txt
+```
+
+---
+
+### Testing Locally
+
+Before pushing changes to GitHub:
+
+1. Run the script locally to confirm it generates the `.apkg` file correctly:
+   ```bash
+   python utils/generate_anki.py
+   ```
+2. Verify the output file exists in the `output/` directory:
+   ```bash
+   ls output/
+   ```
+
+---
+
+### Summary of Fixes
+
+- **Cloze support**: Added YAML front matter parsing to differentiate card types.
+- **Output directory**: Ensured the script creates the `output` directory if it doesn't exist.
+- **Adjusted paths**: Updated paths to reflect your project structure and confirmed they will work in the GitHub workflow.
+
+This should resolve all the issues and integrate smoothly into your workflow. 😊
