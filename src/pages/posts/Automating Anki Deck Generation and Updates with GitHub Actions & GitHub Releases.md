@@ -9,8 +9,6 @@ featured: true
 draft: true
 category: tech
 ---
-# Automating Anki Deck Generation and Updates with GitHub Actions & GitHub Releases
-
 This guide will walk you through automating the creation and updating of Anki decks using GitHub Actions. Each Anki card is represented by individual `.md` files, and GitHub Releases will serve as a convenient way to distribute the generated deck.
 
 ---
