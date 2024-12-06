@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Automating Anki Deck Generation and Updates with GitHub Actions & GitHub Releases
-description: Automating Anki Deck Generation and Updates with GitHub Actions & GitHub Releases
+title: Automating Anki Decks with GitHub Actions & Releases
+description: Automating Anki Decks with GitHub Actions Releases
 date: 2024-12-05
 image:
   src: https://cdn.midjourney.com/d5205413-1fed-4ef0-bef5-27c5f0f4a6fb/0_0.png
