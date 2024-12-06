@@ -3,10 +3,9 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 
 const allPosts = await Astro.glob('./posts/*.md');
-const pageTitle = "Home Page";
+const pageTitle = "dikology: don't specialize";
 ---
 <Layout title={pageTitle}>
-        <h2>Featured posts</h2>
         <ul role="list" class="link-card-grid">
           {allPosts.map((post) => (
             <Card frontmatter={post.frontmatter} url={post.url} />
