@@ -3,7 +3,7 @@ name: Generate Anki Deck
 on:
   push:
     paths:
-      - 'cards/**'
+      - 'src/pages/posts/analytics/**'
   workflow_dispatch:
 
 jobs:
