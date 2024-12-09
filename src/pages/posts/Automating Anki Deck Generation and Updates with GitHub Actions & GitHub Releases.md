@@ -4,7 +4,7 @@ title: Automating Anki Decks with GitHub Actions & Releases
 description: Automating Anki Decks with GitHub Actions Releases
 date: 2024-12-05
 image:
-  src: https://cdn.midjourney.com/d5205413-1fed-4ef0-bef5-27c5f0f4a6fb/0_0.png
+  src: https://cdn.midjourney.com/d33642f7-5939-4bea-bc6a-678bad4a6acf/0_0.png
 featured: true
 draft: true
 category: tech

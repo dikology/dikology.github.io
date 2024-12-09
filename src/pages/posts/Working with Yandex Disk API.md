@@ -4,7 +4,7 @@ title: Working with Yandex Disk API
 description: Trying to use API to get some memories
 date: 2024-12-05
 image:
-  src: https://cdn.midjourney.com/d5205413-1fed-4ef0-bef5-27c5f0f4a6fb/0_0.png
+  src: https://cdn.midjourney.com/0baedd4a-2a01-45b1-8ed2-cc8e68a9830e/0_0.png
 featured: true
 draft: true
 category: tech
