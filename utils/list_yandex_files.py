@@ -88,8 +88,8 @@ def get_files_created_in_period(month=None, week=None):
 
 if __name__ == "__main__":
     # Example: Get files created or modified in December (month=12)
-    month = 12  # December
-    week = None  # No week filtering, only month
+    month = None  # Month number
+    week = 50  #  week filtering
 
     files = get_files_created_in_period(month=month, week=week)
 
