@@ -1,7 +1,9 @@
 ---
 id: 1
 type: basic
-tags: [data-analytics, retention, derivative-analysis]
+tags:
+  - data-analytics
+  - retention
 ---
 
 **Front:** 
