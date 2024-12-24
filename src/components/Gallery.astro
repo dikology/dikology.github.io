@@ -1,7 +1,7 @@
 ---
 const galleryPosts = await Astro.glob('../pages/posts/gallery/*.md');
 
-// Helper function to split the posts into 4 columns
+// Helper function to split posts into 4 columns
 function chunkPosts(posts: any[], chunkSize: number): any[][] {
   const chunks = [];
   for (let i = 0; i < posts.length; i += chunkSize) {
@@ -18,13 +18,11 @@ const columns = chunkPosts(galleryPosts, Math.ceil(galleryPosts.length / 4));
     <div class="grid gap-4">
       {column.map((post) => (
         <div>
-          <a 
-            href={`/gallery-details?image=${encodeURIComponent(post.frontmatter.image)}&title=${encodeURIComponent(post.frontmatter.title)}`}
-          >
-            <img 
-              class="h-auto max-w-full rounded-lg" 
-              src={post.frontmatter.image} 
-              alt={post.frontmatter.title} 
+          <a href={`${encodeURIComponent(post.frontmatter.title)}`}>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src={post.frontmatter.image}
+              alt={post.frontmatter.title}
             />
           </a>
         </div>
