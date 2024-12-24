@@ -3,10 +3,17 @@ import Layout from '../layouts/Layout.astro';
 import Gallery from '../components/Gallery.astro';
 import Modal from '../components/Modal.astro';
 
-const pageTitle = "gallery";
-console.log(Astro.props)
+// Extract query parameters from the URL
+const params = new URLSearchParams(Astro.url.search);
+const image = params.get('image');
+const title = params.get('title');
+
+const pageTitle = "Gallery Details";
 ---
+
 <Layout title={pageTitle}>
-    <Gallery/>
-    <Modal />
+  <Gallery />
+  {image && (
+    <Modal image={{ image, title }} />
+  )}
 </Layout>

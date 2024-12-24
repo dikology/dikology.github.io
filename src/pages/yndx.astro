@@ -1,0 +1,17 @@
+---
+import { promises as fs } from 'fs';
+
+const calendarData = JSON.parse(await fs.readFile('./src/public/calendar_data.json', 'utf-8'));
+---
+
+<h1>File Calendar</h1>
+<ul>
+  {calendarData.map(file => (
+    <li>
+      {file.date}: <a href={file.path}>{file.name}</a>
+    </li>
+  ))}
+</ul>
+
+<h2>File Creation Chart</h2>
+<Charts chartData={JSON.parse(await fs.readFile('./src/public/chart_data.json', 'utf-8'))} />
