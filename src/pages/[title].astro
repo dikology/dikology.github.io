@@ -3,18 +3,20 @@ import Layout from '../layouts/Layout.astro';
 import Gallery from '../components/Gallery.astro';
 import Modal from '../components/Modal.astro';
 
+import type { GetStaticPathsResult } from 'astro';
+
 // Fetch gallery posts inside the page render
 const galleryPosts = await Astro.glob('/src/pages/posts/gallery/*.md');
 
 // Generate paths dynamically based on the titles in galleryPosts
-export async function getStaticPaths() {
+export async function getStaticPaths(): Promise<GetStaticPathsResult> {
   const galleryPosts = await Astro.glob('/src/pages/posts/gallery/*.md');
   const paths = galleryPosts.map((post) => ({
     params: {
       title: encodeURIComponent(post.frontmatter.title),
     },
   }));
-  console.log(paths)
+
   return paths;
 }
 
@@ -22,7 +24,7 @@ export async function getStaticPaths() {
 const { title } = Astro.params;
 
 // Decode the title since it comes URL-encoded
-const decodedTitle = decodeURIComponent(title);
+const decodedTitle = typeof title === 'string' ? decodeURIComponent(title) : '';
 
 // Find the post that matches the decoded title
 const post = galleryPosts.find((post) => post.frontmatter.title === decodedTitle);
