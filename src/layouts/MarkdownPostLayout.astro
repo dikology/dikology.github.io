@@ -1,10 +1,9 @@
 ---
 import Layout from './Layout.astro';
 import PostHeader from '../components/PostHeader.astro';
-import Sidebar from '../components/Sidebar.astro';
 
 const { frontmatter } = Astro.props;
-const { title, date, category, description, image } = frontmatter;
+const { title, date, image } = frontmatter;
 ---
 <Layout {title}>
   <PostHeader {title} {date} {image} />

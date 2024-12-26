@@ -14,7 +14,7 @@ const columns = chunkPosts(galleryPosts, Math.ceil(galleryPosts.length / 4));
 ---
 
 <section class="grid grid-cols-2 md:grid-cols-4 gap-4">
-  {columns.map((column, index) => (
+  {columns.map((column) => (
     <div class="grid gap-4">
       {column.map((post) => (
         <div>
