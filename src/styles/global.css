@@ -339,6 +339,7 @@ body {
     position: absolute;
     top: 60px;
     right: 2rem;
+    z-index: 1000; /* Add this */
   }
 
   .nav-list.nav-active {
