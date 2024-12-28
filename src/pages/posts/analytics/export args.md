@@ -1,8 +1,7 @@
 ---
-id: 3
+id: card3
 type: basic
 tags:
-  - data-analytics
 ---
 
 **Front:** 
@@ -10,3 +9,5 @@ tags:
 
 **Back:** 
 export $(grep -v '^#' .env | xargs)      
+
+[[Tech]]

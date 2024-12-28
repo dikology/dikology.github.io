@@ -45,10 +45,13 @@ def main():
                     )
                 )
 
-    if not os.path.exists('output'):
-        os.makedirs('output')  # Ensure the output directory exists
+    output_path = 'public/decks'
+    output_file = os.path.join(output_path, 'analytics.apkg')
 
-    genanki.Package(deck).write_to_file('output/analytics.apkg')
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
+
+    genanki.Package(deck).write_to_file(output_file)
     
 if __name__ == '__main__':
     main()

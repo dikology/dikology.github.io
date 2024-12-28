@@ -1,5 +1,5 @@
 ---
-id: 2
+id: card2
 type: basic
 tags:
   - data-analytics
@@ -10,3 +10,4 @@ tags:
 
 **Back:** 
 
+[[Data Analytics]]
