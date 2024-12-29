@@ -28,3 +28,7 @@ pnpm-debug.log*
 
 # node
 node_modules
+
+#duckdb
+*.duckdb
+.wal
