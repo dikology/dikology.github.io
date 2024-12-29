@@ -14,7 +14,7 @@ st.subheader("Curate Files")
 for idx, row in df.iterrows():
     with st.expander(f"{row['name']} - {row['modified']}"):
         # Editable fields
-        #readable_name = st.text_input("Human-readable name", value=row['human_readable_name'], key=f"name_{idx}")
+        #readable_name = st.text_input("Human-readable name", value=row['readable_name'], key=f"name_{idx}")
         #description = st.text_area("Description", value=row['description'], key=f"description_{idx}")
         #relevance = st.checkbox("Mark as Relevant", value=row['relevance'], key=f"relevance_{idx}")
         #relevance_options = ["Relevant", "Not Relevant", "Undecided"]  # Add options as needed

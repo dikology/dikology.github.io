@@ -22,6 +22,9 @@ conn = duckdb.connect(DB_FILE)
 conn.execute("""
 CREATE TABLE IF NOT EXISTS files (
     name TEXT,
+    readable_name TEXT,
+    description TEXT,
+    relevance TEXT,
     path TEXT PRIMARY KEY,
     created TIMESTAMP,
     modified TIMESTAMP
@@ -60,9 +63,9 @@ def sync_files_to_db(files):
             """, (file["path"],))
 
             conn.execute("""
-                INSERT INTO files (path, name, created, modified)
-                VALUES (?, ?, ?, ?)
-            """, (file["path"], file["name"], file["created"], file["modified"]))
+                INSERT INTO files (path, name, relevance, created, modified)
+                VALUES (?, ?, ?, ?, ?)
+            """, (file["path"], file["name"], 'Undecided', file["created"], file["modified"]))
         except Exception as e:
             print(f"[EXCEPTION] Failed to sync file {file['path']}: {e}")
     
