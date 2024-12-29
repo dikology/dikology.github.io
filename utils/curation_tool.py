@@ -44,7 +44,7 @@ for idx, row in df.iterrows():
     
     with col1:  # This column will hold the expander and editable fields
         # Expandable row for detailed view (editable fields)
-        with st.expander(f"{row['name']} - {row['modified']}", expanded=False):
+        with st.expander(f"{row['name']} - {row['modified']} (Path: {row['path']})", expanded=False):
             # Editable fields
             readable_name = st.text_input("Human-readable name", value=row['readable_name'], key=f"name_{idx}")
             description = st.text_area("Description", value=row['description'], key=f"description_{idx}")
