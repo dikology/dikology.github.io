@@ -18,27 +18,6 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
         
-      # Step to set up Python and Poetry
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-      
-      - name: Install Poetry
-        run: |
-          curl -sSL https://install.python-poetry.org | python3 -
-          export PATH="$HOME/.local/bin:$PATH"  # Add Poetry to PATH for the session
-
-      - name: Install Python dependencies with Poetry
-        run: |
-          cd $GITHUB_WORKSPACE 
-          poetry install
-
-      # Run your prebuild script
-      - name: Run prebuild script
-        run: |
-          poetry run python utils/prepare_data.py
-
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         # Uncomment below options if needed
