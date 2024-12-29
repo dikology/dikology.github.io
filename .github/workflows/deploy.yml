@@ -3,10 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ master ]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
-# Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
   pages: write
@@ -15,15 +13,38 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
+        
+      # Step to set up Python and Poetry
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+          export PATH="$HOME/.local/bin:$PATH"  # Add Poetry to PATH for the session
+
+      - name: Install Python dependencies with Poetry
+        run: |
+          poetry install
+
+      # Run your prebuild script
+      - name: Run prebuild script
+        run: |
+          poetry run python utils/prepare_data.py
+
       - name: Install, build, and upload your site
         uses: withastro/action@v3
+        # Uncomment below options if needed
         # with:
-          # path: . # The root location of your Astro project inside the repository. (optional)
-          # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
-          # package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
+        #   path: . # The root location of your Astro project inside the repository. (optional)
+        #   node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
+        #   package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
 
   deploy:
     needs: build
