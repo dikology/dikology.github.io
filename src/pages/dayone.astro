@@ -1,41 +1,62 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import resultsData from '../data/results.json';
+
 const pageTitle = "dayone";
 
-const entries = [
-  {
-    year: "This Year",
-    date: "Today",
-    entries: ["1 Entry"],
-  },
-  {
-    year: "Two Years Ago",
-    date: "2022",
-    entries: [
-      "test"
-    ],
-  },
-];
----
-<Layout title={pageTitle}>
+// Get today's date components (month and day)
+const today = new Date();
+const todayMonthDay = today.toISOString().split('T')[0].slice(5); // MM-DD format
 
-    <div class="container">
-      <div class="map">
-        <img src="/path/to/map-image.jpg" alt="Map showing location" />
-      </div>
-      <div class="entries">
-        {entries.map((entry) => (
+// Create an interface for the entries
+interface Entry {
+  year: number;
+  date: string;
+  details: string;
+}
+
+// Filter entries to only include those that match today's month and day
+const filteredEntries = resultsData.entries.filter((entry) => {
+  const entryMonthDay = entry.date.slice(5); // Extract MM-DD from the entry's date
+  return entryMonthDay === todayMonthDay;
+});
+
+// Group entries by year
+const groupedEntries: { [year: number]: Entry[] } = filteredEntries.reduce((acc, entry) => {
+  const { year } = entry;
+  if (!acc[year]) {
+    acc[year] = [];
+  }
+  acc[year].push(entry);
+  return acc;
+}, {} as { [year: number]: Entry[] });
+
+const undecidedCount = resultsData.undecidedCount;
+
+---
+
+<Layout title={pageTitle}>
+  <div class="container">
+    <h1>{pageTitle} - {today.toISOString().split('T')[0]}</h1> <!-- Show the current date in the header -->
+    <div class="entries">
+      {Object.keys(groupedEntries).map((year) => {
+        const numYear = parseInt(year); // Convert the string key to a number
+        return (
           <div class="entry-section">
-            <div class="entry-header">
-              <h2>{entry.year}</h2>
-              <span>{entry.date}</span>
-            </div>
+            <h2>{numYear}</h2>
             <ul>
-              {entry.entries.map((text) => (
-                <li>{text}</li>
+              {groupedEntries[numYear].map((entry) => (
+                <li>
+                  <span>{entry.date}</span>: {entry.details}
+                </li>
               ))}
             </ul>
           </div>
-        ))}
+        );
+      })}
     </div>
+    <div class="undecided">
+      <p>Undecided files count: {undecidedCount}</p>
+    </div>
+  </div>
 </Layout>
