@@ -49,29 +49,29 @@ def fetch_batch(offset, batch_size):
         print(f"[EXCEPTION] Error at offset {offset}: {str(e)}")
         return []
 
-def sync_to_duckdb(files):
-    """Sync the given list of files to DuckDB."""
-    for file in files:
-        created_time = datetime.fromisoformat(file["created"].replace("Z", "+00:00"))
-        modified_time = datetime.fromisoformat(file["modified"].replace("Z", "+00:00"))
-        
-        # Use DuckDB's MERGE to upsert records
-        conn.execute("""
-        MERGE INTO files AS target
-        USING (SELECT ? AS name, ? AS path, ? AS created, ? AS modified) AS source
-        ON target.path = source.path
-        WHEN MATCHED AND target.modified < source.modified THEN
-            UPDATE SET name = source.name, created = source.created, modified = source.modified
-        WHEN NOT MATCHED THEN
-            INSERT (name, path, created, modified) VALUES (source.name, source.path, source.created, source.modified)
-        """, (file["name"], file["path"], created_time, modified_time))
+def sync_files_to_db(files):
+    """Sync the fetched files to the database."""
+    conn = duckdb.connect(DB_FILE)
 
-    print(f"[INFO] Synced {len(files)} files to DuckDB.")
+    for file in files:
+        try:
+            conn.execute("""
+                DELETE FROM files WHERE path = ?
+            """, (file["path"],))
+
+            conn.execute("""
+                INSERT INTO files (path, name, created, modified)
+                VALUES (?, ?, ?, ?)
+            """, (file["path"], file["name"], file["created"], file["modified"]))
+        except Exception as e:
+            print(f"[EXCEPTION] Failed to sync file {file['path']}: {e}")
+    
+    conn.close()
 
 def get_files_created_in_period(month=None, week=None):
     """Get files created or modified in a given month or week."""
     batch_size = 100
-    total_files_to_check = 100000
+    total_files_to_check = 60000
     offsets = [i for i in range(0, total_files_to_check, batch_size)]
     filtered_files = []
     total_batches = len(offsets)
@@ -99,7 +99,7 @@ def get_files_created_in_period(month=None, week=None):
                         filtered_files.append(file)
                 
                 if len(filtered_files) > 0:
-                    sync_to_duckdb(filtered_files)
+                    sync_files_to_db(filtered_files)
                     filtered_files.clear()  # Clear the list to avoid duplicate syncs
                     
             except Exception as e:
@@ -129,5 +129,6 @@ if __name__ == "__main__":
         print("[ERROR] You must specify either --month or --week.")
         exit(1)
 
+    # Fetch files
     files = get_files_created_in_period(month=month, week=week)
-    print(f"Total files synced: {len(files)}")
+    
