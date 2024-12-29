@@ -34,7 +34,7 @@ if relevance_filter != "All":
 df = df[(df['created_week'] == week_number_filter) | (df['modified_week'] == week_number_filter)]
 
 # Display Files with Checkboxes and Mark as Irrelevant Button
-st.subheader("Curate Files ({len(df)} files)")
+st.subheader(f"Curate Files ({len(df)} files)")
 selected_files = []  # List to store selected file paths for batch processing
 
 # Loop through files and display each with a checkbox and a "Mark as Irrelevant" button
@@ -66,11 +66,11 @@ for idx, row in df.iterrows():
 
     with col2:  # This column will hold the checkbox and the "Mark as Irrelevant" button
         # Checkbox to select file
-        if st.checkbox(f"Select {row['name']}", key=f"checkbox_{idx}"):
+        if st.checkbox(f"Select", key=f"checkbox_{idx}"):
             selected_files.append(row['path'])
 
         # Mark as Irrelevant button for individual rows
-        if st.button(f"Mark {row['name']} as Irrelevant", key=f"irrelevant_{idx}"):
+        if st.button(f"Irrelevant", key=f"irrelevant_{idx}"):
             conn.execute(
                 "UPDATE files SET relevance = 'Not Relevant' WHERE path = ?",
                 (row['path'],)
