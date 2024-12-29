@@ -4,11 +4,16 @@ import Card from '../components/Card.astro';
 
 const allPosts = await Astro.glob('./posts/*.md');
 const pageTitle = "dikology: don't specialize";
+
+const today = new Date();
+const formattedDate = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 ---
 <Layout title={pageTitle}>
-        <ul role="list" class="link-card-grid">
-          {allPosts.map((post) => (
-            <Card frontmatter={post.frontmatter} url={post.url} />
-          ))}
-        </ul>
+  <h1>Today's Date: {formattedDate}</h1>
+
+  <ul role="list" class="link-card-grid">
+    {allPosts.map((post) => (
+      <Card frontmatter={post.frontmatter} url={post.url} />
+    ))}
+  </ul>
 </Layout>
