@@ -471,3 +471,53 @@ body {
   font-size: 1rem;
   color: #dddddd;
 }
+
+/* day one */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.map {
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.map img {
+  width: 100%;
+  height: auto;
+}
+
+.entries {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.entry-section {
+  margin-bottom: 20px;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.entry-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.entry-header span {
+  font-size: 0.9rem;
+  color: #888888;
+}

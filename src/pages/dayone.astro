@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+const pageTitle = "dayone";
+
+const entries = [
+  {
+    year: "This Year",
+    date: "Today",
+    entries: ["1 Entry"],
+  },
+  {
+    year: "Two Years Ago",
+    date: "2022",
+    entries: [
+      "test"
+    ],
+  },
+];
+---
+<Layout title={pageTitle}>
+
+    <div class="container">
+      <div class="map">
+        <img src="/path/to/map-image.jpg" alt="Map showing location" />
+      </div>
+      <div class="entries">
+        {entries.map((entry) => (
+          <div class="entry-section">
+            <div class="entry-header">
+              <h2>{entry.year}</h2>
+              <span>{entry.date}</span>
+            </div>
+            <ul>
+              {entry.entries.map((text) => (
+                <li>{text}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+    </div>
+</Layout>
