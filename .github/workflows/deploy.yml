@@ -31,6 +31,7 @@ jobs:
 
       - name: Install Python dependencies with Poetry
         run: |
+          cd $GITHUB_WORKSPACE 
           poetry install
 
       # Run your prebuild script
