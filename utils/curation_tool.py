@@ -14,34 +14,20 @@ st.subheader("Curate Files")
 for idx, row in df.iterrows():
     with st.expander(f"{row['name']} - {row['modified']}"):
         # Editable fields
-        #readable_name = st.text_input("Human-readable name", value=row['readable_name'], key=f"name_{idx}")
-        #description = st.text_area("Description", value=row['description'], key=f"description_{idx}")
-        #relevance = st.checkbox("Mark as Relevant", value=row['relevance'], key=f"relevance_{idx}")
-        #relevance_options = ["Relevant", "Not Relevant", "Undecided"]  # Add options as needed
-        #relevance = st.selectbox(
-        #    "Relevance",
-        #    options=relevance_options,
-        #    index=relevance_options.index(row['relevance']) if row['relevance'] in relevance_options else 0,
-        #    key=f"relevance_{idx}"
-        #)
+        readable_name = st.text_input("Human-readable name", value=row['readable_name'], key=f"name_{idx}")
+        description = st.text_area("Description", value=row['description'], key=f"description_{idx}")
+        relevance_options = ["Relevant", "Not Relevant", "Undecided"]  # Add options as needed
+        relevance = st.selectbox(
+            "Relevance",
+            options=relevance_options,
+            index=relevance_options.index(row['relevance']) if row['relevance'] in relevance_options else 0,
+            key=f"relevance_{idx}"
+        )
 
         # Update logic
         if st.button("Save", key=f"save_{idx}"):
             conn.execute(
-                "UPDATE files SET human_readable_name=?, description=?, relevance=? WHERE id=?",
-                (readable_name, description, relevance, row['id'])
+                "UPDATE files SET readable_name=?, description=?, relevance=? WHERE path=?",
+                (readable_name, description, relevance, row['path'])
             )
             st.success(f"Updated {row['name']}")
-
-# Add new files manually (if needed)
-st.sidebar.subheader("Add New File")
-with st.sidebar.form("add_file"):
-    new_name = st.text_input("File Name")
-    new_path = st.text_input("File Path")
-    new_date = st.date_input("Modified Date")
-    if st.form_submit_button("Add"):
-        conn.execute(
-            "INSERT INTO files (name, path, modified_date) VALUES (?, ?, ?)",
-            (new_name, new_path, new_date)
-        )
-        st.sidebar.success("File added!")
