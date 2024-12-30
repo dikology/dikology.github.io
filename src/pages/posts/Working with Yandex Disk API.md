@@ -9,16 +9,21 @@ featured: true
 draft: true
 category: tech
 ---
+
 ## Getting development token
+
 [howto](https://yandex.ru/dev/id/doc/ru/tokens/debug-token)
 
 ## Experiments
+
 [chatgpt](https://chatgpt.com/c/6751f38a-bb44-800c-b3c0-751d6f7518b0)
 
 Here's a complete Python script using the **Yandex Disk API** that lists files created in a specific month or week number. It assumes the OAuth token is stored in a `.env` file, and it uses **Poetry** for dependency management.
 
 ### Step 1: Set up Poetry environment
+
 1. **Initialize Poetry** (if not done yet):
+
    ```bash
    poetry init
    ```
@@ -29,12 +34,15 @@ Here's a complete Python script using the **Yandex Disk API** that lists files c
    ```
 
 ### Step 2: Create `.env` file
+
 Create a `.env` file in your project directory with the following content:
+
 ```ini
 YANDEX_DISK_OAUTH_TOKEN=your_oauth_token_here
 ```
 
 ### Step 3: Python Script (`list_yandex_files.py`)
+
 ```python
 import os
 import requests
@@ -51,12 +59,12 @@ BASE_URL = "https://cloud-api.yandex.net/v1/disk/resources"
 def get_files_created_in_period(path="/", month=None, week=None):
     headers = {"Authorization": f"OAuth {OAUTH_TOKEN}"}
     params = {"path": path}
-    
+
     response = requests.get(BASE_URL, headers=headers, params=params)
     if response.status_code != 200:
         print(f"Error: {response.json().get('message')}")
         return []
-    
+
     files = response.json().get("_embedded", {}).get("items", [])
     filtered_files = []
 
@@ -82,29 +90,34 @@ if __name__ == "__main__":
 ```
 
 ### Explanation:
+
 1. **OAuth Token**: Loaded from `.env` using `dotenv`.
 2. **Yandex Disk API Request**: The script lists files in the root (`/`) directory by default.
 3. **Filtering**:
    - Filters by month (`datetime.month`) or week number (`isocalendar()[1]`).
-   
+
 ### Usage:
+
 Run the script in your Poetry environment:
+
 ```bash
 poetry run python list_yandex_files.py
 ```
 
 ### Customization:
+
 1. **Change `path`** in `params` to target a specific directory.
 2. Adjust `month` and `week` to filter as needed.
 
 Here's a combined, optimized version of the script that:  
 1️⃣ **Requests only necessary fields** (`name`, `path`, `created`, `modified`).  
 2️⃣ **Uses parallel requests** with `concurrent.futures`.  
-3️⃣ **Stops early** when the number of `filtered_files` exceeds 100.  
+3️⃣ **Stops early** when the number of `filtered_files` exceeds 100.
 
 ---
 
 ### **Updated Script**
+
 ```python
 import os
 import requests
@@ -144,18 +157,18 @@ def get_files_created_in_period(month=None, week=None):
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         future_to_offset = {executor.submit(fetch_batch, offset): offset for offset in offsets}
-        
+
         for future in concurrent.futures.as_completed(future_to_offset):
             files = future.result()
             for file in files:
                 created_time = datetime.fromisoformat(file["created"].replace("Z", "+00:00"))
-                
+
                 # Check if the file matches the filter (month or week)
                 if month and created_time.month == month:
                     filtered_files.append(file)
                 elif week and created_time.isocalendar()[1] == week:
                     filtered_files.append(file)
-                
+
                 # Stop early if we have enough files
                 if len(filtered_files) >= max_files:
                     print(f"Stopping early: Collected {len(filtered_files)} files.")
@@ -178,36 +191,43 @@ if __name__ == "__main__":
 ---
 
 ### 🔍 **Explanation of Key Changes**
+
 1. **Request Only Essential Fields**
+
    ```python
    params = {
-       "limit": 100,  
+       "limit": 100,
        "offset": offset,
        "fields": "items.name,items.path,items.created,items.modified"
    }
    ```
-   This limits the amount of metadata we receive for each file to only the essentials:  
-   - **name**: To display file names.  
-   - **path**: In case you need to download or access the file later.  
-   - **created**: Used to filter files by the month or week.  
-   - **modified**: This could be used later if you'd like to filter by modified date.  
+
+   This limits the amount of metadata we receive for each file to only the essentials:
+
+   - **name**: To display file names.
+   - **path**: In case you need to download or access the file later.
+   - **created**: Used to filter files by the month or week.
+   - **modified**: This could be used later if you'd like to filter by modified date.
 
    This avoids unnecessary data like file size, mime type, or other unneeded properties.
 
 ---
 
 2. **Parallel Requests**
+
    ```python
    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
        future_to_offset = {executor.submit(fetch_batch, offset): offset for offset in offsets}
-       
+
        for future in concurrent.futures.as_completed(future_to_offset):
            files = future.result()
    ```
-   Here, we use Python's `concurrent.futures` to create multiple threads, each requesting a batch of files.  
-   - **Batch size** is 100 files per request.  
-   - **Max workers** is 5 threads, so up to 5 requests are running at the same time.  
-   - Requests are processed in parallel, reducing the total response time.  
+
+   Here, we use Python's `concurrent.futures` to create multiple threads, each requesting a batch of files.
+
+   - **Batch size** is 100 files per request.
+   - **Max workers** is 5 threads, so up to 5 requests are running at the same time.
+   - Requests are processed in parallel, reducing the total response time.
 
 ---
 
@@ -218,20 +238,22 @@ if __name__ == "__main__":
        return filtered_files
    ```
    After collecting 100 matching files, the script stops, even if other threads are still running.  
-   This prevents unnecessary requests and speeds up execution.  
+   This prevents unnecessary requests and speeds up execution.
 
 ---
 
 ### ⚙️ **Customizations**
-- **Max File Limit**: Change `max_files = 100` to collect a different number of files before stopping.  
-- **Batch Size**: Adjust `batch_size` from 100 to 200 or 50 if you want larger/smaller requests.  
-- **Max Workers**: Adjust `max_workers=5` to control how many requests run at the same time.  
+
+- **Max File Limit**: Change `max_files = 100` to collect a different number of files before stopping.
+- **Batch Size**: Adjust `batch_size` from 100 to 200 or 50 if you want larger/smaller requests.
+- **Max Workers**: Adjust `max_workers=5` to control how many requests run at the same time.
 
 ---
 
 ### 🔥 **Performance Benefits**
-- **Reduced Metadata**: Smaller response sizes (fewer fields).  
-- **Parallel Requests**: Speeds up file collection with multiple concurrent threads.  
-- **Early Exit**: Stops as soon as 100 files are found, avoiding unnecessary requests.  
+
+- **Reduced Metadata**: Smaller response sizes (fewer fields).
+- **Parallel Requests**: Speeds up file collection with multiple concurrent threads.
+- **Early Exit**: Stops as soon as 100 files are found, avoiding unnecessary requests.
 
 This version balances speed and efficiency, especially when working with large file lists on Yandex Disk. Let me know if you'd like further optimizations or explanations! 🚀

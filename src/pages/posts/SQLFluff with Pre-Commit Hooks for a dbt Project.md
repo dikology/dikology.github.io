@@ -10,6 +10,7 @@ featured: false
 draft: true
 category: tech
 ---
+
 ### Step-by-Step Guide to Setting Up SQLFluff with Pre-Commit Hooks for a dbt Project
 
 SQLFluff is an excellent tool for linting and formatting SQL. Starting with pre-commit hooks allows you to focus on incremental improvements without being overwhelmed by fixing all existing files at once. Here’s a guide to help you set it up:
@@ -45,12 +46,12 @@ Edit the `.pre-commit-config.yaml` file to include SQLFluff. Use the following c
 ```yaml
 repos:
   - repo: https://github.com/sqlfluff/sqlfluff
-    rev: v2.2.0  # Use the latest version or the one you're targeting
+    rev: v2.2.0 # Use the latest version or the one you're targeting
     hooks:
       - id: sqlfluff-lint
-        args: ["--fix"]  # Automatically fix issues when possible
-        stages: [commit]  # Only run during commits
-        files: "\\.sql$|\\.yml$|\\.yaml$"  # Check SQL and YAML files
+        args: ["--fix"] # Automatically fix issues when possible
+        stages: [commit] # Only run during commits
+        files: "\\.sql$|\\.yml$|\\.yaml$" # Check SQL and YAML files
 ```
 
 ---

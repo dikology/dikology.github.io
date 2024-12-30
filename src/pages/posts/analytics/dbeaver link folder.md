@@ -5,9 +5,9 @@ tags:
   - data-analytics
 ---
 
-**Front:** 
+**Front:**
 test
 
-**Back:** 
+**Back:**
 
 [[Data Analytics]]

@@ -9,6 +9,7 @@ featured: false
 draft: true
 category: tech
 ---
+
 This guide will walk you through automating the creation and updating of Anki decks using GitHub Actions. Each Anki card is represented by individual `.md` files, and GitHub Releases will serve as a convenient way to distribute the generated deck.
 
 ---
@@ -119,7 +120,7 @@ def create_basic_card(front, back):
 
 def main():
     deck = create_deck(1234567890, "GitHub Anki Deck")
-    
+
     for filename in os.listdir('cards'):
         if filename.endswith('.md'):
             front, back = load_card(os.path.join('cards', filename))
@@ -141,7 +142,7 @@ name: Generate Anki Deck
 on:
   push:
     paths:
-      - 'cards/**'
+      - "cards/**"
   workflow_dispatch:
 
 jobs:
@@ -149,27 +150,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-    - name: Generate Anki Deck
-      run: python scripts/generate_anki.py
+      - name: Generate Anki Deck
+        run: python scripts/generate_anki.py
 
-    - name: Upload Anki Deck as Release Asset
-      uses: actions/upload-artifact@v3
-      with:
-        name: anki_deck
-        path: output/anki_deck.apkg
+      - name: Upload Anki Deck as Release Asset
+        uses: actions/upload-artifact@v3
+        with:
+          name: anki_deck
+          path: output/anki_deck.apkg
 ```
 
 ---
@@ -206,6 +207,7 @@ The script assumes every card has a `**Front:**` and `**Back:**`, but Cloze card
 Here's an updated version of `load_card` and the script to handle multiple card types, including Cloze:
 
 #### Updated `load_card` Function:
+
 ```python
 import yaml
 
@@ -227,14 +229,15 @@ def load_card(file_path):
 ```
 
 #### Updated `main` Function:
+
 ```python
 def main():
     deck = create_deck(1234567890, "GitHub Anki Deck")
-    
+
     for filename in os.listdir('src/pages/posts/analytics'):  # Adjusted path
         if filename.endswith('.md'):
             card_data = load_card(os.path.join('src/pages/posts/analytics', filename))
-            
+
             if card_data['type'] == 'basic':
                 deck.add_note(create_basic_card(card_data['front'], card_data['back']))
             elif card_data['type'] == 'cloze':

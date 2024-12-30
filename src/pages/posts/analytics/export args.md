@@ -4,10 +4,10 @@ type: basic
 tags:
 ---
 
-**Front:** 
+**Front:**
 test
 
-**Back:** 
-export $(grep -v '^#' .env | xargs)      
+**Back:**
+export $(grep -v '^#' .env | xargs)
 
 [[Tech]]

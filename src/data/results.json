@@ -1,1 +1,6 @@
-{"entries": [{"year": 2023, "date": "2023-12-29 09:37:58", "details": "test - None"}], "undecidedCount": 147}
+{
+  "entries": [
+    { "year": 2023, "date": "2023-12-29 09:37:58", "details": "test - None" }
+  ],
+  "undecidedCount": 147
+}

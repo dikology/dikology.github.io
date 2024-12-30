@@ -1,7 +1,7 @@
 ---
 type: basic
 id: card9
-tags: 
+tags:
   - dashboard-design
 ---
 
