@@ -1,0 +1,20 @@
+---
+// src/pages/posts/sailboating/index.astro
+import ArticleLayout from '../layouts/LongLayout.astro';
+
+// Fetch the list of markdown files dynamically
+const postFiles = await Astro.glob('./posts/sailboating/*.md');
+
+
+// Parse markdown files to extract their contents
+const sections = postFiles.map(post => {
+  return {
+    id: post.frontmatter.slug, // ID for anchor link
+    title: post.frontmatter.title, // Title of the section
+    content: post.compiledContent, // Markdown content of the section
+  };
+});
+
+---
+
+<ArticleLayout title="Sailboating Guide" sections={sections} />

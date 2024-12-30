@@ -1,0 +1,112 @@
+---
+// src/layouts/ArticleLayout.astro
+import { ViewTransitions } from "astro:transitions";
+import Footer from "../components/Footer.astro";
+import Navigation from "../components/Navigation.astro";
+import "../styles/global.css";
+
+const { title, sections } = Astro.props;
+
+interface Section {
+  id: string;
+  title: string;
+  content: any;
+}
+
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <ViewTransitions />
+  </head>
+  <body>
+    <Navigation />
+    <main>
+      <section class="article-nav">
+        {sections.map((section: Section) => (
+            <a href={`#${section.id}`} class ="article-nav-link">
+              {section.title}
+            </a>
+          ))}
+      </section>
+
+      <article>
+        {sections.map((section: Section) => (
+            <section id={section.id}>
+                <h2>{section.title}</h2>
+               <div set:html={section.content}>{section.content}</div>
+            </section>
+          ))}
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --accent: 136, 58, 234;
+    --accent-light: 224, 204, 250;
+    --accent-dark: 49, 10, 101;
+    --accent-gradient: linear-gradient(
+      45deg,
+      rgb(var(--accent)),
+      rgb(var(--accent-light)) 30%,
+      white 60%
+    );
+  }
+  html {
+    font-family: "Roboto", system-ui, sans-serif;
+    background: #1a1a1a;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  .article-nav {
+    position: sticky;
+    top: 0;
+    background: #222;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .article-nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  .article-nav-link:hover {
+    color: #a29bfe;
+  }
+  article {
+    padding: 2rem;
+    background-color: #333;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+  section {
+    margin-bottom: 3rem;
+  }
+  h2 {
+    margin-top: 0;
+  }
+</style>
