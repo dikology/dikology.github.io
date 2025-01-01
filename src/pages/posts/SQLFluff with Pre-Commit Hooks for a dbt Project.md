@@ -10,6 +10,7 @@ featured: false
 draft: true
 category: tech
 ---
+
 ### Step-by-Step Guide to Setting Up SQLFluff with Pre-Commit Hooks for a dbt Project
 
 SQLFluff is an excellent tool for linting and formatting SQL. Starting with pre-commit hooks allows you to focus on incremental improvements without being overwhelmed by fixing all existing files at once. Here’s a guide to help you set it up:

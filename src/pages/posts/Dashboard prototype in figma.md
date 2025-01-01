@@ -10,6 +10,7 @@ featured: false
 draft: true
 category: tech
 ---
+
 # Turning a Metabase Dashboard into a Figma Prototyping Tool
 
 ## The Problem
