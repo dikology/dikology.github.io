@@ -44,11 +44,11 @@ interface Section {
           ))}
       </section>
 
-      <article>
+      <article  class="post-content">
         {sections.map((section: Section) => (
             <section id={section.id}>
                 <h2>{section.title}</h2>
-               <div set:html={section.content}>{section.content}</div>
+               <Fragment set:html={section.content} />
             </section>
           ))}
       </article>

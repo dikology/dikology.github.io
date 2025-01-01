@@ -49,7 +49,6 @@ repos:
     rev: v2.2.0 # Use the latest version or the one you're targeting
     hooks:
       - id: sqlfluff-lint
-        args: ["--fix"] # Automatically fix issues when possible
         stages: [commit] # Only run during commits
         files: "\\.sql$|\\.yml$|\\.yaml$" # Check SQL and YAML files
 ```

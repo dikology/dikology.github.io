@@ -11,7 +11,7 @@ const sections = postFiles.map(post => {
   return {
     id: post.frontmatter.slug, // ID for anchor link
     title: post.frontmatter.title, // Title of the section
-    content: post.compiledContent, // Markdown content of the section
+    content: post.compiledContent(), // Markdown content of the section
   };
 });
 
