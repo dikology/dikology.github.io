@@ -17,3 +17,5 @@ At [[Work]] I am trying to build a solid workflow for making dashboards. So I de
 
 https://www.figma.com/community/file/1276555303050829982
 '+ html to figma https://www.figma.com/community/plugin/1385944139259302061
+
+## Using components and variants
