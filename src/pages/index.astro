@@ -9,7 +9,28 @@ const today = new Date();
 const formattedDate = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 ---
 <Layout title={pageTitle}>
-  <h1>Today's Date: {formattedDate}</h1>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Welcome to My World of Curiosity</h1>
+        <p class="subtitle">
+          I’m a multipassionate explorer delving into sailboating, image generation, data analytics, learning Chinese, and more.
+        </p>
+        <p class="mission">
+          Through my writing, I craft actionable insights and lifehacks from my experiences, iterating on 52 yearly themes to help you explore life with purpose.
+        </p>
+        <div class="cta-buttons">
+          <a href="#portfolio" class="btn btn-primary">Explore My Work</a>
+          <a href="#blog" class="btn btn-secondary">Read My Articles</a>
+        </div>
+      </div>
+      <div class="hero-background">
+      </div>
+    </div>
+  </section>
+  
+  
+  <h2>Today's Date: {formattedDate}</h2>
 
   <ul role="list" class="link-card-grid">
     {allPosts.map((post) => (
