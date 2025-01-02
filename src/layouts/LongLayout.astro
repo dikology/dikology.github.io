@@ -36,13 +36,16 @@ interface Section {
   <body>
     <Navigation />
     <main>
-      <section class="article-nav">
+      <div class="wrapper">
+      <nav class="sidebar article-nav">
+        <ul>
         {sections.map((section: Section) => (
-            <a href={`#${section.id}`} class ="article-nav-link">
+            <li><a href={`#${section.id}`} class ="article-nav-link">
               {section.title}
-            </a>
+            </a></li>
           ))}
-      </section>
+          </ul>
+      </nav>
 
       <article  class="post-content">
         {sections.map((section: Section) => (
@@ -52,6 +55,7 @@ interface Section {
             </section>
           ))}
       </article>
+    </div>
     </main>
     <Footer />
   </body>
@@ -89,13 +93,13 @@ interface Section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   .article-nav-link {
-    color: #fff;
+    color: var(--secondary-color);
     text-decoration: none;
     margin-bottom: 10px;
     font-size: 1.1rem;
   }
   .article-nav-link:hover {
-    color: #a29bfe;
+    color: var(--primary-color);
   }
   article {
     padding: 2rem;
@@ -109,4 +113,24 @@ interface Section {
   h2 {
     margin-top: 0;
   }
+  .wrapper {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    @media screen and (min-width: 768px) {
+      flex-wrap: nowrap;
+    }
+  }
+  .post-content {
+    display: grid;
+  }
+  .sidebar {
+    flex-shrink: 0;
+    max-width: 250px;
+    position: sticky;
+    top: 2rem;
+  }
+
 </style>
