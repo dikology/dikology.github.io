@@ -10,6 +10,7 @@ featured: false
 draft: true
 category: tech
 ---
+
 ## The Problem
 
 It all started with a challenge: how to align on dashboard definitions with stakeholders before jumping into Metabase, ensuring everyone agrees on the desired outcome. As a data analyst myself, I was working with Metabase dashboards daily. I thought, “What if I could replicate these dashboards in a way that anyone could prototype them quickly?” That’s when I turned to Figma.
