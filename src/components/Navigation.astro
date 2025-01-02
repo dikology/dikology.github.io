@@ -1,24 +1,140 @@
-<nav class="nav-bar">
-  <div class="nav-container">
-    <button class="nav-toggle" aria-label="Toggle navigation">
-      <span class="hamburger"></span>
-    </button>
-    <ul class="nav-list">
-      <li><a href="/">Home</a></li>
-      <li><a href="/gallery-2">Gallery</a></li>
-      <li><a href="/sailboating">Sailboating</a></li>
-      <li><a href="/data">Data</a></li>
-    </ul>
-  </div>
-</nav>
+---
+import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+---
 
-<script>
-  const navToggle = document.querySelector(".nav-toggle");
-  const navList = document.querySelector(".nav-list");
+<div class="Astronav">
+  <Astronav>
+    <div class="flex justify-between">
+      <MenuIcon class="MenuIcon" />
+    </div>
+    <MenuItems class="MenuItems hidden lg:flex">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/gallery-2">Gallery</a></li>
+        <li><a href="/sailboating">Sailboating</a></li>
+        <li><a href="/data">Data</a></li>
+      </ul>
+    </MenuItems>
+  </Astronav>
+</div>
 
-  if (navToggle && navList) {
-    navToggle.addEventListener("click", () => {
-      navList.classList.toggle("nav-active");
-    });
+<style>
+/* Base Navigation Styles */
+.Astronav {
+  background: linear-gradient(135deg, rgba(30, 30, 30, 0.95), rgba(50, 50, 50, 0.9));
+  backdrop-filter: blur(8px);
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Aligns content to the right */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Adds separation from content */
+  position: sticky; /* Keeps navbar on top during scrolling */
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo Styles */
+.Astronav a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.Astronav a:hover {
+  color: var(--primary-color); /* Subtle hover color */
+}
+
+/* Menu Items */
+.MenuItems ul {
+  display: flex;
+  gap: 2.5rem; /* Slightly smaller gap for tighter alignment */
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.MenuItems ul li {
+  position: relative;
+}
+
+.MenuItems ul li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.MenuItems ul li a:hover {
+  color: var(--primary-color); 
+}
+
+.MenuItems ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.6); /* Subtle white underline */
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.MenuItems ul li a:hover::after {
+  width: 100%;
+}
+
+/* Mobile Styles */
+.MenuIcon {
+  display: block;
+  cursor: pointer;
+  color: #f0f0f0;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.MenuIcon:hover {
+  color: #ffffff; /* Bright white on hover */
+}
+
+/* Default for small screens: Hide the menu items and show the icon */
+@media (max-width: 1023px) {
+  .Astronav {
+    flex-direction: column;
+    align-items: flex-end;
   }
-</script>
+
+  .MenuItems {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .MenuItems ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .MenuIcon {
+    display: block; /* Show the menu icon */
+  }
+
+  .MenuItems.open {
+    display: flex; /* Show the menu when it's toggled open */
+  }
+}
+
+/* Desktop Styles: Show menu items, hide icon */
+@media (min-width: 1024px) {
+  .MenuItems {
+    display: flex;
+  }
+
+  .MenuIcon {
+    display: none; /* Hide the menu icon on larger screens */
+  }
+}
+</style>
