@@ -30,7 +30,7 @@ const formattedDate = today.toLocaleDateString('en-US', { month: 'long', day: 'n
   </section>
   
   
-  <h2>Today's Date: {formattedDate}</h2>
+  <h2>My posts to date: {formattedDate}. There are {allPosts.length} of them so far</h2>
 
   <ul role="list" class="link-card-grid">
     {allPosts.map((post) => (
