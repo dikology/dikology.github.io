@@ -3,7 +3,9 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Конференция матемаркетинг
 date: 2024-11-10
 description: 7-8 ноября я ходил на конференцию матемаркетинг. Некоторые мысли по поводу докладов, которые я посетил
-image: { src: "" }
+image: 
+  src: ""
+  alt: matemarketing
 featured: true
 draft: false
 category:

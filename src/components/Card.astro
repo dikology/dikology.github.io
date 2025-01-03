@@ -6,7 +6,7 @@ const { title, image, description } = frontmatter;
 <li class="link-card">
 	<a href={url} class="card-container">
 		<div class="card-image">
-			<img src={image.src} alt={image.alt} loading="lazy" />
+			<img src={image?.src || "/default-image.jpg"} alt={image?.alt || "Default Image"} loading="lazy" />
 		</div>
 		<div class="card-content">
 			<h5>{title}</h5>
