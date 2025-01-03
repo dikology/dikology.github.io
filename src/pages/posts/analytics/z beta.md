@@ -1,0 +1,8 @@
+---
+type: basic
+id: card13
+tags: [sample_size, ab_testing]
+---
+**Front:** What does the term \( Z_{\beta} \) represent in the sample size formula?
+
+**Back:** \( Z_{\beta} \) represents the Z critical value for the statistical power (1 - beta), which is the probability of detecting an effect if it exists. For a power of 0.80, \( Z_{\beta} = 0.84 \).
