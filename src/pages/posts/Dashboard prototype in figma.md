@@ -8,7 +8,7 @@ image:
   alt: Metabase Dashboard
 featured: false
 draft: true
-category: tech
+category: data
 ---
 
 ## The Problem

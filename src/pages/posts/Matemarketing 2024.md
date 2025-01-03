@@ -8,7 +8,7 @@ image:
   alt: matemarketing
 featured: true
 draft: false
-category:
+category: data
 ---
 
 #november #work #channel #p52 

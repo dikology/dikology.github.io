@@ -8,7 +8,7 @@ image:
   alt: Anki cards about retention
 featured: false
 draft: true
-category: tech
+category: data
 ---
 
 ### Step-by-Step Guide to Setting Up SQLFluff with Pre-Commit Hooks for a dbt Project
