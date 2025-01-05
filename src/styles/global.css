@@ -1,20 +1,20 @@
 /* Base Styles */
 :root {
   --primary-color: #1e1e2f;
-  --secondary-color: #8fe0a9; 
-  --background-color: #1e1e2f; 
-  --text-color: #e0e0e0; 
+  --secondary-color: #8fe0a9;
+  --background-color: #1e1e2f;
+  --text-color: #e0e0e0;
   --text-muted: #a5a5a5;
   --accent-color: #ff6f61;
-  --accent: 255,111,97;
-		--accent-light: 255,133,117;
-		--accent-dark:  255,90,95;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
+  --accent: 255, 111, 97;
+  --accent-light: 255, 133, 117;
+  --accent-dark: 255, 90, 95;
+  --accent-gradient: linear-gradient(
+    45deg,
+    rgb(var(--accent)),
+    rgb(var(--accent-light)) 30%,
+    white 60%
+  );
   --spacing-small: 0.5rem;
   --spacing-medium: 1rem;
   --spacing-large: 1.5rem;
@@ -577,7 +577,7 @@ h2 {
 
 .btn-primary:hover {
   background-color: var(--primary-color);
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 .btn-secondary {
