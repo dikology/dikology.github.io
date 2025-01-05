@@ -38,13 +38,13 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 .Astronav a {
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: var(--text-color);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .Astronav a:hover {
-  color: var(--primary-color); /* Subtle hover color */
+  color: var(--accent); /* Subtle hover color */
 }
 
 /* Menu Items */
@@ -63,13 +63,13 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 .MenuItems ul li a {
   font-size: 1.2rem;
   font-weight: 500;
-  color: var(--secondary-color);
+  color: var(--text-color);
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .MenuItems ul li a:hover {
-  color: var(--primary-color); 
+  color: var(--accent); 
 }
 
 .MenuItems ul li a::after {
@@ -91,7 +91,7 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 .MenuIcon {
   display: block;
   cursor: pointer;
-  color: #f0f0f0;
+  color: var(--text-color);
   font-size: 1.5rem;
   transition: color 0.3s ease;
 }
