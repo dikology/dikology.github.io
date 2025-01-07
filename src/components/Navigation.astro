@@ -21,15 +21,15 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 <style>
 /* Base Navigation Styles */
 .Astronav {
-  background: linear-gradient(135deg, rgba(30, 30, 30, 0.95), rgba(50, 50, 50, 0.9));
+  background: #16877a;
   backdrop-filter: blur(8px);
   padding: 1.5rem 2rem;
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Aligns content to the right */
+  justify-content: flex-end; 
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Adds separation from content */
-  position: sticky; /* Keeps navbar on top during scrolling */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+  position: sticky; 
   top: 0;
   z-index: 1000;
 }
@@ -44,13 +44,13 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 }
 
 .Astronav a:hover {
-  color: var(--accent-color); /* Subtle hover color */
+  color: var(--accent-color); 
 }
 
 /* Menu Items */
 .MenuItems ul {
   display: flex;
-  gap: 2.5rem; /* Slightly smaller gap for tighter alignment */
+  gap: 2.5rem; 
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -69,7 +69,7 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 }
 
 .MenuItems ul li a:hover {
-  color: var(--secondary-color); 
+  color: var(--primary-color); 
 }
 
 .MenuItems ul li a::after {
@@ -77,7 +77,7 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
   position: absolute;
   width: 0%;
   height: 2px;
-  background: rgba(255, 255, 255, 0.6); /* Subtle white underline */
+  background: var(--primary-color); 
   bottom: -5px;
   left: 0;
   transition: width 0.3s ease;
@@ -97,7 +97,7 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 }
 
 .MenuIcon:hover {
-  color: #ffffff; /* Bright white on hover */
+  color: #ffffff; 
 }
 
 /* Default for small screens: Hide the menu items and show the icon */
