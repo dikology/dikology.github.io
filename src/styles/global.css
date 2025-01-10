@@ -7,12 +7,7 @@
   --text-color: #f8f8f2; /* Off-white for primary text */
   --text-muted: #acb2c6; /* Muted gray for secondary text */
   --border-color: #383a59; /* Dark gray for borders */
-  --accent-gradient: linear-gradient(
-    45deg,
-    #ff6f61,
-    #bd93f9 30%,
-    #8be9fd 60%
-  );
+  --accent-gradient: linear-gradient(45deg, #ff6f61, #bd93f9 30%, #8be9fd 60%);
   --spacing-small: 0.5rem;
   --spacing-medium: 1rem;
   --spacing-large: 1.5rem;
@@ -576,31 +571,31 @@ h2 {
 
 /* Link Grid */
 .link-card-grid {
-	display: grid;
-	gap: var(--spacing-large);
-	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-	padding: var(--spacing-medium);
-	}
+  display: grid;
+  gap: var(--spacing-large);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: var(--spacing-medium);
+}
 
-	/* Grid for small screens (default: 1 column) */
-	.link-card-grid {
-	display: grid;
-	grid-template-columns: repeat(1, 1fr);
-	/* 1 card per row */
-	gap: 2rem;
-	padding: 0;
-	}
+/* Grid for small screens (default: 1 column) */
+.link-card-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* 1 card per row */
+  gap: 2rem;
+  padding: 0;
+}
 
-	@media (min-width: 900px) {
-	.link-card-grid {
-		grid-template-columns: repeat(2, 1fr);
-		/* 3 cards per row */
-	}
-	}
+@media (min-width: 900px) {
+  .link-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* 3 cards per row */
+  }
+}
 
-	@media (min-width: 1200px) {
-	.link-card-grid {
-		grid-template-columns: repeat(3, 1fr);
-		/* 4 cards per row */
-	}
-	}
+@media (min-width: 1200px) {
+  .link-card-grid {
+    grid-template-columns: repeat(3, 1fr);
+    /* 4 cards per row */
+  }
+}
