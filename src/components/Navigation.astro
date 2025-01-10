@@ -21,15 +21,15 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 <style>
 /* Base Navigation Styles */
 .Astronav {
-  background: #16877a;
+  background: var(--primary-color);
   backdrop-filter: blur(8px);
-  padding: 1.5rem 2rem;
+  padding: var(--spacing-medium) var(--spacing-large);
   display: flex;
   align-items: center;
-  justify-content: flex-end; 
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
-  position: sticky; 
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  position: sticky;
   top: 0;
   z-index: 1000;
 }
@@ -69,7 +69,7 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 }
 
 .MenuItems ul li a:hover {
-  color: var(--primary-color); 
+  color: var(--accent-color); 
 }
 
 .MenuItems ul li a::after {
@@ -77,7 +77,7 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
   position: absolute;
   width: 0%;
   height: 2px;
-  background: var(--primary-color); 
+  background: var(--accent-color); 
   bottom: -5px;
   left: 0;
   transition: width 0.3s ease;
