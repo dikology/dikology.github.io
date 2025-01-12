@@ -3,7 +3,7 @@ const { frontmatter, url } = Astro.props;
 const { title, image, description } = frontmatter;
 ---
 
-<li class="link-card">
+<div class="link-card">
 	<a href={url} class="card-container">
 		<div class="card-image">
 			<img src={image?.src || "/default-image.jpg"} alt={image?.alt || "Default Image"} loading="lazy" />
@@ -13,125 +13,127 @@ const { title, image, description } = frontmatter;
 			<p>{description}</p>
 		</div>
 	</a>
-</li>
+</div>
 
 <style>
-	.link-card {
-		list-style: none;
-		display: flex;
-		flex-direction: column;
-		padding: 1px;
-		background-color: var(--primary-color);
-		border-radius: 7px;
-		transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-	}
+/* Base Card Styles */
+.link-card {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 2px 4px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
 
-	.link-card > a {
-		width: 100%;
-		text-decoration: none;
-		line-height: 1.4;
-		padding: calc(1.5rem - 1px);
-		border-radius: 8px;
-		color: white;
-		background-color: var(--primary-color);
-		opacity: 0.8;
-	}
-	h2 {
-		margin: 0;
-		font-size: 1.25rem;
-		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-	}
-	p {
-		margin-top: 0.5rem;
-		margin-bottom: 0;
-		overflow: hidden;
-		display: -webkit-box;
-		-webkit-line-clamp: 3; /* Number of lines */
-		-webkit-box-orient: vertical;
-		text-overflow: ellipsis;
-	}
+.link-card:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 8px 16px rgba(0, 0, 0, 0.2),
+    0 4px 8px rgba(0, 0, 0, 0.12);
+  border-color: rgba(255, 255, 255, 0.3);
+}
 
-	.link-card:is(:hover, :focus-within) {
-		background-position: 0;
-		background-image: var(--accent-gradient);
-	}
-	.link-card:is(:hover, :focus-within) h2 {
-		color: rgb(var(--accent-light));
-	}
+.link-card > a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 
-	@media (max-width: 768px) {
-		.link-card {
-			flex-direction: column;
-		}
-		.link-card-grid {
-			gap: 1rem;
-		}
-	}
+/* Card Image */
+.card-image {
+  flex-shrink: 0;
+  height: 150px; /* Fixed height for consistency */
+  overflow: hidden;
+}
 
-	img {
-		width: 100%;
-		height: auto;
-		object-fit: cover;
-		border-radius: 7px;
-	}
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
 
-	/* Card container to structure image and content properly */
-	.card-container {
-		display: flex;
-		flex-direction: column; /* Default to column for mobile */
-		height: 100%; /* Ensure full card height */
-	}
+.link-card:hover .card-image img {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
 
-	.card-image {
-		flex-shrink: 0; /* Prevents image from resizing to fit text */
-		max-height: 150px; /* Control image size */
-		overflow: hidden; /* Ensures it doesn't overflow the card */
-	}
+/* Card Content */
+.card-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex-grow: 1;
+}
 
-	.card-image img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover; /* Ensures the image fits perfectly */
-		border-radius: 7px 7px 0 0; /* Rounded top corners */
-	}
+h5 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
 
-	.card-content {
-		padding: 1rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		height: 100%;
-	}
+.link-card:hover p {
+  color: var(--text-color); /* Accent color on hover */
+}
 
-	h5 {
-		margin-bottom: 0.5rem;
-		font-size: 1.25rem;
-		font-weight: bold;
-		color: var(--text-color);
-	}
+p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
-	p {
-		margin: 0;
-		color: var(--text-muted);
-		flex-grow: 1; /* Ensures it takes up available space */
-		display: -webkit-box;
-		-webkit-line-clamp: 3; /* Limits description to 3 lines */
-		-webkit-box-orient: vertical;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
+/* Gradient Border Effect */
+.link-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 12px;
+  z-index: -1;
+  background: var(--accent-gradient);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
 
-	@media (min-width: 768px) {
-		.card-container {
-			flex-direction: row; /* Switch to row layout for larger screens */
-		}
-		.card-image {
-			width: 150px; /* Restrict the image width on larger screens */
-			height: auto;
-		}
-		.card-content {
-			padding: 1rem;
-		}
-	}
+.link-card:hover::before {
+  opacity: 1; /* Show gradient border on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-image {
+    height: 120px; /* Smaller image height for mobile */
+  }
+
+  .card-content {
+    padding: 1rem;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+}
 </style>

@@ -456,33 +456,58 @@ h2 {
   color: #888888;
 }
 
-/* Link Grid */
+/* Bento Grid Container */
 .link-card-grid {
   display: grid;
-  gap: var(--spacing-large);
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  padding: var(--spacing-medium);
-}
-
-/* Grid for small screens (default: 1 column) */
-.link-card-grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  /* 1 card per row */
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(3, 1fr); /* 3 rows */
+  gap: 1rem;
   padding: 0;
 }
 
-@media (min-width: 900px) {
+/* Grid Areas for Bento Layout */
+.link-card-grid .link-card:nth-child(1) {
+  grid-area: 1 / 1 / 3 / 3; /* Row 1-3, Column 1-3 (large card) */
+}
+
+.link-card-grid .link-card:nth-child(2) {
+  grid-area: 1 / 3 / 3 / 4; /* Row 1-3, Column 3-4 (medium card) */
+}
+
+.link-card-grid .link-card:nth-child(3) {
+  grid-area: 3 / 1 / 4 / 2; /* Row 3-4, Column 1-2 (small card) */
+}
+
+.link-card-grid .link-card:nth-child(4) {
+  grid-area: 3 / 2 / 4 / 3; /* Row 3-4, Column 2-3 (small card) */
+}
+
+.link-card-grid .link-card:nth-child(5) {
+  grid-area: 3 / 3 / 4 / 5; /* Row 3-4, Column 3-5 (medium card) */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 900px) {
   .link-card-grid {
-    grid-template-columns: repeat(2, 1fr);
-    /* 3 cards per row */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    grid-template-rows: auto; /* Auto rows for flexibility */
+  }
+
+  .link-card-grid .link-card:nth-child(1) {
+    grid-area: auto; /* Reset grid area for smaller screens */
+  }
+
+  .link-card-grid .link-card:nth-child(2) {
+    grid-area: auto; /* Reset grid area for smaller screens */
+  }
+
+  .link-card-grid .link-card:nth-child(5) {
+    grid-area: auto; /* Reset grid area for smaller screens */
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 600px) {
   .link-card-grid {
-    grid-template-columns: repeat(3, 1fr);
-    /* 4 cards per row */
+    grid-template-columns: repeat(1, 1fr); /* 1 column for small screens */
   }
 }
