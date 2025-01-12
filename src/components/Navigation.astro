@@ -1,13 +1,12 @@
 ---
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 ---
-
 <div class="Astronav">
   <Astronav>
     <div class="flex justify-between">
-      <MenuIcon class="MenuIcon" />
+      <MenuIcon class="MenuIcon" aria-label="Toggle menu" />
     </div>
-    <MenuItems class="MenuItems hidden lg:flex">
+    <MenuItems class="MenuItems hidden lg:flex"}>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/gallery-2">Gallery</a></li>
@@ -21,116 +20,121 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 <style>
 /* Base Navigation Styles */
 .Astronav {
-  background: #16877a;
-  backdrop-filter: blur(8px);
-  padding: 1.5rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end; 
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
-  position: sticky; 
-  top: 0;
-  z-index: 1000;
+  padding: var(--spacing-medium) var(--spacing-large); /* Use consistent spacing variables */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Space items evenly */
+  border-bottom: 1px solid var(--border-color); /* Add a bottom border */
+  position: sticky; /* Make the navbar stick to the top */
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1000; /* Ensure the navbar stays above other content */
+
+  background: rgba(var(--primary-color), 0.8); /* Semi-transparent primary color */
+  backdrop-filter: blur(10px); /* Blur effect for the glass look */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
 }
 
 /* Logo Styles */
 .Astronav a {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: var(--text-color);
-  text-decoration: none;
-  transition: color 0.3s ease;
+  font-size: 1.8rem; /* Set font size for the logo */
+  font-weight: 700; /* Make the logo text bold */
+  color: var(--text-color); /* Set text color using a CSS variable */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
 .Astronav a:hover {
-  color: var(--accent-color); 
+  color: var(--accent-color); /* Change text color on hover */
 }
 
 /* Menu Items */
 .MenuItems ul {
-  display: flex;
-  gap: 2.5rem; 
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
+  display: flex; /* Use flexbox for horizontal layout */
+  gap: 2.5rem; /* Add spacing between menu items */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  list-style-type: none; /* Remove bullet points */
 }
 
 .MenuItems ul li {
-  position: relative;
+  position: relative; /* Position relative for pseudo-elements */
 }
 
 .MenuItems ul li a {
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: var(--text-color);
-  text-decoration: none;
-  transition: all 0.3s ease;
+  font-size: 1.2rem; /* Set font size for menu items */
+  font-weight: 500; /* Medium font weight */
+  color: var(--text-color); /* Set text color using a CSS variable */
+  text-decoration: none; /* Remove underline from links */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 
 .MenuItems ul li a:hover {
-  color: var(--primary-color); 
+  color: var(--accent-color); /* Change text color on hover */
 }
 
 .MenuItems ul li a::after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  background: var(--primary-color); 
-  bottom: -5px;
-  left: 0;
-  transition: width 0.3s ease;
+  content: ''; /* Add a pseudo-element for the underline effect */
+  position: absolute; /* Position absolutely within the link */
+  width: 0%; /* Start with no width */
+  height: 2px; /* Set height of the underline */
+  background: var(--accent-color); /* Set underline color */
+  bottom: -5px; /* Position below the link */
+  left: 0; /* Align to the left */
+  transition: width 0.3s ease; /* Smooth width transition */
 }
 
 .MenuItems ul li a:hover::after {
-  width: 100%;
+  width: 100%; /* Expand the underline to full width on hover */
 }
 
 /* Mobile Styles */
 .MenuIcon {
-  display: block;
-  cursor: pointer;
-  color: var(--text-color);
-  font-size: 1.5rem;
-  transition: color 0.3s ease;
+  display: block; /* Show the menu icon */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  color: var(--text-color); /* Set icon color */
+  font-size: 1.5rem; /* Set icon size */
+  transition: color 0.3s ease; /* Smooth color transition */
 }
 
 .MenuIcon:hover {
-  color: #ffffff; 
+  color: #ffffff; /* Change icon color on hover */
 }
 
 /* Default for small screens: Hide the menu items and show the icon */
 @media (max-width: 1023px) {
   .Astronav {
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-end; /* Align items to the right */
   }
 
   .MenuItems {
-    flex-direction: column;
-    gap: 1.5rem;
-    margin-top: 1rem;
-  }
-
-  .MenuItems ul {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .MenuIcon {
-    display: block; /* Show the menu icon */
+    flex-direction: column; /* Stack menu items vertically */
+    gap: 1.5rem; /* Add spacing between items */
+    margin-top: 1rem; /* Add margin at the top */
+    overflow: hidden; /* Hide overflowing content */
+    transition: max-height 0.3s ease-out; /* Smooth height transition */
   }
 
   .MenuItems.open {
-    display: flex; /* Show the menu when it's toggled open */
+    max-height: 500px; /* Expand to show menu items (adjust as needed) */
+  }
+
+  .MenuItems ul {
+    flex-direction: column; /* Stack menu items vertically */
+    gap: 1rem; /* Add spacing between items */
+  }
+
+  .MenuIcon {
+    display: block; /* Ensure the menu icon is visible */
   }
 }
 
 /* Desktop Styles: Show menu items, hide icon */
 @media (min-width: 1024px) {
   .MenuItems {
-    display: flex;
+    display: flex; /* Show menu items in a row */
+    max-height: none !important; /* Override mobile max-height */
   }
 
   .MenuIcon {
