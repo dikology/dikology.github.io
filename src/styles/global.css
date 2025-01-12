@@ -1,12 +1,14 @@
 /* Base Styles */
 :root {
-  --primary-color: #282a36; /* Dark gray-blue for primary elements */
-  --secondary-color: #44475a; /* Medium gray-blue for secondary elements */
-  --accent-color: #ff6f61; /* Soft pink for accents */
-  --background-color: #1e1e2f; /* Deep gray for background */
-  --text-color: #f8f8f2; /* Off-white for primary text */
-  --text-muted: #acb2c6; /* Muted gray for secondary text */
-  --border-color: #383a59; /* Dark gray for borders */
+  --primary-color: #282a36; 
+  --primary-color-rgb: 40, 42, 54; /* RGB values for primary color */
+  --secondary-color: #2b2d3a; 
+  --secondary-color-rgb: 43, 45, 58; /* RGB values for secondary color */
+  --accent-color: #ff6f61; 
+  --background-color: #1e1e2f; 
+  --text-color: #f8f8f2; 
+  --text-muted: #acb2c6; 
+  --border-color: #383a59; 
   --accent-gradient: linear-gradient(45deg, #ff6f61, #bd93f9 30%, #8be9fd 60%);
   --spacing-small: 0.5rem;
   --spacing-medium: 1rem;
@@ -53,7 +55,7 @@ h2 {
   color: var(--text-color);
   margin-top: 2rem;
   margin-bottom: 1rem;
-  border-left: 5px solid var(--secondary-color);
+  border-left: 5px solid var(--accent-color);
   padding-left: 1rem;
 }
 
@@ -452,121 +454,6 @@ h2 {
 .entry-header span {
   font-size: 0.9rem;
   color: #888888;
-}
-
-/* Hero section mainpage */
-.hero {
-  position: relative;
-  background-color: var(--background-color);
-  padding-bottom: 5rem;
-  padding-top: 2rem;
-}
-
-.hero-background {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 97%;
-  background-image: url("https://cdn.midjourney.com/5fdd27f4-1e94-463e-b579-5d1033bb85aa/0_0.png");
-  background-size: cover;
-  background-position: center;
-  z-index: 1;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.hero-content {
-  flex: 1;
-  max-width: 600px;
-  background: var(--primary-color);
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.1),
-    0 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 10; /* Ensures it stays on top of the image */
-}
-
-.hero-content h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-  color: var(--text-color);
-}
-
-.hero-content .subtitle {
-  font-size: 1.25rem;
-  color: var(--text-color);
-  margin-bottom: 1rem;
-}
-
-.hero-content .mission {
-  font-size: 1rem;
-  color: var(--text-color);
-  margin-bottom: 1.5rem;
-}
-
-.cta-buttons {
-  display: flex;
-  gap: 1rem;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  text-align: center;
-  border-radius: 5px;
-  text-decoration: none;
-  transition:
-    background-color 0.3s,
-    color 0.3s;
-}
-
-.btn-primary {
-  background-color: var(--accent-color);
-  color: var(--text-color);
-  border: 2px solid var(--accent-color);
-}
-
-.btn-primary:hover {
-  background-color: var(--secondary-color);
-  border: 2px solid var(--secondary-color);
-  color: var(--text-color);
-}
-
-.btn-secondary {
-  background-color: transparent;
-  border: 2px solid var(--accent-color);
-  color: var(--text-color);
-}
-
-.btn-secondary:hover {
-  background-color: var(--secondary-color);
-  border: 2px solid var(--secondary-color);
-  color: var(--text-color);
-}
-
-.hero-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 /* Link Grid */

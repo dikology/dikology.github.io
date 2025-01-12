@@ -7,6 +7,20 @@ const pageTitle = "dikology: don't specialize";
 
 const today = new Date();
 const formattedDate = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+
+
+  const stats = [
+    { title: "Posts", current: 4, total: 52 },
+    { title: "Data Anki Deck", current: 32, total: 52 },
+    { title: "Data Projects Portfolio", current: 2, total: 52 },
+    { title: "Sailboating Articles", current: 3, total: 52 },
+  ];
+
+  stats.forEach((stat) => {
+    const progress = (stat.current / stat.total) * 100;
+    console.log(`${stat.title}: ${progress.toFixed(2)}%`);
+  });
+
 ---
 <Layout title={pageTitle}>
   <section class="hero">
@@ -29,8 +43,41 @@ const formattedDate = today.toLocaleDateString('en-US', { month: 'long', day: 'n
     </div>
   </section>
   
+  <section class="stats-section">
+    <h2>Site Stats</h2>
+    <div class="stats-grid">
+      <div class="stat">
+        <h3>Posts</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 7.69%;"></div>
+          <span>4 / 52</span>
+        </div>
+      </div>
+      <div class="stat">
+        <h3>Data Anki Deck</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 61.54%;"></div>
+          <span>32 / 52</span>
+        </div>
+      </div>
+      <div class="stat">
+        <h3>Data Projects Portfolio</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 3.85%;"></div>
+          <span>2 / 52</span>
+        </div>
+      </div>
+      <div class="stat">
+        <h3>Sailboating Articles</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 5.77%;"></div>
+          <span>3 / 52</span>
+        </div>
+      </div>
+    </div>
+  </section>
   
-  <h2>My posts to date: {formattedDate}. There are {allPosts.length} of them so far</h2>
+  <h2>My posts to date: {formattedDate}.</h2>
 
   <ul role="list" class="link-card-grid">
     {allPosts.map((post) => (
@@ -38,3 +85,185 @@ const formattedDate = today.toLocaleDateString('en-US', { month: 'long', day: 'n
     ))}
   </ul>
 </Layout>
+
+<style>
+  /* Hero section mainpage */
+.hero {
+  position: relative;
+  background-color: var(--background-color);
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+
+.hero-background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 97%;
+  background-image: url("https://cdn.midjourney.com/5fdd27f4-1e94-463e-b579-5d1033bb85aa/0_0.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+  background: var(--primary-color);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10; /* Ensures it stays on top of the image */
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.hero-content .subtitle {
+  font-size: 1.25rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.hero-content .mission {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: 2px solid var(--accent-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  color: var(--text-color);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid var(--accent-color);
+  color: var(--text-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  color: var(--text-color);
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Stats Section */
+.stats-section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: rgba(var(--secondary-color-rgb), 0.8);
+  border-radius: var(--border-radius-large);
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stats-section h2 {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  border-left: 5px solid var(--accent-color);
+  padding-left: 1rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-large);
+}
+
+.stat {
+  background: var(--primary-color);
+  padding: var(--spacing-medium);
+  border-radius: var(--border-radius-medium);
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat h3 {
+  font-size: 1.25rem;
+  color: var(--text-color);
+  margin-bottom: var(--spacing-small);
+}
+
+.progress-bar {
+  background: var(--background-color);
+  height: 10px;
+  border-radius: var(--border-radius-small);
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar .progress {
+  height: 100%;
+  background: var(--accent-gradient);
+  border-radius: var(--border-radius-small);
+  transition: width 0.5s ease;
+}
+
+.progress-bar span {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  font-size: var(--font-size-small);
+  color: var(--text-muted);
+}
+
+</style>
