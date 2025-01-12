@@ -1,14 +1,14 @@
 /* Base Styles */
 :root {
-  --primary-color: #282a36; 
+  --primary-color: #282a36;
   --primary-color-rgb: 40, 42, 54; /* RGB values for primary color */
-  --secondary-color: #2b2d3a; 
+  --secondary-color: #2b2d3a;
   --secondary-color-rgb: 43, 45, 58; /* RGB values for secondary color */
-  --accent-color: #ff6f61; 
-  --background-color: #1e1e2f; 
-  --text-color: #f8f8f2; 
-  --text-muted: #acb2c6; 
-  --border-color: #383a59; 
+  --accent-color: #ff6f61;
+  --background-color: #1e1e2f;
+  --text-color: #f8f8f2;
+  --text-muted: #acb2c6;
+  --border-color: #383a59;
   --accent-gradient: linear-gradient(45deg, #ff6f61, #bd93f9 30%, #8be9fd 60%);
   --spacing-small: 0.5rem;
   --spacing-medium: 1rem;
