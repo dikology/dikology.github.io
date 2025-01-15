@@ -77,13 +77,15 @@ const formattedDate = today.toLocaleDateString('en-US', { month: 'long', day: 'n
     </div>
   </section>
   
-  <h2>My posts to date: {formattedDate}.</h2>
+  <section>
+    <h2>My posts to date: {formattedDate}.</h2>
 
-  <div class="link-card-grid">
-    {allPosts.map((post) => (
-      <Card frontmatter={post.frontmatter} url={post.url} />
-    ))}
-  </div>
+    <div class="link-card-grid">
+      {allPosts.map((post) => (
+        <Card frontmatter={post.frontmatter} url={post.url} />
+      ))}
+    </div>
+  </section>
 </Layout>
 
 <style>
