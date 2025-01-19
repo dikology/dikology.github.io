@@ -4,8 +4,8 @@ title: Portraits to scenes
 description: midjourney experiments for portraits to scenes
 date: 2025-01-10
 image:
-  src: 
-  alt: 
+  src:
+  alt:
 featured: false
 draft: true
 category: midjourney
@@ -24,8 +24,7 @@ Use emotional cues (e.g., a character looking wistfully out a window, laughing w
 Experiment with framing (e.g., a character framed by a doorway, a mirror reflection, or an over-the-shoulder shot).
 Example Prompts:
 "A young woman standing in a sunlit forest, beams of light filtering through the trees, her expression a mix of wonder and sadness, cinematic lighting, wide-angle view."
-"An old man sitting by a window, rain streaking down the glass, holding a faded photograph, soft natural lighting, shallow depth of field."
-2. Candid Shots
+"An old man sitting by a window, rain streaking down the glass, holding a faded photograph, soft natural lighting, shallow depth of field." 2. Candid Shots
 
 Concept: Candid shots capture characters in unposed, natural moments, making the scene feel authentic and alive. This approach avoids the "stiffness" of traditional portraits.
 What to Try:
@@ -34,8 +33,7 @@ Use natural settings and lighting to enhance the candid feel.
 Avoid overly posed or static descriptions.
 Example Prompts:
 "A street photographer capturing a moment in a busy city square, people walking by, natural lighting, candid shot, vibrant colors."
-"A child playing with a dog in a park, mid-laugh, golden hour lighting, dynamic composition."
-3. Other Characters in the Frame
+"A child playing with a dog in a park, mid-laugh, golden hour lighting, dynamic composition." 3. Other Characters in the Frame
 
 Concept: Adding secondary characters creates interaction and context, turning a solo portrait into a scene with relationships and dynamics.
 What to Try:
@@ -43,8 +41,7 @@ Include multiple characters interacting (e.g., a couple arguing, friends laughin
 Use body language and positioning to suggest relationships (e.g., a parent holding a child’s hand, two rivals facing off, or a group of adventurers huddled around a map).
 Example Prompts:
 "Two knights in armor standing back-to-back, ready for battle, a fiery sunset behind them, dramatic lighting, epic composition."
-"A family gathered around a dinner table, laughing and talking, warm indoor lighting, cozy atmosphere."
-4. Activity and Dynamic Scenes
+"A family gathered around a dinner table, laughing and talking, warm indoor lighting, cozy atmosphere." 4. Activity and Dynamic Scenes
 
 Concept: Dynamic scenes involve movement, action, or a sense of purpose, making the character feel like part of a larger story.
 What to Try:
