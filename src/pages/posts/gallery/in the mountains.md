@@ -1,5 +1,5 @@
 ---
-title: "in the mountains"
+title: "in-the-mountains"
 image: "https://cdn.midjourney.com/66dc4bf2-7780-4087-a9fb-70f9b7b49748/0_0.png"
 ---
 
