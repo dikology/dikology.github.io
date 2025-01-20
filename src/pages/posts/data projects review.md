@@ -4,7 +4,7 @@ title: some data projects
 description: review of some data projects from 2024 and early 2025
 date: 2025-01-20
 image:
-  src: 
+  src:
   alt: some data projects
 featured: false
 draft: true
@@ -24,6 +24,7 @@ The magic numbers? 8-9 interactions and 11-15 voice commands in the first week. 
 ## Improving Device Activation Quality
 
 We completely revamped our activation analytics dashboard. Instead of just tracking success rates across different platforms, we now dive deeper into:
+
 - Error patterns
 - Number of activation attempts
 - Technical session details
@@ -33,6 +34,7 @@ This enhanced visibility helps us spot where users get stuck during setup, allow
 ## Automated Anomaly Detection
 
 To stay on top of our growing number of metrics, we launched a pilot program for automated monitoring. The system now:
+
 - Performs daily checks for anomalies
 - Sends alerts to Mattermost when significant deviations occur
 - Tags relevant product managers
@@ -43,6 +45,7 @@ This automation has dramatically reduced our response time to unexpected metric 
 ## Onboarding Impact Analysis
 
 Perhaps the most rewarding project was analyzing the impact of our new in-app tutorial feature. The results were impressive:
+
 - New users showed 50% higher engagement
 - Existing users increased activity by 20%
 - Particularly strong improvements in music and smart home features
@@ -52,6 +55,7 @@ The data confirmed that our educational approach works, especially for new users
 ## Looking Forward
 
 These projects have given us powerful tools to:
+
 1. Predict user lifetime value early
 2. Ensure smooth device activations
 3. Catch issues before they become problems
