@@ -1,9 +1,19 @@
 ---
+// components
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 
+// utils
+import { formatBlogPosts } from '../js/utils';
+
 const allPosts = await Astro.glob('./posts/*.md');
 const pageTitle = "dikology: don't specialize";
+
+const formattedPosts = formatBlogPosts(allPosts, {
+  filterOutDrafts: false,
+  filterOutFuturePosts: false,
+  sortByDate: true,
+});
 
 const today = new Date();
 const formattedDate = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
@@ -81,7 +91,7 @@ const formattedDate = today.toLocaleDateString('en-US', { month: 'long', day: 'n
     <h2>My posts to date: {formattedDate}.</h2>
 
     <div class="link-card-grid">
-      {allPosts.map((post) => (
+      {formattedPosts.map((post: { frontmatter: any; url: string }) => (
         <Card frontmatter={post.frontmatter} url={post.url} />
       ))}
     </div>
