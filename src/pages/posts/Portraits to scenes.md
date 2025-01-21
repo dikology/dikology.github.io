@@ -4,8 +4,8 @@ title: Portraits to scenes
 description: midjourney experiments for portraits to scenes
 date: 2025-01-10
 image:
-  src:
-  alt:
+  src: https://cdn.midjourney.com/8cde5169-79cd-4105-ae13-fcf3d541b34b/0_0.png
+  alt: discovering a hidden doorway
 featured: false
 draft: true
 category: midjourney
