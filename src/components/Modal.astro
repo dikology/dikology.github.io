@@ -4,7 +4,7 @@ const { image } = Astro.props;
 
 {image ? (
   <div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-    <div class="bg-black p-6 rounded-lg shadow-lg max-w-lg w-full">
+    <div class="bg-black p-6 rounded-lg shadow-lg max-w-lg w-full" transition:name={`wrapper ${image.title}`}>
       <img src={image.image} alt={image.title} class="w-full h-auto rounded-t-lg" transition:name={image.title}/>
       <h2 class="text-xl font-semibold mt-4">{image.title}</h2>
       <button 

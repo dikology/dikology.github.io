@@ -25,7 +25,7 @@ const columns = chunkPosts(filteredPosts, Math.ceil(filteredPosts.length / 4));
   {columns.map((column) => (
     <div class="grid gap-4">
       {column.map((post) => (
-        <div>
+        <div transition:name={`wrapper ${post.frontmatter.title}`}>
           <a href={`/gallery-2/${encodeURIComponent(post.frontmatter.title)}`}>
             <img
               class="h-auto max-w-full rounded-lg"
