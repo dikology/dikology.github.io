@@ -4,7 +4,7 @@ title: some data projects
 description: review of some data projects from 2024 and early 2025
 date: 2025-01-20
 image:
-  src:
+  src: https://cdn.midjourney.com/867cf88d-b23f-40fe-9f90-fd29c3ae1090/0_0.png
   alt: some data projects
 featured: false
 draft: true
