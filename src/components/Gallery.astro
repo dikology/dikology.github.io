@@ -1,6 +1,14 @@
 ---
 const galleryPosts = await Astro.glob('../pages/posts/gallery/*.md');
 
+// Get current URL path
+const currentPath = Astro.url.pathname;
+
+// Filter out current post if we're on a specific post page
+const filteredPosts = galleryPosts.filter(post => 
+  `/gallery-2/${encodeURIComponent(post.frontmatter.title)}` !== currentPath
+);
+
 // Helper function to split posts into 4 columns
 function chunkPosts(posts: any[], chunkSize: number): any[][] {
   const chunks = [];
@@ -10,7 +18,7 @@ function chunkPosts(posts: any[], chunkSize: number): any[][] {
   return chunks;
 }
 
-const columns = chunkPosts(galleryPosts, Math.ceil(galleryPosts.length / 4));
+const columns = chunkPosts(filteredPosts, Math.ceil(filteredPosts.length / 4));
 ---
 
 <section class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -23,6 +31,7 @@ const columns = chunkPosts(galleryPosts, Math.ceil(galleryPosts.length / 4));
               class="h-auto max-w-full rounded-lg"
               src={post.frontmatter.image}
               alt={post.frontmatter.title}
+              transition:name={post.frontmatter.title}
             />
           </a>
         </div>
@@ -30,3 +39,9 @@ const columns = chunkPosts(galleryPosts, Math.ceil(galleryPosts.length / 4));
     </div>
   ))}
 </section>
+
+<style>
+  .grid {
+    align-items: start;
+  }
+</style>
