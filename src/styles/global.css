@@ -105,7 +105,7 @@ h2 {
 .post-content {
   max-width: 900px;
   margin: 3rem auto;
-  background: #3a3a3a;
+  background: var(--primary-color);
   padding: 2.5rem;
   border-radius: 15px;
   box-shadow:
@@ -138,7 +138,7 @@ h2 {
 
 .post-content h4 {
   font-size: 1.75rem;
-  color: #dddddd;
+  color: var(--text-color);
   /* Subtle gray for smaller headers */
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
@@ -147,28 +147,28 @@ h2 {
 
 .post-content p {
   margin: 1.5rem 0;
-  color: #dddddd;
+  color: var(--text-color);
   font-size: 1.1rem;
 }
 
 .post-content a {
-  color: #ff7f50;
+  color: var(--accent-color);
   text-decoration: none;
-  border-bottom: 1px dashed #ff7f50;
+  border-bottom: 1px dashed var(--accent-color);
   transition: color 0.3s ease;
 }
 
 .post-content a:hover {
-  color: #ffa07a;
+  color: var(--accent-color);
 }
 
 .post-content blockquote {
   margin: 2rem 0;
   padding: 1.5rem;
-  background-color: #444444;
-  border-left: 5px solid #ff7f50;
+  background-color: var(--secondary-color);
+  border-left: 5px solid var(--accent-color);
   font-style: italic;
-  color: #cccccc;
+  color: var(--text-muted);
 }
 
 .post-content img {
@@ -181,9 +181,9 @@ h2 {
 
 /* Code Block Container */
 .post-content pre {
-  background-color: #1e1e2f;
+  background-color: var(--secondary-color);
   /* Dark background for contrast */
-  color: #f8f8f2;
+  color: var(--text-color);
   /* Light text color for readability */
   padding: 1rem;
   /* Add padding for spacing */
@@ -200,9 +200,9 @@ h2 {
 
 /* Inline Code Styling */
 .post-content code {
-  background-color: #2e2e3e;
+  background-color: var(--secondary-color);
   /* Slightly different background for inline code */
-  color: #ff79c6;
+  color: var(--accent-color);
   padding: 0.2rem 0.5rem;
   border-radius: 5px;
   font-size: 0.95rem;
@@ -211,7 +211,7 @@ h2 {
 
 /* Syntax Highlighting for Code Blocks (Manual CSS) */
 .post-content .keyword {
-  color: #ff79c6;
+  color: var(--accent-color);
   /* Pink for keywords */
 }
 
@@ -243,7 +243,7 @@ h2 {
 .post-content ul li {
   margin: 0.5rem 0;
   /* Spacing between items */
-  color: #dddddd;
+  color: var(--text-color);
   /* Light color for text */
   font-size: 1rem;
 }
@@ -266,7 +266,7 @@ h2 {
 
 .post-content ol li {
   margin: 0.5rem 0;
-  color: #dddddd;
+  color: var(--text-color);
   font-size: 1rem;
 }
 
@@ -287,7 +287,7 @@ h2 {
   /* Custom bullet symbol */
   position: absolute;
   left: 0;
-  color: #ff79c6;
+  color: var(--accent-color);
   /* Bright pink color */
   font-size: 1.2rem;
 }
@@ -311,7 +311,7 @@ h2 {
   text-align: center;
   margin: 3rem auto;
   padding: 2rem;
-  background: #3a3a3a;
+  background: var(--secondary-color);
   border-radius: 12px;
   box-shadow:
     0 2px 4px rgba(0, 0, 0, 0.1),
@@ -320,13 +320,13 @@ h2 {
 
 .download-section h1 {
   font-size: 2.5rem;
-  color: #ff7f50;
+  color: var(--accent-color);
   margin-bottom: 1rem;
 }
 
 .download-section p {
   font-size: 1.2rem;
-  color: #dddddd;
+  color: var(--text-color);
   margin-bottom: 1.5rem;
 }
 
@@ -335,8 +335,8 @@ h2 {
   padding: 0.8rem 1.5rem;
   font-size: 1rem;
   font-weight: bold;
-  color: #ffffff;
-  background: #ff7f50;
+  color: var(--text-color);
+  background: var(--accent-color);
   border-radius: 8px;
   text-decoration: none;
   transition:
@@ -345,7 +345,7 @@ h2 {
 }
 
 .download-button:hover {
-  background: #ffa07a;
+  background: var(--accent-color);
   box-shadow:
     0 2px 4px rgba(0, 0, 0, 0.1),
     0 4px 8px rgba(0, 0, 0, 0.2);
@@ -360,14 +360,14 @@ h2 {
 .notebook-gallery h1 {
   font-size: 2.5rem;
   text-align: center;
-  color: #ffa07a;
+  color: var(--accent-color);
   margin-bottom: 2rem;
 }
 
 .notebook-gallery p {
   text-align: center;
   font-size: 1.2rem;
-  color: #dddddd;
+  color: var(--text-color);
   margin-bottom: 2rem;
 }
 
@@ -380,10 +380,10 @@ h2 {
 .notebook-card {
   display: block;
   padding: 1.5rem;
-  background: #444444;
+  background: var(--secondary-color);
   border-radius: 10px;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--text-color);
   box-shadow:
     0 2px 4px rgba(0, 0, 0, 0.1),
     0 4px 8px rgba(0, 0, 0, 0.2);
@@ -407,7 +407,7 @@ h2 {
 
 .notebook-card p {
   font-size: 1rem;
-  color: #dddddd;
+  color: var(--text-color);
 }
 
 /* day one */
@@ -431,7 +431,7 @@ h2 {
 }
 
 .entries {
-  background-color: #1e1e1e;
+  background-color: var(--secondary-color);
   border-radius: 8px;
   padding: 20px;
   box-shadow:
@@ -447,7 +447,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 8px;
   margin-bottom: 12px;
 }
@@ -459,7 +459,7 @@ h2 {
 
 .entry-header span {
   font-size: 0.9rem;
-  color: #888888;
+  color: var(--text-muted);
 }
 
 /* Bento Grid Container */
@@ -516,4 +516,53 @@ h2 {
   .link-card-grid {
     grid-template-columns: repeat(1, 1fr); /* 1 column for small screens */
   }
+}
+
+/* gallery */
+::view-transition-old(full-embed),
+::view-transition-new(full-embed) {
+  /* Prevent the default animation,
+  so both views remain opacity:1 throughout the transition */
+  animation: none;
+  /* Use normal blending,
+  so the new view sits on top and obscures the old view */
+  mix-blend-mode: normal;
+  /* Make the height the same as the group,
+  meaning the view size might not match its aspect-ratio. */
+  height: 100%;
+  /* Clip any overflow of the view */
+  overflow: clip;
+}
+
+/* The old view is the thumbnail */
+::view-transition-old(full-embed) {
+  /* Maintain the aspect ratio of the view,
+  by shrinking it to fit within the bounds of the element */
+  object-fit: contain;
+}
+
+/* The new view is the full image */
+::view-transition-new(full-embed) {
+  /* Maintain the aspect ratio of the view,
+  by growing it to cover the bounds of the element */
+  object-fit: cover;
+}
+
+.modal-wrapper {
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.closeButton {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
 }

@@ -62,30 +62,10 @@ interface Section {
 </html>
 
 <style is:global>
-  :root {
-    --accent: 136, 58, 234;
-    --accent-light: 224, 204, 250;
-    --accent-dark: 49, 10, 101;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      rgb(var(--accent-light)) 30%,
-      white 60%
-    );
-  }
-  html {
-    font-family: "Roboto", system-ui, sans-serif;
-    background: #1a1a1a;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    color: white;
-  }
   .article-nav {
     position: sticky;
     top: 0;
-    background: #222;
+    background: var(--secondary-color);
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -93,17 +73,17 @@ interface Section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   .article-nav-link {
-    color: var(--secondary-color);
+    color: var(--text-color);
     text-decoration: none;
     margin-bottom: 10px;
     font-size: 1.1rem;
   }
   .article-nav-link:hover {
-    color: var(--primary-color);
+    color: var(--accent-color);
   }
   article {
     padding: 2rem;
-    background-color: #333;
+    background-color: var(--secondary-color);
     border-radius: 8px;
     margin-top: 1rem;
   }
