@@ -1,5 +1,7 @@
 ---
 const { image, content } = Astro.props;
+const wrapperTransitionName = `wrapper-${image?.title}`;
+const imageTransitionName = image?.title;
 ---
 
 {image ? (
@@ -26,12 +28,15 @@ const { image, content } = Astro.props;
   });
 </script>
 
-<style>
-  ::view-transition-old(*),
-  ::view-transition-new(*) {
+<style define:vars={{ 
+  wrapperTransitionName,
+  imageTransitionName
+}}>
+  ::view-transition-old(var(--wrapperTransitionName)),
+  ::view-transition-new(var(--wrapperTransitionName)) {
     /* Prevent the default animation,
     so both views remain opacity:1 throughout the transition */
-    animation: none;
+    /* animation: none; */
     /* Use normal blending,
     so the new view sits on top and obscures the old view */
     mix-blend-mode: normal;
@@ -43,14 +48,14 @@ const { image, content } = Astro.props;
   }
 
   /* The old view is the thumbnail */
-  ::view-transition-old(*) {
+  ::view-transition-old(var(--wrapperTransitionName)) {
     /* Maintain the aspect ratio of the view,
     by shrinking it to fit within the bounds of the element */
     object-fit: contain;
   }
 
   /* The new view is the full image */
-  ::view-transition-new(*) {
+  ::view-transition-new(var(--wrapperTransitionName)) {
     /* Maintain the aspect ratio of the view,
     by growing it to cover the bounds of the element */
     object-fit: cover;
@@ -60,8 +65,8 @@ const { image, content } = Astro.props;
     z-index: 1;
   }
 
-  ::view-transition-group(wrapper-a-powerful-woman-casting-a-spell),
-  ::view-transition-group(a-powerful-woman-casting-a-spell) {
+  ::view-transition-group(var(--wrapperTransitionName)),
+  ::view-transition-group(var(--imageTitle)) {
     z-index: 2;
   }
 
