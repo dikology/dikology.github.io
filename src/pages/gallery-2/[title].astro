@@ -31,11 +31,19 @@ const post = galleryPosts.find((post) => post.frontmatter.title === decodedTitle
 // Extract the image and other frontmatter details from the matched post
 const image = post?.frontmatter.image;
 const pageTitle = post?.frontmatter.title || "Gallery Details";
+
+// Filter out the image from the markdown content
+const contentWithoutImage = post?.rawContent().split('\n')
+  .filter(line => !line.startsWith('!['))
+  .join('\n');
+
+// Create a new Content component with the filtered content
+const content = post ? await post.compiledContent() : undefined;
 ---
 
 <Layout title={pageTitle}>
   <Gallery />
   {image && title && (
-    <Modal image={{ image, title: decodedTitle }} />
+    <Modal image={{ image, title: decodedTitle }} content={contentWithoutImage} />
   )}
 </Layout>

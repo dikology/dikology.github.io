@@ -1,14 +1,16 @@
 ---
-const { image } = Astro.props;
+const { image, content } = Astro.props;
 ---
 
 {image ? (
-  <div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-    <div class="modal-wrapper p-6 rounded-lg shadow-lg max-w-lg w-full" transition:name={`wrapper ${image.title}`}>
-      <img src={image.image} alt={image.title} class="w-full h-auto rounded-t-lg" transition:name={image.title}/>
-      <h2 class="text-xl font-semibold mt-4">{image.title}</h2>
+  <div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 p-4">
+    <div class="modal-wrapper p-6 rounded-lg shadow-lg w-full max-w-3xl max-h-[90vh] bg-white overflow-hidden flex flex-col" transition:name={`wrapper ${image.title}`}>
+      <img src={image.image} alt={image.title} class="w-full h-auto max-h-[60vh] object-contain rounded-t-lg" transition:name={image.title}/>
+      <div class="content-wrapper mt-4 overflow-y-auto flex-grow">
+        {content && <div set:html={content} />}
+      </div>
       <button 
-        class="closeButton mt-4 px-4 py-2 rounded transition-colors"
+        class="closeButton mt-4 px-4 py-2 text-white rounded transition-colors w-full sm:w-auto"
         id="closeButton"
       >
         Close
@@ -23,3 +25,34 @@ const { image } = Astro.props;
     window.location.href = '/gallery-2'; // Replace with your desired URL
   });
 </script>
+
+<style>
+  ::view-transition-old({image.title}),
+  ::view-transition-new({image.title}) {
+    /* Prevent the default animation,
+    so both views remain opacity:1 throughout the transition */
+    animation: none;
+    /* Use normal blending,
+    so the new view sits on top and obscures the old view */
+    mix-blend-mode: normal;
+    /* Make the height the same as the group,
+    meaning the view size might not match its aspect-ratio. */
+    height: 100%;
+    /* Clip any overflow of the view */
+    overflow: clip;
+  }
+
+  /* The old view is the thumbnail */
+  ::view-transition-old({image.title}) {
+    /* Maintain the aspect ratio of the view,
+    by shrinking it to fit within the bounds of the element */
+    object-fit: contain;
+  }
+
+  /* The new view is the full image */
+  ::view-transition-new({image.title}) {
+    /* Maintain the aspect ratio of the view,
+    by growing it to cover the bounds of the element */
+    object-fit: cover;
+  }
+</style>
