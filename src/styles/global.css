@@ -517,24 +517,3 @@ h2 {
     grid-template-columns: repeat(1, 1fr); /* 1 column for small screens */
   }
 }
-
-/* gallery */
-
-.modal-wrapper {
-  background-color: var(--primary-color);
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.1),
-    0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.closeButton {
-  background-color: var(--accent-color);
-  color: var(--text-color);
-  border-radius: 8px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
-}

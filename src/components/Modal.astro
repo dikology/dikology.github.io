@@ -3,8 +3,8 @@ const { image, content } = Astro.props;
 ---
 
 {image ? (
-  <div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 p-4">
-    <div class="modal-wrapper p-6 rounded-lg shadow-lg w-full max-w-3xl max-h-[90vh] bg-white overflow-hidden flex flex-col" transition:name={`wrapper ${image.title}`}>
+  <div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 p-4" transition:name="overlay">
+    <div class="modal-wrapper p-6 rounded-lg shadow-lg w-full max-w-3xl max-h-[90vh] bg-white overflow-hidden flex flex-col" transition:name={`wrapper-${image.title}`}>
       <img src={image.image} alt={image.title} class="w-full h-auto max-h-[60vh] object-contain rounded-t-lg" transition:name={image.title}/>
       <div class="content-wrapper mt-4 overflow-y-auto flex-grow">
         {content && <div set:html={content} />}
@@ -27,8 +27,8 @@ const { image, content } = Astro.props;
 </script>
 
 <style>
-  ::view-transition-old({image.title}),
-  ::view-transition-new({image.title}) {
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
     /* Prevent the default animation,
     so both views remain opacity:1 throughout the transition */
     animation: none;
@@ -43,16 +43,44 @@ const { image, content } = Astro.props;
   }
 
   /* The old view is the thumbnail */
-  ::view-transition-old({image.title}) {
+  ::view-transition-old(*) {
     /* Maintain the aspect ratio of the view,
     by shrinking it to fit within the bounds of the element */
     object-fit: contain;
   }
 
   /* The new view is the full image */
-  ::view-transition-new({image.title}) {
+  ::view-transition-new(*) {
     /* Maintain the aspect ratio of the view,
     by growing it to cover the bounds of the element */
     object-fit: cover;
   }
+
+  ::view-transition-group(overlay) {
+    z-index: 1;
+  }
+
+  ::view-transition-group(wrapper-a-powerful-woman-casting-a-spell),
+  ::view-transition-group(a-powerful-woman-casting-a-spell) {
+    z-index: 2;
+  }
+
+  .modal-wrapper {
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow:
+      0 2px 4px rgba(0, 0, 0, 0.1),
+      0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .closeButton {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
 </style>
