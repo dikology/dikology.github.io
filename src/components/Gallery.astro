@@ -5,24 +5,37 @@ const galleryPosts = await Astro.glob('../pages/posts/gallery/*.md');
 const currentPath = Astro.url.pathname;
 
 // Filter out current post if we're on a specific post page
-const filteredPosts = galleryPosts.filter(post => 
-  `/gallery-2/${encodeURIComponent(post.frontmatter.title)}` !== currentPath
-);
+const filteredPosts = galleryPosts.filter(post => {
+  const postPath = `/gallery-2/${encodeURIComponent(post.frontmatter.title)}`;
+  // Ensure both paths are absolute and normalized
+  return currentPath !== postPath && currentPath !== postPath + '/';
+});
 
-// Helper function to split posts into 4 columns
-function chunkPosts(posts: any[], chunkSize: number): any[][] {
-  const chunks = [];
-  for (let i = 0; i < posts.length; i += chunkSize) {
-    chunks.push(posts.slice(i, i + chunkSize));
-  }
-  return chunks;
+// Helper function to split posts into 4 columns - modified for even distribution
+function chunkPosts(posts: any[], numColumns: number): any[][] {
+  const columns: any[][] = Array.from({ length: numColumns }, () => []);
+  posts.forEach((post) => {
+    // Use the original index stored in frontmatter or calculate a stable hash from the title
+    const columnIndex = Math.abs(hashString(post.frontmatter.title)) % numColumns;
+    columns[columnIndex].push(post);
+  });
+  return columns;
 }
 
-const columns = chunkPosts(filteredPosts, Math.ceil(filteredPosts.length / 4));
+// Simple string hashing function
+function hashString(str: string): number {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    const char = str.charCodeAt(i);
+    hash = (hash * 31 + char) >>> 0; // Using unsigned right shift for better distribution
+  }
+  return hash;
+}
+
+const columns = chunkPosts(filteredPosts, 4);
 ---
 
 <section class="grid grid-cols-2 md:grid-cols-4 gap-4">
-  <p>{currentPath}</p>
   {columns.map((column) => (
     <div class="grid gap-4">
       {column.map((post) => (
