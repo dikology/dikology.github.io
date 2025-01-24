@@ -522,7 +522,7 @@ h2 {
 ::view-transition-new(*) {
   /* Prevent the default animation,
   so both views remain opacity:1 throughout the transition */
-  animation: none; 
+  animation: none;
   mix-blend-mode: normal;
   height: 100%;
   overflow: clip;
@@ -537,4 +537,3 @@ h2 {
 ::view-transition-new(*) {
   object-fit: cover;
 }
-
