@@ -517,3 +517,24 @@ h2 {
     grid-template-columns: repeat(1, 1fr); /* 1 column for small screens */
   }
 }
+
+::view-transition-old(*),
+::view-transition-new(*) {
+  /* Prevent the default animation,
+  so both views remain opacity:1 throughout the transition */
+  animation: none; 
+  mix-blend-mode: normal;
+  height: 100%;
+  overflow: clip;
+}
+
+/* The old view is the thumbnail */
+::view-transition-old(*) {
+  object-fit: contain;
+}
+
+/* The new view is the full image */
+::view-transition-new(*) {
+  object-fit: cover;
+}
+
