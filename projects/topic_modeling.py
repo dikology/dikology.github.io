@@ -18,6 +18,7 @@ import plotly.express as px
 
 # Download NLTK data
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # %% [markdown]
 # ## Helper Functions
@@ -57,11 +58,10 @@ def create_topic_model():
 
 # %% [markdown]
 # ## Main Analysis
-# Replace the vault path with your Obsidian vault location
 
 # %%
 # Set your vault path
-vault_path = "path/to/your/obsidian/vault"
+vault_path = "/Users/denis/Yandex.Disk.localized/thinking mind/thinking mind"
 
 # Read documents
 print("Reading documents...")
@@ -113,11 +113,6 @@ fig_barchart.show()
 # Show top topics
 print("\nTop Topics:")
 print(topic_model.get_topic_info())
-
-# %%
-# Save results to CSV
-df.to_csv('topic_modeling_results.csv', index=False)
-print("Results saved to topic_modeling_results.csv")
 
 # %% [markdown]
 # ## Additional Analysis (Optional)
