@@ -29,3 +29,6 @@ nltk_data/
 
 # venv
 venv/
+
+# utils
+utils/diff_prompt.txt
