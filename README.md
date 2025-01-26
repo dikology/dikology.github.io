@@ -12,7 +12,6 @@ A modern, performant personal website built with Astro, featuring a digital gard
 - **Sailboating Guide**: Structured educational content
 - **Anki Card Integration**: Educational flashcards for learning
 
-
 ## 🔄 Automated Deployments
 
 The site automatically deploys to GitHub Pages through GitHub Actions:
@@ -20,7 +19,6 @@ The site automatically deploys to GitHub Pages through GitHub Actions:
 - On push to master branch
 - Daily rebuilds for dynamic content
 - Manual triggers available
-
 
 ## 🎨 Styling
 
@@ -49,4 +47,7 @@ The project uses a custom theme with CSS variables for consistent styling. Key f
 ---
 
 Built with ❤️ using [Astro](https://astro.build)
+
+```
+
 ```
