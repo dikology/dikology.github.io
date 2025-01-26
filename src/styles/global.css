@@ -49,6 +49,11 @@ body {
   font-size: clamp(1rem, 2.5vw, 1.2rem); /* Responsive font size */
 }
 
+.wrapper {
+  max-inline-size: 1000px;
+  margin-inline: auto;
+}
+
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -61,8 +66,8 @@ h2 {
   color: var(--text-color);
   margin-top: 2rem;
   margin-bottom: 1rem;
-  border-left: 5px solid var(--accent-color);
-  padding-left: 1rem;
+  border-inline-start: 5px solid var(--accent-color);
+  padding-inline-start: 1rem;
 }
 
 /* Markdown Posts Styles */
@@ -103,7 +108,7 @@ h2 {
 
 /* Content Styles */
 .post-content {
-  max-width: 900px;
+  /* max-width: 900px; */
   margin: 3rem auto;
   background: var(--primary-color);
   padding: 2.5rem;
@@ -166,7 +171,7 @@ h2 {
   margin: 2rem 0;
   padding: 1.5rem;
   background-color: var(--secondary-color);
-  border-left: 5px solid var(--accent-color);
+  border-inline-start: 5px solid var(--accent-color);
   font-style: italic;
   color: var(--text-muted);
 }
@@ -235,7 +240,7 @@ h2 {
 .post-content ul {
   list-style-type: disc;
   /* Default bullet style */
-  padding-left: 1.5rem;
+  padding-inline-start: 1.5rem;
   /* Indentation */
   margin: 1rem 0;
 }
@@ -259,7 +264,7 @@ h2 {
 .post-content ol {
   list-style-type: decimal;
   /* Default number style */
-  padding-left: 1.5rem;
+  padding-inline-start: 1.5rem;
   /* Indentation */
   margin: 1rem 0;
 }
@@ -279,16 +284,15 @@ h2 {
 /* Fancy List Styling (Custom Bullets) */
 .post-content ul.custom-list li {
   position: relative;
-  padding-left: 2rem;
+  padding-inline-start: 2rem;
 }
 
 .post-content ul.custom-list li::before {
   content: "⚡";
   /* Custom bullet symbol */
   position: absolute;
-  left: 0;
+  inset-inline-start: 0;
   color: var(--accent-color);
-  /* Bright pink color */
   font-size: 1.2rem;
 }
 
@@ -301,9 +305,8 @@ h2 {
 /* Nested Lists */
 .post-content ul ul,
 .post-content ol ol {
-  margin-left: 1rem;
+  margin-inline-start: 1rem;
   list-style-type: circle;
-  /* Change style for nested lists */
 }
 
 /* Download Section */
