@@ -12,4 +12,3 @@ Where:
 
 - \( P \) is the success rate.
 
----
