@@ -8,4 +8,4 @@ tags:
 **Front:** Big O complexity chart
 
 **Back:**
-![big o](http://127.0.0.1:50309/Screen%20Shot%202022-05-09%20at%204.54.03%20PM.png)
+![[Screen Shot 2022-05-09 at 4.54.03 PM.png]]
