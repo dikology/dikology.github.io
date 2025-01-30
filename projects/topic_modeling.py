@@ -15,14 +15,84 @@ import nltk
 from nltk.tokenize import sent_tokenize
 import pandas as pd
 import plotly.express as px
+import re
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from pymystem3 import Mystem
 
 # Download NLTK data
 nltk.download('punkt')
 nltk.download('punkt_tab')
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 
 # %% [markdown]
 # ## Helper Functions
 
+# %%
+# Add Russian stop words (common words that don't carry much meaning)
+RUSSIAN_STOP_WORDS = set('''
+а ах без более бы был была были было быть в вам вас весь во вот 
+все всего всех вы где да даже для до его ее если есть еще же за 
+здесь и из или им их к как ко когда кто ли либо мне может мы на над 
+но ну о об однако он она они оно от очень по под при с со так также 
+такой там те тем то того тоже той только том ты у уже хотя чего чей 
+чем что чтобы чье чья эта эти это я
+'''.split())
+
+def preprocess_text(text):
+    """
+    Enhanced text preprocessing for English and Russian
+    """
+    if not isinstance(text, str) or not text.strip():
+        return ""
+    
+    # Initialize lemmatizers
+    eng_lemmatizer = WordNetLemmatizer()
+    rus_lemmatizer = Mystem()
+    
+    # 1. Basic cleaning
+    # Remove URLs
+    text = re.sub(r'http\S+|www\S+|https\S+', '', text, flags=re.MULTILINE)
+    
+    # Remove markdown
+    text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+    text = re.sub(r'[*_~`]', '', text)
+    
+    # Remove numbers and special characters
+    text = re.sub(r'[^\w\s\.\,\!\?\-\—\–\"\«\»А-Яа-яЁё]', ' ', text)
+    text = re.sub(r'\d+', '', text)
+    
+    # 2. Normalize text
+    text = text.lower()
+    
+    # 3. Tokenization and stop words removal
+    stop_words = set(stopwords.words('english')).union(RUSSIAN_STOP_WORDS)
+    words = text.split()
+    words = [w for w in words if w not in stop_words]
+    
+    # 4. Lemmatization
+    # Separate Russian and English words
+    rus_words = [w for w in words if bool(re.search('[а-яА-ЯёЁ]', w))]
+    eng_words = [w for w in words if w not in rus_words]
+    
+    # Lemmatize English words
+    eng_lemmatized = [eng_lemmatizer.lemmatize(w) for w in eng_words]
+    
+    # Lemmatize Russian words
+    if rus_words:
+        rus_text = ' '.join(rus_words)
+        rus_lemmatized = rus_lemmatizer.lemmatize(rus_text)
+        rus_lemmatized = [w for w in rus_lemmatized if w.strip() and w not in stop_words]
+    else:
+        rus_lemmatized = []
+    
+    # 5. Combine and clean final results
+    processed_words = eng_lemmatized + rus_lemmatized
+    processed_words = [w.strip() for w in processed_words if len(w.strip()) > 2]
+    
+    return ' '.join(processed_words)
 # %%
 def read_obsidian_files(vault_path):
     """Read all markdown files from Obsidian vault"""
@@ -34,7 +104,9 @@ def read_obsidian_files(vault_path):
             try:
                 post = frontmatter.load(file)
                 content = post.content
-                documents.append(content)
+                # Apply preprocessing to the whole document
+                processed_content = preprocess_text(content)
+                documents.append(processed_content)
                 file_names.append(os.path.basename(filepath))
             except Exception as e:
                 print(f"Error processing {filepath}: {e}")
@@ -66,7 +138,7 @@ vault_path = "/Users/denis/Yandex.Disk.localized/thinking mind/thinking mind"
 print("Reading documents...")
 documents, file_names = read_obsidian_files(vault_path)
 
-print(f"Found {len(documents)} sentences in {len(set(file_names))} files")
+print(f"Found {len(documents)} documents in {len(set(file_names))} files")
 
 # %% [markdown]
 # ## Create and Train Topic Model
