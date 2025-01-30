@@ -34,9 +34,8 @@ def read_obsidian_files(vault_path):
             try:
                 post = frontmatter.load(file)
                 content = post.content
-                sentences = sent_tokenize(content)
-                documents.extend(sentences)
-                file_names.extend([os.path.basename(filepath)] * len(sentences))
+                documents.append(content)
+                file_names.append(os.path.basename(filepath))
             except Exception as e:
                 print(f"Error processing {filepath}: {e}")
     
