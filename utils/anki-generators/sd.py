@@ -4,12 +4,8 @@ import json
 from random import randrange
 from pathlib import Path
 import genanki
-
-FONTS = {
-    "minimal": "Inter",
-    "nord": "Rubik",
-    "dracula": "Source Sans Pro",
-}
+import yaml
+import os
 
 # Field contents for each note type
 NOTE_FIELDS = {
@@ -26,6 +22,30 @@ NOTE_FIELDS = {
         "Anki 2.1.6 screenshot (<a href='https://en.wikipedia.org/wiki/Anki_(software)'>https://en.wikipedia.org/wiki/Anki_(software)</a>)",
     ],
 }
+
+def load_card(file_path):
+    with open(file_path, 'r') as f:
+        content = f.read()
+    meta, body = content.split('---', 2)[1:]  # Split YAML front matter and card body
+    meta = yaml.safe_load(meta)
+
+    # Check if '**Back:**' is in the body
+    if '**Back:**' not in body:
+        print(f"Skipping file {file_path}: '**Back:**' not found.")
+        return None  # Skip this file
+
+    front, back = body.split('**Back:**', 1)
+    front = front.split('**Front:**', 1)[-1].strip()
+    back = back.strip()
+    return {'type': 'basic', 'front': front, 'back': back, 'id': meta.get('id', None)}
+
+def create_card(model, front, back, id):
+    note = genanki.Note(
+            guid=id,
+            fields=[front, back],
+            model=model
+        )
+    return note
 
 # Store the root path for future use
 root = Path(f"{__file__}/../../..").resolve()
@@ -76,16 +96,16 @@ for n_deck in ids:
             ids[n_deck]["deck_id"],
             f"Prettify::{n_deck.capitalize()}",
         )
-
-        note = genanki.Note(
-            guid=ids[n_deck]["note_id"],
-            fields=NOTE_FIELDS["basic"],
-            model=model,
-            tags=["prettify", f"prettify::{n_deck}"],
-        )
-
+        
         deck.add_model(model)
-        deck.add_note(note)
+        
+        for filename in os.listdir(f"src/content/docs/{n_deck}"): 
+            print(filename)
+            if filename.endswith('.md'):
+                card_data = load_card(os.path.join(f'src/content/docs/{n_deck}', filename))
+                
+                if card_data:  # Check if card_data is not None
+                    deck.add_note(create_card(model, card_data['front'], card_data['back'], card_data['id']))
 
         # Note type-wise packages
         genanki.Package(deck).write_to_file(
