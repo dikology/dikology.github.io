@@ -1,0 +1,8 @@
+repos:
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v9.20.0  # Use the latest version
+    hooks:
+      - id: eslint
+        additional_dependencies: [eslint]
+        stages: [pre-commit]
+        args: ['--fix']  # Automatically fix issues
