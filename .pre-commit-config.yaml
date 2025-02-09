@@ -1,0 +1,17 @@
+repos:
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v9.20.0  # Use the latest version
+    hooks:
+      - id: eslint
+        additional_dependencies: [eslint]
+        stages: [pre-commit]
+        args: ['--fix']  # Automatically fix issues
+  - repo: local
+    hooks:
+      - id: run-make
+        name: Run Makefile Command
+        entry: make run-sd
+        language: system
+        types: [file]
+        files: ^src/content/docs/sailing-deck/|^src/content/docs/data-deck/
+        stages: [pre-commit]
