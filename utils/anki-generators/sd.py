@@ -82,7 +82,7 @@ for n_deck in ids:
                 {
                     "name": "Card 1",
                     "qfmt": front_html,
-                    "afmt": back_html,
+                    "afmt": back_media_html,
                 }
             ]
         
