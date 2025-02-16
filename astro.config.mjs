@@ -12,19 +12,28 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: 'Blog-ish',
+					autogenerate: { directory: 'blog-ish' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Data',
+					autogenerate: { directory: 'data' },
+				},
+				{
+					label: 'Data Deck',
+					autogenerate: { directory: 'data-deck' },
+				},
+				{
+					label: 'Sailing',
+					autogenerate: { directory: 'sailing' },
 				},
 				{
 					label: 'Sailing Deck',
 					autogenerate: { directory: 'sailing-deck' },
+				},
+				{
+					label: 'Changelog',
+					autogenerate: { directory: 'changelog' },
 				},
 			],
 		}),
