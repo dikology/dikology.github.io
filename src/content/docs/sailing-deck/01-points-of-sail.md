@@ -12,4 +12,4 @@ test
 
 **Back:**
 test
-<img src="points-of-sail.jpg">
+![](points-of-sail.jpg)

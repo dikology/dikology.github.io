@@ -22,14 +22,19 @@ def load_card(file_path):
     front = front.split('**Front:**', 1)[-1].strip()
     back = back.strip()
     
-    # Check if the type is 'basic-media' and parse for <img ...> tag
+    # Check if the type is 'basic-media' and parse for markdown image syntax
     media = None
     if meta.get('type', 'basic') == 'basic-media':
-        img_tag_start = back.find('<img ')
-        if img_tag_start != -1:
-            img_tag_end = back.find('>', img_tag_start) + 1
-            media = back[img_tag_start:img_tag_end].strip()
-            back = back.replace(media, '').strip()  # Remove the <img ...> tag from back
+        # Look for markdown image pattern ![...](filename)
+        img_start = back.find('![')
+        if img_start != -1:
+            img_end = back.find(')', img_start) + 1
+            markdown_img = back[img_start:img_end].strip()
+            # Extract filename from markdown syntax
+            filename = markdown_img[markdown_img.find('(')+1:markdown_img.find(')')]
+            # Convert to HTML img tag
+            media = f'<img src="{filename}">'
+            back = back.replace(markdown_img, '').strip()  # Remove the markdown image
 
     return {'type': meta.get('type', 'basic'), 'front': front, 'back': back, 'media': media, 'id': meta.get('id', None)}
 
