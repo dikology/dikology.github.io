@@ -6,10 +6,10 @@ description: rename a column in SQL
 type: basic
 id: 1
 ---
-**Front**
+**Front:**
 How to Rename a Column in SQL
 
-**Back**
+**Back:**
 To keep your database organized, you might need to change the names of the columns. To rename a column in SQL, you can use the ALTER TABLE statement with the RENAME COLUMN clause.
 
 Here is the basic syntax:
