@@ -1,0 +1,24 @@
+---
+const { id } = Astro.props;
+
+// Try to extract the YouTube video ID from a full URL (if provided)
+let videoId = "";
+try {
+  const url = new URL(id);
+  videoId = url.searchParams.get("v") || id;
+} catch (error) {
+  // If 'id' is not a valid URL, assume it's already the video ID.
+  videoId = id;
+}
+---
+
+<div class="youtube-card">
+  <iframe
+    width="100%"
+    height="100%"
+    src={`https://www.youtube.com/embed/${videoId}`}
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>

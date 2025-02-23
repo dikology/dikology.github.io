@@ -4,7 +4,7 @@ modified: February 17
 title: Rename a Column
 description: rename a column in SQL
 type: basic
-id: 1
+id: 02
 ---
 **Front:**
 How to Rename a Column in SQL
