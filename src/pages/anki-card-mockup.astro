@@ -1,4 +1,9 @@
+---
+layout: "../layouts/BaseLayout.astro"
+title: "Anki Card Mockup"
+---
 
+<style>
 /* -------------------------------------------------- PREFERENCES */
 :root {
   --card-max-width: 40em;
@@ -297,29 +302,128 @@ pre {
   white-space: normal;
 }
 
-/* -------------------------------------------------- CUSTOM FONTS */
-@font-face {
-  font-family: Rubik;
-  src: local("Rubik-Regular"), url("_Rubik-Regular.woff2") format("woff2");
-  font-style: normal;
-  font-weight: normal;
+/* Toggle button for dark mode */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #4c566a;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
 }
-@font-face {
-  font-family: Rubik;
-  src: local("Rubik-Bold"), url("_Rubik-Bold.woff2") format("wofff2");
-  font-style: normal;
-  font-weight: bold;
-}
-@font-face {
-  font-family: Rubik;
-  src: local("Rubik-Italic"), url("_Rubik-Italic.woff2") format("wofff2");
-  font-style: italic;
-  font-weight: normal;
-}
-@font-face {
-  font-family: Rubik;
-  src: local("Rubik-BoldItalic"), url("_Rubik-BoldItalic.woff2") format("wofff2");
-  font-style: italic;
-  font-weight: bold;
-}
-/* -------------------------------------------------- END OF THEME */
+</style>
+
+<div class="container">
+  <button class="theme-toggle" id="themeToggle">🌓</button>
+  
+  <div class="card" id="cardContainer">
+    <div class="prettify-flashcard">
+      <div class="prettify-deck">
+        <span class="prettify-subdeck">Sailing</span>&nbsp;/&nbsp;<span class="prettify-subdeck">Navigation</span>&nbsp;/&nbsp;<span class="prettify-subdeck">Basics</span>
+      </div>
+      
+      <div class="prettify-field prettify-field--front">
+        <h3>What are the primary points of sail?</h3>
+        <p>Name and describe the five main points of sail relative to wind direction.</p>
+      </div>
+      
+      <hr class="prettify-divider prettify-divider--answer" id="answer" />
+      
+      <div class="prettify-field prettify-field--back">
+        <p>The five primary points of sail are:</p>
+        
+        <ul>
+          <li><b>Irons/In Stays</b> - When the boat is pointing directly into the wind</li>
+          <li><i>Close Hauled</i> - Sailing as close to the wind as possible (typically 45° to the wind)</li>
+          <li><b><i>Beam Reach</i></b> - Wind coming from the side of the boat (90° to the wind)</li>
+          <li><u>Broad Reach</u> - Wind coming from behind the boat at an angle</li>
+          <li>Running/Dead Run - Wind coming directly from behind</li>
+        </ul>
+        
+        <p>Here's a diagram showing the points of sail:</p>
+      </div>
+      
+      <div class="prettify-field">
+        <img src="https://via.placeholder.com/500x300?text=Points+of+Sail+Diagram" alt="Points of sail diagram">
+        
+        <p>You can learn more about points of sail in <a href="#">The Complete Sailor's Handbook</a>.</p>
+        
+        <pre>
+            code here
+        </pre>
+        
+        <table>
+          <thead>
+            <tr>
+              <th>Point of Sail</th>
+              <th>Wind Angle</th>
+              <th>Sail Trim</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Close Hauled</td>
+              <td>45°</td>
+              <td>Sails in tight</td>
+            </tr>
+            <tr>
+              <td>Beam Reach</td>
+              <td>90°</td>
+              <td>Sails halfway out</td>
+            </tr>
+            <tr>
+              <td>Broad Reach</td>
+              <td>135°</td>
+              <td>Sails most of the way out</td>
+            </tr>
+            <tr>
+              <td>Running</td>
+              <td>180°</td>
+              <td>Sails all the way out</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <div class="cloze">This is a cloze deletion example</div>
+      </div>
+      
+      <div class="prettify-tags">
+        <span class="prettify-tag">sailing</span>
+        <span class="prettify-tag">navigation</span>
+        <span class="prettify-tag">wind</span>
+        <span class="prettify-tag">beginner</span>
+        <span class="prettify-tag">important</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Toggle between light and dark mode
+  const themeToggle = document.getElementById('themeToggle');
+  const cardContainer = document.getElementById('cardContainer');
+  
+  if (themeToggle && cardContainer) {
+    themeToggle.addEventListener('click', function() {
+      cardContainer.classList.toggle('night_mode');
+    });
+  }
+  
+  // Make tags clickable
+  document.querySelectorAll('.prettify-tag').forEach((tag) => {
+    tag.addEventListener('click', function(this: HTMLElement) {
+      if (this.textContent) {
+        alert('Clicked tag: ' + this.textContent);
+      }
+    });
+  });
+</script>
