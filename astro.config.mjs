@@ -25,7 +25,32 @@ export default defineConfig({
 				},
 				{
 					label: 'Sailing',
-					autogenerate: { directory: 'sailing' },
+					items: [
+						{
+							label: 'At home',
+							autogenerate: { directory: 'sailing/at-home' },
+						},
+						{
+							label: 'In the plane',
+							autogenerate: { directory: 'sailing/in-the-plane' },
+						},
+						{
+							label: 'In the marina',
+							autogenerate: { directory: 'sailing/in-the-marina' },
+						},
+						{
+							label: 'On the yacht',
+							autogenerate: { directory: 'sailing/on-the-yacht' },
+						},
+						{
+							label: 'Helpful info',
+							autogenerate: { directory: 'sailing/helpful-info' },
+						},
+						{
+							label: 'At sea',
+							autogenerate: { directory: 'sailing/at-sea' },
+						},
+					],
 				},
 				{
 					label: 'Sailing Deck',
