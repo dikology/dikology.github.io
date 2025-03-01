@@ -10,22 +10,22 @@ id: 0201
 How to Rename a Column in SQL
 
 **Back:**
-To keep your database organized, you might need to change the names of the columns. To rename a column in SQL, you can use the ALTER TABLE statement with the RENAME COLUMN clause.
+<p>To keep your database organized, you might need to change the names of the columns. To rename a column in SQL, you can use the ALTER TABLE statement with the RENAME COLUMN clause.</p>
 
-Here is the basic syntax:
+<p>Here is the basic syntax:</p>
 
 ```
 ALTER TABLE table_name 
 RENAME COLUMN old_column_name TO new_column_name;
 ```
 
-For example, suppose you have a table called “tv\_show” with a column named “genre”. To rename this column to “category”, you would use the following SQL statement:
+<p>For example, suppose you have a table called “tv\_show” with a column named “genre”. To rename this column to “category”, you would use the following SQL statement:</p>
 
 ```
 ALTER TABLE tv_show 
 RENAME COLUMN genre TO category;
 ```
 
-After executing this query, the column previously known as “genre” will now be called category. Note that renaming a column will not change the data stored in that column, but it will change the column’s name in the table schema.
+<p>After executing this query, the column previously known as “genre” will now be called category. Note that renaming a column will not change the data stored in that column, but it will change the column’s name in the table schema.</p>
 
-If renaming doesn’t solve your problem, you can add a new column or [drop a column](https://www.coginiti.co/tutorials/beginner/drop-column/) from your table.
+<p>If renaming doesn’t solve your problem, you can add a new column or [drop a column](https://www.coginiti.co/tutorials/beginner/drop-column/) from your table.</p>
