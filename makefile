@@ -1,6 +1,6 @@
 run-sd:
-	# poetry run python utils/anki-generators/sd.py
-	# git add public/decks/*
+	poetry run python utils/anki-generators/sd.py
+	git add public/decks/*
 
 diff:
 	@echo "Generating diff prompt..."
