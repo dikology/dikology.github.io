@@ -1,8 +1,9 @@
 ---
 title: Полезные материалы
 description: Полезные материалы
+created: March 01
+modified: March 16
 ---
-
 ### Полезные приложения
 - [ ] Splitwise – учёт совместных трат
 - [ ] Navionics@ Boating – глубины и опасности
@@ -11,8 +12,7 @@ description: Полезные материалы
 - [ ] Noforeignland – порты и инфраструктура
 - [ ] Airalo – e-sim
 - [ ] Справочник узлов – схемы плетения узлов
-- [ ] Google maps / Maps Мe – карты offine
-- [ ] Google Photos – общий фотоальбом
+- [ ] Google maps / Maps Мe – карты offline
 
 ## Полезные ссылки и использованные материалы
 
