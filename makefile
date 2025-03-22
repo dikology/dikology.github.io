@@ -1,5 +1,5 @@
-run-sd:
-	poetry run python utils/anki-generators/sd.py
+decks:
+	poetry run python utils/anki-generators/decks.py
 	git add public/decks/*
 
 diff:
