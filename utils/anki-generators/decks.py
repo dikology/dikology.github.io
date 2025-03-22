@@ -22,19 +22,26 @@ def load_card(file_path):
     front = front.split('**Front:**', 1)[-1].strip()
     back = back.strip()
     
-    # Check if the type is 'basic-media' and parse for markdown image syntax
+    # Check if the type is 'basic-media' and parse for markdown media syntax
     media = None
     if meta.get('type', 'basic') == 'basic-media':
-        # Look for markdown image pattern ![...](filename)
-        img_start = back.find('![')
-        if img_start != -1:
-            img_end = back.find(')', img_start) + 1
-            markdown_img = back[img_start:img_end].strip()
+        # Look for markdown image/video pattern ![...](filename)
+        media_start = back.find('![')
+        if media_start != -1:
+            media_end = back.find(')', media_start) + 1
+            markdown_media = back[media_start:media_end].strip()
             # Extract filename from markdown syntax
-            filename = markdown_img[markdown_img.find('(')+1:markdown_img.find(')')]
-            # Convert to HTML img tag
-            media = f'<img src="{filename}">'
-            back = back.replace(markdown_img, '').strip()  # Remove the markdown image
+            filename = markdown_media[markdown_media.find('(')+1:markdown_media.find(')')]
+            
+            # Determine if it's a video or image based on file extension
+            if filename.lower().endswith(('.mp4', '.webm', '.mov')):
+                # Convert to HTML video tag
+                media = f'<video controls src="{filename}" width="100%"></video>'
+            else:
+                # Convert to HTML img tag for images
+                media = f'<img src="{filename}">'
+                
+            back = back.replace(markdown_media, '').strip()  # Remove the markdown media
 
     return {'type': meta.get('type', 'basic'), 'front': front, 'back': back, 'media': media, 'id': meta.get('id', None)}
 
@@ -140,7 +147,7 @@ for n_deck in ids:
         deck.add_model(model)
         deck.add_model(model_media)
         
-        image_files = []  # Initialize a list to store image filenames
+        media_files = []  # Initialize a list to store media filenames
 
         for filename in os.listdir(f"src/content/docs/{n_deck}"): 
             print(filename)
@@ -153,13 +160,13 @@ for n_deck in ids:
                     if card_data['type'] == 'basic-media':
                         deck.add_note(create_media_card(model_media, card_data['front'], card_data['back'], card_data['media'], card_data['id']))
 
-            # Identify image files by their filenames
-            if filename.endswith('.jpg'):
-                image_files.append(os.path.join(f'src/content/docs/{n_deck}', filename))  # Add full path to image file
+            # Identify media files by their filenames
+            if filename.endswith(('.jpg', '.jpeg', '.png', '.gif', '.mp4', '.webm', '.mov')):
+                media_files.append(os.path.join(f'src/content/docs/{n_deck}', filename))  # Add full path to media file
 
         # Note type-wise packages
         my_package = genanki.Package(deck)
-        my_package.media_files = image_files  # Assign the list of image files
+        my_package.media_files = media_files  # Assign the list of media files
         my_package.write_to_file(
             root / "public" / "decks" / f"{n_deck}.apkg"
         )

@@ -12,4 +12,4 @@ modified: March 16
 
 **Back:**
 
-<iframe data-anki-html-allowed="true" width="560" height="315" src="https://www.youtube.com/embed/uoBLSBWWyNA?si=72Jb9PzXrVeDYQZJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Беседочный узел](bowline-knot.mp4)
