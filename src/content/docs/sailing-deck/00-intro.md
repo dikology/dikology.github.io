@@ -10,7 +10,7 @@ I am using [genanki](https://github.com/kerrickstaley/genanki) for this purpose.
 
 Основные темы:
 - [] Подготовка команды (интро)
-- [] Брифинг по безопасности
+- [v] Брифинг по безопасности [[12-safety-briefing]]
 - [] Подготовка яхты к выходу
 - [] Отход
 - [] Постановка грота
@@ -27,6 +27,6 @@ I am using [genanki](https://github.com/kerrickstaley/genanki) for this purpose.
 - [] Швартовки
 - [] Узлы
 
-## Download Deck
-(TODO: make a button)
-[download the deck](https://dikology.github.io/decks/sailing-deck.apkg)
+<button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold; text-decoration: none; display: inline-block; margin: 10px 0;" onclick="window.location.href='https://dikology.github.io/decks/sailing-deck.apkg'">
+  Download the Sailing Deck
+</button>
