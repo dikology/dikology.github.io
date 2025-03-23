@@ -33,13 +33,17 @@ def load_card(file_path):
             # Extract filename from markdown syntax
             filename = markdown_media[markdown_media.find('(')+1:markdown_media.find(')')]
             
+            # For Anki, we should use just the filename, not the path
+            # Extract just the filename without directory path
+            base_filename = os.path.basename(filename)
+            
             # Determine if it's a video or image based on file extension
-            if filename.lower().endswith(('.mp4', '.webm', '.mov')):
-                # Convert to HTML video tag
-                media = f'<video controls src="{filename}" width="100%"></video>'
+            if base_filename.lower().endswith(('.mp4', '.webm', '.mov')):
+                # Use [sound:filename] syntax for video files in Anki
+                media = f'[sound:{base_filename}]'
             else:
-                # Convert to HTML img tag for images
-                media = f'<img src="{filename}">'
+                # For images, use <img> tag with just the filename
+                media = f'<img src="{base_filename}">'
                 
             back = back.replace(markdown_media, '').strip()  # Remove the markdown media
 
@@ -162,7 +166,9 @@ for n_deck in ids:
 
             # Identify media files by their filenames
             if filename.endswith(('.jpg', '.jpeg', '.png', '.gif', '.mp4', '.webm', '.mov')):
-                media_files.append(os.path.join(f'src/content/docs/{n_deck}', filename))  # Add full path to media file
+                # Use full path for the file collection, but Anki will reference by filename only
+                media_files.append(os.path.join(f'src/content/docs/{n_deck}', filename))
+                print(f"Adding media file: {filename}")  # Debug output
 
         # Note type-wise packages
         my_package = genanki.Package(deck)
