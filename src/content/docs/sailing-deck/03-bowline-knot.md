@@ -12,4 +12,4 @@ modified: March 16
 
 **Back:**
 
-![Беседочный узел](bowline-knot.mp4)
+![](bowline-knot.gif)
