@@ -1,7 +1,7 @@
 ---
 title: Беседочный узел
 description: a card about bowline knot
-type: basic
+type: basic-media
 id: 103
 created: March 16
 modified: March 16
