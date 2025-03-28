@@ -1,5 +1,16 @@
 ---
+// Import statements should come first
 import BaseLayout from './BaseLayout.astro';
+
+// Props interface is recommended for clarity
+interface Props {
+  frontmatter: {
+    title: string;
+    description: string;
+  }
+}
+
+// Destructure from Astro.props
 const { frontmatter } = Astro.props;
 ---
 
