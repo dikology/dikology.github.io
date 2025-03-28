@@ -20,6 +20,10 @@ export default defineConfig({
 					autogenerate: { directory: 'data' },
 				},
 				{
+					label: 'Datafolio',
+					autogenerate: { directory: 'datafolio' },
+				},
+				{
 					label: 'Data Deck',
 					autogenerate: { directory: 'data-deck' },
 				},
