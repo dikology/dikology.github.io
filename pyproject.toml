@@ -9,6 +9,8 @@ packages = [{include = "dikology"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 genanki = "^0.13.1"
+nbconvert = "^7.16.6"
+nbformat = "^5.10.4"
 
 
 [tool.poetry.group.dev.dependencies]
