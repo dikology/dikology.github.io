@@ -3,8 +3,10 @@ title: Safe Water Marks (IALA A)
 description: Understanding safe water marks in IALA A system
 ---
 
+**Front:**
 # Safe Water Marks
 
+**Back:**
 Safe water marks indicate that there is navigable water all around the mark. They are used to indicate mid-channels, fairways, or landfall positions.
 
 **Safe Water Mark:**

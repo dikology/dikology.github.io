@@ -3,9 +3,11 @@ title: Reefing Techniques
 description: Procedures for reducing sail area in stronger winds
 ---
 
+**Front:**
 # Reefing Techniques
 
-**When to Reef:**
+**Back:**
+When to Reef:
 - Before you think you need to
 - When you first think about reefing
 - When wind is consistently above force 4-5 (16-21 knots)

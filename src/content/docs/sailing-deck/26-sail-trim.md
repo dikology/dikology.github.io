@@ -3,8 +3,10 @@ title: Sail Trim Theory
 description: Advanced concepts on sail shape and performance
 ---
 
+**Front:**
 # Sail Trim Theory
 
+**Back:**
 **Basic Concepts:**
 - **Angle of Attack:** Angle between the sail and the apparent wind
 - **Draft:** The curvature or "belly" of the sail

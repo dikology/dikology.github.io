@@ -3,8 +3,10 @@ title: Basic Engine Maintenance
 description: Essential care and troubleshooting for marine engines
 ---
 
+**Front:**
 # Basic Engine Maintenance
 
+**Back:**
 **Daily Checks:**
 - **Oil Level:** Check before starting (engine cold)
 - **Coolant Level:** Check when cold, maintain between min/max marks

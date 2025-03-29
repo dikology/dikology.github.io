@@ -3,9 +3,11 @@ title: Heavy Weather Sailing
 description: Strategies and techniques for sailing in rough conditions
 ---
 
+**Front:**
 # Heavy Weather Sailing
 
-**Preparation:**
+**Back:**
+Preparation:
 - Secure all loose items below and on deck
 - Don foul weather gear and lifejackets/harnesses
 - Brief crew on plans and safety procedures

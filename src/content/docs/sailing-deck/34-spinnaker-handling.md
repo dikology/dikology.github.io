@@ -3,8 +3,10 @@ title: Spinnaker Handling
 description: Techniques for safely flying and controlling a spinnaker
 ---
 
+**Front:**
 # Spinnaker Handling
 
+**Back:**
 **Types of Spinnakers:**
 - **Symmetric Spinnaker:** Traditional balloon-shaped sail with identical halves
 - **Asymmetric Spinnaker/Gennaker:** More curved leading edge, ideal for reaching

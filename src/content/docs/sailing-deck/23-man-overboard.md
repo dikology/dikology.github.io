@@ -3,9 +3,11 @@ title: Man Overboard Recovery (MOB)
 description: Essential procedures for person overboard situations
 ---
 
+**Front:**
 # Man Overboard Recovery
 
-**Immediate Actions:**
+**Back:**
+Immediate Actions:
 1. Shout "MAN OVERBOARD" to alert the crew
 2. Assign a crew member as the "spotter" to continuously point at the person in the water
 3. Throw flotation devices toward the person

@@ -3,8 +3,10 @@ title: New Danger Marks (IALA A)
 description: Understanding new danger marks in IALA A system
 ---
 
+**Front:**
 # New Danger Marks
 
+**Back:**
 New danger marks indicate newly discovered hazards that may not yet appear on charts or in nautical publications. These marks are temporary and will eventually be replaced by permanent markings after sufficient notice has been given.
 
 **New Danger Mark:**

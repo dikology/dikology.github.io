@@ -3,8 +3,10 @@ title: Isolated Danger Marks (IALA A)
 description: Understanding isolated danger marks in IALA A system
 ---
 
+**Front:**
 # Isolated Danger Marks
 
+**Back:**
 Isolated danger marks indicate a danger that has navigable water all around it. They are placed on, or near, an isolated danger of limited extent.
 
 **Isolated Danger Mark:**

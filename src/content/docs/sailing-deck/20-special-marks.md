@@ -3,8 +3,10 @@ title: Special Marks (IALA A)
 description: Understanding special marks in IALA A system
 ---
 
+**Front:**
 # Special Marks
 
+**Back:**
 Special marks indicate a special area or feature whose nature may be found by consulting a chart or sailing directions. They are not primarily intended for navigation but indicate special areas or features.
 
 **Special Mark:**

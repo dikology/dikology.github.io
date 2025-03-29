@@ -3,8 +3,10 @@ title: Docking Techniques
 description: Essential skills for safe and controlled docking maneuvers
 ---
 
+**Front:**
 # Docking Techniques
 
+**Back:**
 **Preparation:**
 - Study wind and current conditions
 - Prepare and position fenders

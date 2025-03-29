@@ -3,8 +3,10 @@ title: Navigation Basics
 description: Essential chart reading and navigation techniques for sailors
 ---
 
+**Front:**
 # Navigation Basics
 
+**Back:**
 **Nautical Charts:**
 - **Scale:** Typically 1:10,000 to 1:80,000 for coastal navigation
 - **Depths:** Usually shown in meters or fathoms (1 fathom = 6 feet)

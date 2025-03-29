@@ -3,8 +3,10 @@ title: Emergency Wreck Marking Buoys (IALA A)
 description: Understanding emergency wreck marking buoys in IALA A system
 ---
 
+**Front:**
 # Emergency Wreck Marking Buoys
 
+**Back:**
 Emergency Wreck Marking Buoys (EWMB) are used to mark new wrecks or obstructions that pose an immediate danger to navigation. They are deployed as a temporary measure until a more permanent form of marking can be established.
 
 **Emergency Wreck Marking Buoy:**
