@@ -1,13 +1,8 @@
 ---
-title: Tv Csi Sber Analysis
+title: Пример ноутбука с анализом данных
 description: Converted from Jupyter notebook
 layout: ../../../layouts/NotebookLayout.astro
 ---
-
-# Анализ данных по телевизорам Sber CSI октябрь - январь 2025
-
-В этом исследовании рассматриваем только бренд Сбер
-
 
 ## 1. Основной вопрос: Насколько вы довольны телевизором на платформе Салют ТВ?
 
