@@ -7,50 +7,77 @@ description: Advanced concepts on sail shape and performance
 # Sail Trim Theory
 
 **Back:**
-**Basic Concepts:**
-- **Angle of Attack:** Angle between the sail and the apparent wind
-- **Draft:** The curvature or "belly" of the sail
-- **Twist:** Variation in the angle of attack from bottom to top of sail
-- **Power:** Amount of force the sail can generate
-- **Telltales:** Indicators of airflow around the sail
+<div class="basic-concepts">
+  <h3>Basic Concepts:</h3>
+  <ul>
+    <li><strong>Angle of Attack:</strong> Angle between the sail and the apparent wind</li>
+    <li><strong>Draft:</strong> The curvature or "belly" of the sail</li>
+    <li><strong>Twist:</strong> Variation in the angle of attack from bottom to top of sail</li>
+    <li><strong>Power:</strong> Amount of force the sail can generate</li>
+    <li><strong>Telltales:</strong> Indicators of airflow around the sail</li>
+  </ul>
+</div>
 
-**Mainsail Controls:**
-- **Mainsheet:** Controls angle to the wind and leech tension
-- **Boom Vang:** Controls leech tension and twist
-- **Outhaul:** Controls draft in the lower part of the sail
-- **Cunningham/Downhaul:** Controls draft position and luff tension
-- **Traveler:** Controls boom angle while maintaining sheet tension
-- **Backstay:** Controls mast bend, affecting sail shape
+<div class="mainsail-controls">
+  <h3>Mainsail Controls:</h3>
+  <ul>
+    <li><strong>Mainsheet:</strong> Controls angle to the wind and leech tension</li>
+    <li><strong>Boom Vang:</strong> Controls leech tension and twist</li>
+    <li><strong>Outhaul:</strong> Controls draft in the lower part of the sail</li>
+    <li><strong>Cunningham/Downhaul:</strong> Controls draft position and luff tension</li>
+    <li><strong>Traveler:</strong> Controls boom angle while maintaining sheet tension</li>
+    <li><strong>Backstay:</strong> Controls mast bend, affecting sail shape</li>
+  </ul>
+</div>
 
-**Headsail Controls:**
-- **Sheet:** Controls angle to the wind and sail shape
-- **Fairlead Position:** Controls twist and foot tension
-  - Forward: More foot tension, less twist
-  - Aft: Less foot tension, more twist
-- **Halyard Tension:** Controls luff tension and draft position
+<div class="headsail-controls">
+  <h3>Headsail Controls:</h3>
+  <ul>
+    <li><strong>Sheet:</strong> Controls angle to the wind and sail shape</li>
+    <li><strong>Fairlead Position:</strong> Controls twist and foot tension
+      <ul>
+        <li>Forward: More foot tension, less twist</li>
+        <li>Aft: Less foot tension, more twist</li>
+      </ul>
+    </li>
+    <li><strong>Halyard Tension:</strong> Controls luff tension and draft position</li>
+  </ul>
+</div>
 
-**Wind Conditions & Trim Adjustments:**
+<div class="wind-conditions">
+  <h3>Wind Conditions & Trim Adjustments:</h3>
 
-**Light Wind (0-10 knots):**
-- Maximum draft (eased outhaul, eased cunningham)
-- Minimal twist (sheet tension)
-- Forward jib lead position
-- Centerline traveler position
+  <h4>Light Wind (0-10 knots):</h4>
+  <ul>
+    <li>Maximum draft (eased outhaul, eased cunningham)</li>
+    <li>Minimal twist (sheet tension)</li>
+    <li>Forward jib lead position</li>
+    <li>Centerline traveler position</li>
+  </ul>
 
-**Medium Wind (10-18 knots):**
-- Moderate draft
-- Moderate twist
-- Centered jib lead position
-- Slight traveler drop to leeward
+  <h4>Medium Wind (10-18 knots):</h4>
+  <ul>
+    <li>Moderate draft</li>
+    <li>Moderate twist</li>
+    <li>Centered jib lead position</li>
+    <li>Slight traveler drop to leeward</li>
+  </ul>
 
-**Strong Wind (18+ knots):**
-- Minimum draft (tight outhaul, tight cunningham)
-- Maximum twist (eased sheet, tight vang)
-- Aft jib lead position
-- Traveler dropped to leeward
-- Consider reefing before adjusting trim
+  <h4>Strong Wind (18+ knots):</h4>
+  <ul>
+    <li>Minimum draft (tight outhaul, tight cunningham)</li>
+    <li>Maximum twist (eased sheet, tight vang)</li>
+    <li>Aft jib lead position</li>
+    <li>Traveler dropped to leeward</li>
+    <li>Consider reefing before adjusting trim</li>
+  </ul>
+</div>
 
-**Key Indicators:**
-- Weather helm indicates too much power in the mainsail
-- Lee helm indicates too much power in the headsail
-- Flapping telltales indicate incorrect sail trim or angle 
+<div class="key-indicators">
+  <h3>Key Indicators:</h3>
+  <ul>
+    <li>Weather helm indicates too much power in the mainsail</li>
+    <li>Lee helm indicates too much power in the headsail</li>
+    <li>Flapping telltales indicate incorrect sail trim or angle</li>
+  </ul>
+</div>

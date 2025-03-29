@@ -7,73 +7,101 @@ description: Essential care and troubleshooting for marine engines
 # Basic Engine Maintenance
 
 **Back:**
-**Daily Checks:**
-- **Oil Level:** Check before starting (engine cold)
-- **Coolant Level:** Check when cold, maintain between min/max marks
-- **Belt Tension:** Check for proper tension and wear
-- **Raw Water Strainer:** Check for debris and clean if necessary
-- **Visual Inspection:** Look for leaks, loose connections, or damage
-- **Exhaust Check:** Clear water discharge when running
+<div class="daily-checks">
+  <h3>Daily Checks:</h3>
+  <ul>
+    <li><strong>Oil Level:</strong> Check before starting (engine cold)</li>
+    <li><strong>Coolant Level:</strong> Check when cold, maintain between min/max marks</li>
+    <li><strong>Belt Tension:</strong> Check for proper tension and wear</li>
+    <li><strong>Raw Water Strainer:</strong> Check for debris and clean if necessary</li>
+    <li><strong>Visual Inspection:</strong> Look for leaks, loose connections, or damage</li>
+    <li><strong>Exhaust Check:</strong> Clear water discharge when running</li>
+  </ul>
+</div>
 
-**Regular Maintenance:**
+<div class="regular-maintenance">
+  <h3>Regular Maintenance:</h3>
 
-**Oil and Filter Changes:**
-- Change every 100-200 engine hours or annually
-- Use manufacturer recommended oil weight
-- Replace oil filter with each oil change
-- Check for metal particles indicating wear
+  <h4>Oil and Filter Changes:</h4>
+  <ul>
+    <li>Change every 100-200 engine hours or annually</li>
+    <li>Use manufacturer recommended oil weight</li>
+    <li>Replace oil filter with each oil change</li>
+    <li>Check for metal particles indicating wear</li>
+  </ul>
 
-**Fuel System:**
-- Change primary and secondary fuel filters annually
-- Drain water separator regularly
-- Check fuel lines for cracks or soft spots
-- Treat fuel with stabilizer for long-term storage
+  <h4>Fuel System:</h4>
+  <ul>
+    <li>Change primary and secondary fuel filters annually</li>
+    <li>Drain water separator regularly</li>
+    <li>Check fuel lines for cracks or soft spots</li>
+    <li>Treat fuel with stabilizer for long-term storage</li>
+  </ul>
 
-**Cooling System:**
-- Check impeller annually or every 200 hours
-- Replace antifreeze every two years
-- Clean heat exchanger if overheating
-- Inspect raw water intake for blockage
-- Check thermostat operation
+  <h4>Cooling System:</h4>
+  <ul>
+    <li>Check impeller annually or every 200 hours</li>
+    <li>Replace antifreeze every two years</li>
+    <li>Clean heat exchanger if overheating</li>
+    <li>Inspect raw water intake for blockage</li>
+    <li>Check thermostat operation</li>
+  </ul>
 
-**Electrical System:**
-- Clean battery terminals and connections
-- Check alternator belt tension
-- Test battery voltage under load
-- Inspect starter motor connections
-- Spray electrical connections with corrosion inhibitor
+  <h4>Electrical System:</h4>
+  <ul>
+    <li>Clean battery terminals and connections</li>
+    <li>Check alternator belt tension</li>
+    <li>Test battery voltage under load</li>
+    <li>Inspect starter motor connections</li>
+    <li>Spray electrical connections with corrosion inhibitor</li>
+  </ul>
+</div>
 
-**Common Problems and Solutions:**
+<div class="troubleshooting">
+  <h3>Common Problems and Solutions:</h3>
 
-**Engine Won't Start:**
-- Check battery connection and charge
-- Verify fuel supply and filters
-- Check glow plugs (diesel)
-- Inspect starter motor
-- Check for air in fuel system (diesel)
+  <h4>Engine Won't Start:</h4>
+  <ul>
+    <li>Check battery connection and charge</li>
+    <li>Verify fuel supply and filters</li>
+    <li>Check glow plugs (diesel)</li>
+    <li>Inspect starter motor</li>
+    <li>Check for air in fuel system (diesel)</li>
+  </ul>
 
-**Engine Overheating:**
-- Check raw water intake and strainer
-- Inspect impeller for damage
-- Check coolant level and quality
-- Look for blocked heat exchanger
-- Verify thermostat operation
+  <h4>Engine Overheating:</h4>
+  <ul>
+    <li>Check raw water intake and strainer</li>
+    <li>Inspect impeller for damage</li>
+    <li>Check coolant level and quality</li>
+    <li>Look for blocked heat exchanger</li>
+    <li>Verify thermostat operation</li>
+  </ul>
 
-**Engine Stalls:**
-- Check for dirty fuel filters
-- Look for air in fuel system
-- Verify idle adjustment
-- Check for water in fuel
-- Inspect electrical connections
+  <h4>Engine Stalls:</h4>
+  <ul>
+    <li>Check for dirty fuel filters</li>
+    <li>Look for air in fuel system</li>
+    <li>Verify idle adjustment</li>
+    <li>Check for water in fuel</li>
+    <li>Inspect electrical connections</li>
+  </ul>
 
-**Excessive Smoke:**
-- **Black smoke:** Over-fueling/poor air supply
-- **Blue smoke:** Burning oil (worn rings/valve seals)
-- **White smoke:** Water in cylinders or cold engine
+  <h4>Excessive Smoke:</h4>
+  <ul>
+    <li><strong>Black smoke:</strong> Over-fueling/poor air supply</li>
+    <li><strong>Blue smoke:</strong> Burning oil (worn rings/valve seals)</li>
+    <li><strong>White smoke:</strong> Water in cylinders or cold engine</li>
+  </ul>
+</div>
 
-**Winter Storage Preparation:**
-- Change oil and filter
-- Add fuel stabilizer
-- Change coolant
-- Fog cylinders (if recommended)
-- Disconnect battery or use maintainer 
+<div class="winter-storage">
+  <h3>Winter Storage Preparation:</h3>
+  <ul>
+    <li>Change oil and filter</li>
+    <li>Add fuel stabilizer</li>
+    <li>Change coolant</li>
+    <li>Fog cylinders (if recommended)</li>
+    <li>Disconnect battery or use maintainer</li>
+  </ul>
+</div>

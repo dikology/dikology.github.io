@@ -7,50 +7,74 @@ description: Strategies and techniques for sailing in rough conditions
 # Heavy Weather Sailing
 
 **Back:**
-Preparation:
-- Secure all loose items below and on deck
-- Don foul weather gear and lifejackets/harnesses
-- Brief crew on plans and safety procedures
-- Check bilges and ensure pumps are working
-- Close hatches and ports
-- Rig jacklines for crew safety
+<div class="preparation-section">
+  <h3>Preparation:</h3>
+  <ul>
+    <li>Secure all loose items below and on deck</li>
+    <li>Don foul weather gear and lifejackets/harnesses</li>
+    <li>Brief crew on plans and safety procedures</li>
+    <li>Check bilges and ensure pumps are working</li>
+    <li>Close hatches and ports</li>
+    <li>Rig jacklines for crew safety</li>
+  </ul>
+</div>
 
-**Sail Configuration:**
-- Deep reef or storm jib/trysail depending on conditions
-- Reduce sail area early rather than late
-- Consider storm sails if available (storm jib, trysail)
-- Ensure sheets and halyards are secure
-- Check all rigging for chafe points
+<div class="sail-config-section">
+  <h3>Sail Configuration:</h3>
+  <ul>
+    <li>Deep reef or storm jib/trysail depending on conditions</li>
+    <li>Reduce sail area early rather than late</li>
+    <li>Consider storm sails if available (storm jib, trysail)</li>
+    <li>Ensure sheets and halyards are secure</li>
+    <li>Check all rigging for chafe points</li>
+  </ul>
+</div>
 
-**Strategies by Point of Sail:**
+<div class="strategies-section">
+  <h3>Strategies by Point of Sail:</h3>
 
-**Beating (Close Hauled):**
-- Sail slightly freer than normal close hauled
-- Focus on keeping the boat moving through waves
-- Ease sheets briefly when hitting large waves
-- Consider motor-sailing if making insufficient progress
+  <h4>Beating (Close Hauled):</h4>
+  <ul>
+    <li>Sail slightly freer than normal close hauled</li>
+    <li>Focus on keeping the boat moving through waves</li>
+    <li>Ease sheets briefly when hitting large waves</li>
+    <li>Consider motor-sailing if making insufficient progress</li>
+  </ul>
 
-**Reaching:**
-- Often most comfortable point of sail in heavy weather
-- Balance heel with reduced sail area
-- Steer actively to prevent broaching
-- Consider preventers to avoid accidental jibes
+  <h4>Reaching:</h4>
+  <ul>
+    <li>Often most comfortable point of sail in heavy weather</li>
+    <li>Balance heel with reduced sail area</li>
+    <li>Steer actively to prevent broaching</li>
+    <li>Consider preventers to avoid accidental jibes</li>
+  </ul>
 
-**Running:**
-- Most dangerous point of sail in heavy weather
-- Risk of broaching or accidental jibe
-- Consider alternatives: broad reach or heaving to
-- If running, use a preventer and consider trailing warps/drogues
+  <h4>Running:</h4>
+  <ul>
+    <li>Most dangerous point of sail in heavy weather</li>
+    <li>Risk of broaching or accidental jibe</li>
+    <li>Consider alternatives: broad reach or heaving to</li>
+    <li>If running, use a preventer and consider trailing warps/drogues</li>
+  </ul>
+</div>
 
-**Techniques:**
-- **Heaving to:** Creating stable position with backed jib
-- **Lying ahull:** (Last resort) Taking down all sails and letting boat lie beam to the waves
-- **Running with drogues/sea anchor:** To slow boat and maintain control
-- **Active steering:** Keep best crew at helm, rotate frequently to prevent fatigue
+<div class="techniques-section">
+  <h3>Techniques:</h3>
+  <ul>
+    <li><strong>Heaving to:</strong> Creating stable position with backed jib</li>
+    <li><strong>Lying ahull:</strong> (Last resort) Taking down all sails and letting boat lie beam to the waves</li>
+    <li><strong>Running with drogues/sea anchor:</strong> To slow boat and maintain control</li>
+    <li><strong>Active steering:</strong> Keep best crew at helm, rotate frequently to prevent fatigue</li>
+  </ul>
+</div>
 
-**Crew Management:**
-- Keep everyone clipped in on deck
-- Rotate shifts to prevent exhaustion
-- Stay hydrated but limit fluid to reduce need for head use
-- Maintain positive attitude and clear communication
-- Watch for symptoms of seasickness and hypothermia 
+<div class="crew-section">
+  <h3>Crew Management:</h3>
+  <ul>
+    <li>Keep everyone clipped in on deck</li>
+    <li>Rotate shifts to prevent exhaustion</li>
+    <li>Stay hydrated but limit fluid to reduce need for head use</li>
+    <li>Maintain positive attitude and clear communication</li>
+    <li>Watch for symptoms of seasickness and hypothermia</li>
+  </ul>
+</div>

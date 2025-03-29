@@ -7,13 +7,17 @@ description: Understanding isolated danger marks in IALA A system
 # Isolated Danger Marks
 
 **Back:**
-Isolated danger marks indicate a danger that has navigable water all around it. They are placed on, or near, an isolated danger of limited extent.
+<p>Isolated danger marks indicate a danger that has navigable water all around it. They are placed on, or near, an isolated danger of limited extent.</p>
 
-**Isolated Danger Mark:**
-- **Color:** Black with one or more broad horizontal red bands
-- **Shape:** Pillar or spar
-- **Topmark:** Two black spheres, one above the other
-- **Light:** White flashes in groups of two (2)
-- **Mnemonic for light:** "Two spheres, two flashes"
+<div class="mark-section">
+  <h3>Isolated Danger Mark:</h3>
+  <ul>
+    <li><strong>Color:</strong> Black with one or more broad horizontal red bands</li>
+    <li><strong>Shape:</strong> Pillar or spar</li>
+    <li><strong>Topmark:</strong> Two black spheres, one above the other</li>
+    <li><strong>Light:</strong> White flashes in groups of two (2)</li>
+    <li><strong>Mnemonic for light:</strong> "Two spheres, two flashes"</li>
+  </ul>
+</div>
 
-These marks should be passed at a safe distance in any direction, as they indicate a danger surrounded by navigable water. The size of the danger is typically not indicated on navigation charts, so an appropriate safe distance should be maintained. 
+<p>These marks should be passed at a safe distance in any direction, as they indicate a danger surrounded by navigable water. The size of the danger is typically not indicated on navigation charts, so an appropriate safe distance should be maintained.</p>

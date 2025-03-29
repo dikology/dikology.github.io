@@ -7,38 +7,54 @@ description: Understanding the four cardinal marks in IALA A system
 # Cardinal Marks
 
 **Back:**
-Cardinal marks indicate where the deepest water is in relation to the mark. They are named after the compass quadrant (North, East, South, West) in which they are placed.
+<p>Cardinal marks indicate where the deepest water is in relation to the mark. They are named after the compass quadrant (North, East, South, West) in which they are placed.</p>
 
-**North Cardinal Mark:**
-- **Color:** Black over yellow
-- **Shape:** Pillar or spar
-- **Topmark:** Two black cones, points upward
-- **Light:** Continuous quick or very quick white flashes
-- **Position:** North of danger
-- **Safe passage:** Pass to the north of this mark
+<div class="mark-section">
+  <h3>North Cardinal Mark:</h3>
+  <ul>
+    <li><strong>Color:</strong> Black over yellow</li>
+    <li><strong>Shape:</strong> Pillar or spar</li>
+    <li><strong>Topmark:</strong> Two black cones, points upward</li>
+    <li><strong>Light:</strong> Continuous quick or very quick white flashes</li>
+    <li><strong>Position:</strong> North of danger</li>
+    <li><strong>Safe passage:</strong> Pass to the north of this mark</li>
+  </ul>
+</div>
 
-**East Cardinal Mark:**
-- **Color:** Black with yellow horizontal band
-- **Shape:** Pillar or spar
-- **Topmark:** Two black cones, base to base
-- **Light:** Three quick or very quick white flashes, followed by a long flash
-- **Position:** East of danger
-- **Safe passage:** Pass to the east of this mark
+<div class="mark-section">
+  <h3>East Cardinal Mark:</h3>
+  <ul>
+    <li><strong>Color:</strong> Black with yellow horizontal band</li>
+    <li><strong>Shape:</strong> Pillar or spar</li>
+    <li><strong>Topmark:</strong> Two black cones, base to base</li>
+    <li><strong>Light:</strong> Three quick or very quick white flashes, followed by a long flash</li>
+    <li><strong>Position:</strong> East of danger</li>
+    <li><strong>Safe passage:</strong> Pass to the east of this mark</li>
+  </ul>
+</div>
 
-**South Cardinal Mark:**
-- **Color:** Yellow over black
-- **Shape:** Pillar or spar
-- **Topmark:** Two black cones, points downward
-- **Light:** Six quick or very quick white flashes, followed by a long flash
-- **Position:** South of danger
-- **Safe passage:** Pass to the south of this mark
+<div class="mark-section">
+  <h3>South Cardinal Mark:</h3>
+  <ul>
+    <li><strong>Color:</strong> Yellow over black</li>
+    <li><strong>Shape:</strong> Pillar or spar</li>
+    <li><strong>Topmark:</strong> Two black cones, points downward</li>
+    <li><strong>Light:</strong> Six quick or very quick white flashes, followed by a long flash</li>
+    <li><strong>Position:</strong> South of danger</li>
+    <li><strong>Safe passage:</strong> Pass to the south of this mark</li>
+  </ul>
+</div>
 
-**West Cardinal Mark:**
-- **Color:** Yellow with black horizontal band
-- **Shape:** Pillar or spar
-- **Topmark:** Two black cones, point to point
-- **Light:** Nine quick or very quick white flashes
-- **Position:** West of danger
-- **Safe passage:** Pass to the west of this mark
+<div class="mark-section">
+  <h3>West Cardinal Mark:</h3>
+  <ul>
+    <li><strong>Color:</strong> Yellow with black horizontal band</li>
+    <li><strong>Shape:</strong> Pillar or spar</li>
+    <li><strong>Topmark:</strong> Two black cones, point to point</li>
+    <li><strong>Light:</strong> Nine quick or very quick white flashes</li>
+    <li><strong>Position:</strong> West of danger</li>
+    <li><strong>Safe passage:</strong> Pass to the west of this mark</li>
+  </ul>
+</div>
 
-**Memory Aid:** "The cones point to where the black is." 
+<p><strong>Memory Aid:</strong> "The cones point to where the black is."</p>

@@ -4,7 +4,9 @@ description: card about jibing maneuver
 type: basic
 id: 105
 created: March 19
-modified: March 19
+modified: March 29
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -25,3 +27,4 @@ modified: March 19
 </ol>
 
 <p><strong>Важно:</strong> Этот маневр может быть опасен при сильном ветре из-за резкого переброса гика!</p>
+[[01-Sailing-deck]]

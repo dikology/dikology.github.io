@@ -7,55 +7,83 @@ description: Essential marine radio communication protocols and procedures
 # VHF Radio Procedures
 
 **Back:**
-**Basic VHF Operation:**
-- Turn on and set to appropriate channel
-- Channel 16 is for hailing and distress (156.8 MHz)
-- Adjust squelch until background noise just disappears
-- Hold microphone 2-3 inches from mouth
-- Press transmit button before speaking, release after
+<div class="vhf-operation">
+  <h3>Basic VHF Operation:</h3>
+  <ul>
+    <li>Turn on and set to appropriate channel</li>
+    <li>Channel 16 is for hailing and distress (156.8 MHz)</li>
+    <li>Adjust squelch until background noise just disappears</li>
+    <li>Hold microphone 2-3 inches from mouth</li>
+    <li>Press transmit button before speaking, release after</li>
+  </ul>
+</div>
 
-**Standard Marine VHF Channels:**
-- **Channel 16:** Distress, safety, and calling
-- **Channel 13:** Bridge-to-bridge navigation
-- **Channel 6, 67, 72, 73:** Ship-to-ship
-- **Channel 9:** Secondary calling channel (some regions)
-- **Channel 22A:** Coast Guard working channel (US)
-- **Channel 70:** Digital Selective Calling (DSC)
+<div class="vhf-channels">
+  <h3>Standard Marine VHF Channels:</h3>
+  <ul>
+    <li><strong>Channel 16:</strong> Distress, safety, and calling</li>
+    <li><strong>Channel 13:</strong> Bridge-to-bridge navigation</li>
+    <li><strong>Channel 6, 67, 72, 73:</strong> Ship-to-ship</li>
+    <li><strong>Channel 9:</strong> Secondary calling channel (some regions)</li>
+    <li><strong>Channel 22A:</strong> Coast Guard working channel (US)</li>
+    <li><strong>Channel 70:</strong> Digital Selective Calling (DSC)</li>
+  </ul>
+</div>
 
-**Standard Call Procedure:**
-1. Listen to ensure channel is clear
-2. Press transmit button
-3. "[Called station] this is [your vessel name]" (3 times or less)
-4. Release transmit and wait for response
-5. When answered, suggest working channel
-6. Switch to working channel after agreement
-7. Re-establish contact on working channel
+<div class="call-procedure">
+  <h3>Standard Call Procedure:</h3>
+  <ol>
+    <li>Listen to ensure channel is clear</li>
+    <li>Press transmit button</li>
+    <li>"[Called station] this is [your vessel name]" (3 times or less)</li>
+    <li>Release transmit and wait for response</li>
+    <li>When answered, suggest working channel</li>
+    <li>Switch to working channel after agreement</li>
+    <li>Re-establish contact on working channel</li>
+  </ol>
+</div>
 
-**Distress Call (MAYDAY):**
-1. **MAYDAY, MAYDAY, MAYDAY**
-2. **THIS IS [vessel name and call sign, repeated 3 times]**
-3. **MAYDAY [vessel name]**
-4. **Position:** latitude/longitude or bearing/distance from landmark
-5. **Nature of distress:** fire, sinking, etc.
-6. **Assistance required**
-7. **Other information:** number of people onboard, description of vessel
-8. **OVER**
+<div class="distress-call">
+  <h3>Distress Call (MAYDAY):</h3>
+  <ol>
+    <li><strong>MAYDAY, MAYDAY, MAYDAY</strong></li>
+    <li><strong>THIS IS [vessel name and call sign, repeated 3 times]</strong></li>
+    <li><strong>MAYDAY [vessel name]</strong></li>
+    <li><strong>Position:</strong> latitude/longitude or bearing/distance from landmark</li>
+    <li><strong>Nature of distress:</strong> fire, sinking, etc.</li>
+    <li><strong>Assistance required</strong></li>
+    <li><strong>Other information:</strong> number of people onboard, description of vessel</li>
+    <li><strong>OVER</strong></li>
+  </ol>
+</div>
 
-**Urgency Call (PAN-PAN):**
-1. **PAN-PAN, PAN-PAN, PAN-PAN**
-2. **ALL STATIONS or [specific station]**
-3. **THIS IS [vessel name and call sign, repeated 3 times]**
-4. State position and nature of urgency
-5. Type of assistance required
-6. **OVER**
+<div class="urgency-call">
+  <h3>Urgency Call (PAN-PAN):</h3>
+  <ol>
+    <li><strong>PAN-PAN, PAN-PAN, PAN-PAN</strong></li>
+    <li><strong>ALL STATIONS or [specific station]</strong></li>
+    <li><strong>THIS IS [vessel name and call sign, repeated 3 times]</strong></li>
+    <li>State position and nature of urgency</li>
+    <li>Type of assistance required</li>
+    <li><strong>OVER</strong></li>
+  </ol>
+</div>
 
-**Safety Call (SECURITÉ):**
-1. **SECURITÉ, SECURITÉ, SECURITÉ**
-2. **ALL STATIONS or [specific station]**
-3. **THIS IS [vessel name and call sign, repeated 3 times]**
-4. State safety message (weather warning, navigation hazard, etc.)
-5. **OUT**
+<div class="safety-call">
+  <h3>Safety Call (SECURITÉ):</h3>
+  <ol>
+    <li><strong>SECURITÉ, SECURITÉ, SECURITÉ</strong></li>
+    <li><strong>ALL STATIONS or [specific station]</strong></li>
+    <li><strong>THIS IS [vessel name and call sign, repeated 3 times]</strong></li>
+    <li>State safety message (weather warning, navigation hazard, etc.)</li>
+    <li><strong>OUT</strong></li>
+  </ol>
+</div>
 
-**Radio Check:**
-- "Radio check, radio check, radio check"
-- Response scale: "Loud and clear" to "Weak and distorted" 
+<div class="radio-check">
+  <h3>Radio Check:</h3>
+  <ul>
+    <li>"Radio check, radio check, radio check"</li>
+    <li>Response scale: "Loud and clear" to "Weak and distorted"</li>
+  </ul>
+</div>

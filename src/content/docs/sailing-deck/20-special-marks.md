@@ -7,22 +7,28 @@ description: Understanding special marks in IALA A system
 # Special Marks
 
 **Back:**
-Special marks indicate a special area or feature whose nature may be found by consulting a chart or sailing directions. They are not primarily intended for navigation but indicate special areas or features.
+<p>Special marks indicate a special area or feature whose nature may be found by consulting a chart or sailing directions. They are not primarily intended for navigation but indicate special areas or features.</p>
 
-**Special Mark:**
-- **Color:** Yellow
-- **Shape:** Optional, but not conflicting with navigational marks; often "X"-shaped or pillar
-- **Topmark:** Single yellow "X" (if fitted)
-- **Light:** Yellow, any rhythm not used for white lights of other marks
+<div class="mark-section">
+  <h3>Special Mark:</h3>
+  <ul>
+    <li><strong>Color:</strong> Yellow</li>
+    <li><strong>Shape:</strong> Optional, but not conflicting with navigational marks; often "X"-shaped or pillar</li>
+    <li><strong>Topmark:</strong> Single yellow "X" (if fitted)</li>
+    <li><strong>Light:</strong> Yellow, any rhythm not used for white lights of other marks</li>
+  </ul>
+</div>
 
-**Common uses include:**
-- Traffic separation schemes
-- Spoil grounds and dredging areas
-- Military exercise zones
-- Cable or pipeline areas including outfalls
-- Recreation zones
-- Boundaries of channel crossings
-- Areas where anchoring is prohibited
-- Fishery or aquaculture areas
+<p><strong>Common uses include:</strong></p>
+<ul>
+  <li>Traffic separation schemes</li>
+  <li>Spoil grounds and dredging areas</li>
+  <li>Military exercise zones</li>
+  <li>Cable or pipeline areas including outfalls</li>
+  <li>Recreation zones</li>
+  <li>Boundaries of channel crossings</li>
+  <li>Areas where anchoring is prohibited</li>
+  <li>Fishery or aquaculture areas</li>
+</ul>
 
-Special marks may also be used to mark a channel within a channel (e.g., a preferred route through a wide estuary). 
+<p>Special marks may also be used to mark a channel within a channel (e.g., a preferred route through a wide estuary).</p>

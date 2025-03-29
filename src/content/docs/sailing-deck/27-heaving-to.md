@@ -1,6 +1,10 @@
 ---
 title: Heaving To
 description: Technique for pausing progress and stabilizing a sailboat at sea
+created: March 29
+modified: March 29
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -44,3 +48,6 @@ A technique to essentially "park" your sailboat at sea by balancing the forces o
 2. Release the backed jib
 3. Trim sails for desired course
 4. Resume normal sailing 
+
+[[Sailing]]
+[[01-Sailing-deck]]

@@ -7,39 +7,55 @@ description: Essential procedures for person overboard situations
 # Man Overboard Recovery
 
 **Back:**
-Immediate Actions:
-1. Shout "MAN OVERBOARD" to alert the crew
-2. Assign a crew member as the "spotter" to continuously point at the person in the water
-3. Throw flotation devices toward the person
-4. Press MOB button on GPS if available
-5. Note the position and time
+<h3>Immediate Actions:</h3>
+<ol>
+  <li>Shout "MAN OVERBOARD" to alert the crew</li>
+  <li>Assign a crew member as the "spotter" to continuously point at the person in the water</li>
+  <li>Throw flotation devices toward the person</li>
+  <li>Press MOB button on GPS if available</li>
+  <li>Note the position and time</li>
+</ol>
 
-**Recovery Methods:**
+<div class="recovery-section">
+  <h3>Recovery Methods:</h3>
 
-**Figure 8 / Williamson Turn:**
-- Continue on course for about 5 boat lengths
-- Turn sharply to windward and continue until nearly head to wind
-- Tack without releasing the jib
-- Bear away to a broad reach
-- Approach the person from downwind (letting the boat drift toward them)
-- Stop the boat alongside the person
+  <h4>Figure 8 / Williamson Turn:</h4>
+  <ul>
+    <li>Continue on course for about 5 boat lengths</li>
+    <li>Turn sharply to windward and continue until nearly head to wind</li>
+    <li>Tack without releasing the jib</li>
+    <li>Bear away to a broad reach</li>
+    <li>Approach the person from downwind (letting the boat drift toward them)</li>
+    <li>Stop the boat alongside the person</li>
+  </ul>
 
-**Quick Stop:**
-- Immediately turn into the wind
-- Tack without releasing the jib
-- Allow the backed jib to push the bow down
-- Circle back to the person from downwind
+  <h4>Quick Stop:</h4>
+  <ul>
+    <li>Immediately turn into the wind</li>
+    <li>Tack without releasing the jib</li>
+    <li>Allow the backed jib to push the bow down</li>
+    <li>Circle back to the person from downwind</li>
+  </ul>
+</div>
 
-**Recovery Tips:**
-- Approach at slow speed from downwind
-- Stop the boat alongside the person
-- Never approach from upwind (risk of drifting over the person)
-- Use the engine if necessary
-- Have recovery equipment ready (ladder, spare halyard, lifting sling)
-- Assign crew to recovery positions before approaching
+<div class="tips-section">
+  <h3>Recovery Tips:</h3>
+  <ul>
+    <li>Approach at slow speed from downwind</li>
+    <li>Stop the boat alongside the person</li>
+    <li>Never approach from upwind (risk of drifting over the person)</li>
+    <li>Use the engine if necessary</li>
+    <li>Have recovery equipment ready (ladder, spare halyard, lifting sling)</li>
+    <li>Assign crew to recovery positions before approaching</li>
+  </ul>
+</div>
 
-**Prevention:**
-- Always wear lifejackets on deck
-- Use harnesses and tethers in rough conditions or at night
-- Brief crew on MOB procedures before sailing
-- Practice MOB drills regularly 
+<div class="prevention-section">
+  <h3>Prevention:</h3>
+  <ul>
+    <li>Always wear lifejackets on deck</li>
+    <li>Use harnesses and tethers in rough conditions or at night</li>
+    <li>Brief crew on MOB procedures before sailing</li>
+    <li>Practice MOB drills regularly</li>
+  </ul>
+</div>

@@ -7,59 +7,89 @@ description: Essential weather forecasting and interpretation for sailors
 # Weather Basics
 
 **Back:**
-**Key Weather Elements:**
-- **Wind:** Direction and speed
-- **Pressure:** High/low pressure systems
-- **Fronts:** Boundaries between air masses
-- **Cloud Types:** Indicators of coming weather
-- **Sea State:** Wave height and direction
-- **Visibility:** Clear, fog, rain, etc.
+<div class="weather-elements">
+  <h3>Key Weather Elements:</h3>
+  <ul>
+    <li><strong>Wind:</strong> Direction and speed</li>
+    <li><strong>Pressure:</strong> High/low pressure systems</li>
+    <li><strong>Fronts:</strong> Boundaries between air masses</li>
+    <li><strong>Cloud Types:</strong> Indicators of coming weather</li>
+    <li><strong>Sea State:</strong> Wave height and direction</li>
+    <li><strong>Visibility:</strong> Clear, fog, rain, etc.</li>
+  </ul>
+</div>
 
-**Pressure Systems:**
-- **High Pressure (Anticyclone):**
-  - Clockwise circulation (Northern Hemisphere)
-  - Generally fair weather, light winds
-  - Clear skies, but possible fog
-  - Slow-moving systems
-
-- **Low Pressure (Depression):**
-  - Counter-clockwise circulation (Northern Hemisphere)
-  - Associated with clouds, precipitation
-  - Stronger winds
-  - Faster-moving systems
-
-**Weather Fronts:**
-- **Cold Front:**
-  - Temperature drops after passage
-  - Often brings squalls, heavy rain
-  - Wind shifts clockwise (veers)
-  - Sharp, defined clouds
-  - Quick passage
+<div class="pressure-systems">
+  <h3>Pressure Systems:</h3>
   
-- **Warm Front:**
-  - Temperature rises after passage
-  - Prolonged light/moderate rain
-  - Wind shifts counter-clockwise (backs)
-  - Gradual cloud thickening
-  - Slower passage
+  <h4>High Pressure (Anticyclone):</h4>
+  <ul>
+    <li>Clockwise circulation (Northern Hemisphere)</li>
+    <li>Generally fair weather, light winds</li>
+    <li>Clear skies, but possible fog</li>
+    <li>Slow-moving systems</li>
+  </ul>
 
-**Cloud Indicators:**
-- **Cirrus (high, wispy):** Often precedes a warm front
-- **Cumulus (puffy, white):** Fair weather if small, potential storms if large
-- **Cumulonimbus (thunderheads):** Thunderstorms, squalls
-- **Stratus (gray layers):** Drizzle, poor visibility
-- **Nimbostratus (dark, rain layers):** Steady precipitation
+  <h4>Low Pressure (Depression):</h4>
+  <ul>
+    <li>Counter-clockwise circulation (Northern Hemisphere)</li>
+    <li>Associated with clouds, precipitation</li>
+    <li>Stronger winds</li>
+    <li>Faster-moving systems</li>
+  </ul>
+</div>
 
-**Local Weather Signs:**
-- **Wind backing (counter-clockwise):** Weather often deteriorating
-- **Wind veering (clockwise):** Weather often improving
-- **Rapidly falling pressure:** Storm approaching
-- **"Red sky at night, sailor's delight; red sky in morning, sailor's warning"**
-- **Halo around sun/moon:** Approaching front with moisture
+<div class="weather-fronts">
+  <h3>Weather Fronts:</h3>
+  
+  <h4>Cold Front:</h4>
+  <ul>
+    <li>Temperature drops after passage</li>
+    <li>Often brings squalls, heavy rain</li>
+    <li>Wind shifts clockwise (veers)</li>
+    <li>Sharp, defined clouds</li>
+    <li>Quick passage</li>
+  </ul>
+  
+  <h4>Warm Front:</h4>
+  <ul>
+    <li>Temperature rises after passage</li>
+    <li>Prolonged light/moderate rain</li>
+    <li>Wind shifts counter-clockwise (backs)</li>
+    <li>Gradual cloud thickening</li>
+    <li>Slower passage</li>
+  </ul>
+</div>
 
-**Weather Resources:**
-- Marine VHF radio forecasts
-- NAVTEX broadcasts
-- Weather apps with marine forecasts
-- Barometer readings and trends
-- Visual observation of clouds and horizon 
+<div class="cloud-indicators">
+  <h3>Cloud Indicators:</h3>
+  <ul>
+    <li><strong>Cirrus (high, wispy):</strong> Often precedes a warm front</li>
+    <li><strong>Cumulus (puffy, white):</strong> Fair weather if small, potential storms if large</li>
+    <li><strong>Cumulonimbus (thunderheads):</strong> Thunderstorms, squalls</li>
+    <li><strong>Stratus (gray layers):</strong> Drizzle, poor visibility</li>
+    <li><strong>Nimbostratus (dark, rain layers):</strong> Steady precipitation</li>
+  </ul>
+</div>
+
+<div class="local-weather">
+  <h3>Local Weather Signs:</h3>
+  <ul>
+    <li><strong>Wind backing (counter-clockwise):</strong> Weather often deteriorating</li>
+    <li><strong>Wind veering (clockwise):</strong> Weather often improving</li>
+    <li><strong>Rapidly falling pressure:</strong> Storm approaching</li>
+    <li><strong>"Red sky at night, sailor's delight; red sky in morning, sailor's warning"</strong></li>
+    <li><strong>Halo around sun/moon:</strong> Approaching front with moisture</li>
+  </ul>
+</div>
+
+<div class="weather-resources">
+  <h3>Weather Resources:</h3>
+  <ul>
+    <li>Marine VHF radio forecasts</li>
+    <li>NAVTEX broadcasts</li>
+    <li>Weather apps with marine forecasts</li>
+    <li>Barometer readings and trends</li>
+    <li>Visual observation of clouds and horizon</li>
+  </ul>
+</div>
