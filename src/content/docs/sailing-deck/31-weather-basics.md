@@ -3,8 +3,10 @@ title: Weather Basics
 description: Essential weather forecasting and interpretation for sailors
 ---
 
+**Front:**
 # Weather Basics
 
+**Back:**
 **Key Weather Elements:**
 - **Wind:** Direction and speed
 - **Pressure:** High/low pressure systems

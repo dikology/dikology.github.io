@@ -3,9 +3,11 @@ title: Heaving To
 description: Technique for pausing progress and stabilizing a sailboat at sea
 ---
 
+**Front:**
 # Heaving To
 
-**What is Heaving To:**
+**Back:**
+What is Heaving To:
 A technique to essentially "park" your sailboat at sea by balancing the forces of your sails and rudder, creating a stable position with minimal forward motion.
 
 **When to Heave To:**

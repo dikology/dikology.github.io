@@ -3,8 +3,10 @@ title: Cardinal Marks (IALA A)
 description: Understanding the four cardinal marks in IALA A system
 ---
 
+**Front:**
 # Cardinal Marks
 
+**Back:**
 Cardinal marks indicate where the deepest water is in relation to the mark. They are named after the compass quadrant (North, East, South, West) in which they are placed.
 
 **North Cardinal Mark:**

@@ -1,10 +1,16 @@
 ---
 title: Rules of the Road (COLREGS)
 description: Essential collision regulations for safe navigation
+created: March 28
+modified: March 29
+tags:
+  - sailing-deck
 ---
 
+**Front:**
 # Rules of the Road (COLREGS)
 
+**Back:**
 **Key Terms:**
 - **Stand-on vessel:** Vessel that should maintain course and speed
 - **Give-way vessel:** Vessel that should take early and substantial action to avoid collision
@@ -36,3 +42,5 @@ description: Essential collision regulations for safe navigation
 - **Anchored vessel:** Rapid ringing of bell for 5 seconds every minute
 
 **Remember:** Rules are no substitute for good seamanship and maintaining proper lookout at all times. 
+
+[[01-Sailing-deck]]

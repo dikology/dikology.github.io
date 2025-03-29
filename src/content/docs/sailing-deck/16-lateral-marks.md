@@ -3,8 +3,10 @@ title: Lateral Marks (IALA A)
 description: Understanding port and starboard lateral marks in IALA A system
 ---
 
+**Front:**
 # Lateral Marks
 
+**Back:**
 Lateral marks indicate the port (left) and starboard (right) sides of navigable channels when approaching from seaward.
 
 **Port-hand Marks (IALA A):**

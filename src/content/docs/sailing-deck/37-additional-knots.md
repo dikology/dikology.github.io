@@ -3,8 +3,10 @@ title: Additional Essential Knots
 description: Key sailing knots every sailor should know
 ---
 
+**Front:**
 # Additional Essential Knots
 
+**Back:**
 **Figure 8 Knot:**
 - **Purpose:** Stopper knot to prevent line from running through blocks or fairleads
 - **Characteristics:** Easy to tie and untie, doesn't jam

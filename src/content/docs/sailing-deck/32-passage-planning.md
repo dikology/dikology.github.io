@@ -3,9 +3,11 @@ title: Passage Planning
 description: Essential steps for planning a safe and successful sailing passage
 ---
 
+**Front:**
 # Passage Planning
 
-**The Four Stages:**
+**Back:**
+The Four Stages:
 
 **1. Appraisal:**
 - Gather all relevant information

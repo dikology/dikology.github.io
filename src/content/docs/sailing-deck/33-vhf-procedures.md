@@ -3,8 +3,10 @@ title: VHF Radio Procedures
 description: Essential marine radio communication protocols and procedures
 ---
 
+**Front:**
 # VHF Radio Procedures
 
+**Back:**
 **Basic VHF Operation:**
 - Turn on and set to appropriate channel
 - Channel 16 is for hailing and distress (156.8 MHz)

@@ -3,6 +3,8 @@ title: Intro
 description: A page describing sailing-deck section
 created: February 16
 modified: March 29
+tags:
+  - sailing-deck
 ---
 [[01-Sailing-deck]]
 

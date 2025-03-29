@@ -1,10 +1,16 @@
 ---
 title: Tides and Currents
 description: Understanding and calculating tidal effects for safe navigation
+created: March 28
+modified: March 29
+tags:
+  - sailing-deck
 ---
 
+**Front:**
 # Tides and Currents
 
+**Back:**
 **Basic Tidal Terms:**
 - **High Water (HW):** Maximum height of tide
 - **Low Water (LW):** Minimum height of tide
@@ -53,3 +59,5 @@ description: Understanding and calculating tidal effects for safe navigation
 - Movement of floating objects
 - Changes in boat speed or heading
 - Patterns around fixed objects (bridges, buoys) 
+
+[[01-Sailing-deck]]

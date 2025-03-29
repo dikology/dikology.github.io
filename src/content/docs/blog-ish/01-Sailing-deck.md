@@ -3,11 +3,9 @@ title: Sailing Deck
 description: A simple way to remember things that you frequently forget
 created: March 29
 modified: March 29
+tags:
+  - sailing-deck
 ---
-
-
-# Sailing Deck: Dual-Purpose Markdown for Astro Pages and Anki Cards
-
 Sailing requires a lot of knowledge that you'll use infrequently - which makes it the perfect candidate for spaced repetition. But existing Anki decks aren't always ideal. This article explains the "Sailing Deck" project, a system that creates personalized Anki flashcards from the same Markdown files that power an Astro-based website.
 
 ## The Problem with Existing Sailing Anki Decks
@@ -164,3 +162,6 @@ The example sailing deck covers essential topics like points of sail, knots, nav
 By combining documentation and spaced repetition learning in one workflow, the Sailing Deck system makes it easier to maintain and learn sailing knowledge. The same content that serves as your reference documentation also powers your learning through Anki's proven spaced repetition system.
 
 Whether you're studying for sailing certifications or just want to keep your sailing knowledge fresh between seasons, this system offers a developer-friendly approach to creating and maintaining personalized flashcards.
+
+[[Sailing]]
+[[Travel]]
