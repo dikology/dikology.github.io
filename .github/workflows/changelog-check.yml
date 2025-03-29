@@ -1,0 +1,30 @@
+name: Changelog Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+jobs:
+  changelog-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Check for changelog modifications
+        id: check-changelog
+        run: |
+          # Get the list of files changed in this PR
+          git fetch origin ${{ github.base_ref }}
+          CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }}..HEAD)
+          
+          # Check if any file in the changelog directory was modified
+          if echo "$CHANGED_FILES" | grep -q "^changelog/"; then
+            echo "Changelog has been updated. ✅"
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "Error: No changelog updates found. Please update the changelog before merging. ❌"
+            echo "status=failure" >> $GITHUB_OUTPUT
+            exit 1
+          fi
