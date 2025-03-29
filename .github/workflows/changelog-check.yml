@@ -20,7 +20,7 @@ jobs:
           CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }}..HEAD)
           
           # Check if any file in the changelog directory was modified
-          if echo "$CHANGED_FILES" | grep -q "^changelog/"; then
+          if echo "$CHANGED_FILES" | grep -q "^src/content/docs/changelog/"; then
             echo "Changelog has been updated. ✅"
             echo "status=success" >> $GITHUB_OUTPUT
           else
