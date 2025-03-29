@@ -1,8 +1,11 @@
 ---
 title: Passage Planning
 description: Essential steps for planning a safe and successful sailing passage
+tags:
+  - sailing-deck
+created: March 28
+modified: March 29
 ---
-
 **Front:**
 # Passage Planning
 
@@ -69,3 +72,5 @@ The Four Stages:
 - File float plan with responsible person ashore
 - Carry appropriate papers for international passages
 - Have emergency contacts available 
+
+[[01-Sailing-deck]]
