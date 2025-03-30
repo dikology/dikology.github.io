@@ -4,6 +4,7 @@ description: Procedures for reducing sail area in stronger winds
 created: March 29
 modified: March 30
 id: 125
+type: basic
 tags:
   - sailing-deck
 ---

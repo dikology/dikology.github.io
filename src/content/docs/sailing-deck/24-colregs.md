@@ -4,6 +4,7 @@ description: Essential collision regulations for safe navigation
 created: March 28
 modified: March 29
 id: 124
+type: basic
 tags:
   - sailing-deck
 ---

@@ -135,3 +135,4 @@ Outgoing: _______________ Incoming: _______________
 ---
 ![[log.jpg]]
 [[Sailing]]
+[[13-sea-preparation]]

@@ -6,6 +6,7 @@ tags:
 created: March 28
 modified: March 29
 id: 132
+type: basic
 ---
 **Front:**
 # Passage Planning

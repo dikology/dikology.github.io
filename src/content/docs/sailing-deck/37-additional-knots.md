@@ -2,6 +2,11 @@
 title: Additional Essential Knots
 description: Key sailing knots every sailor should know
 id: 137
+type: basic
+tags:
+  - sailing-deck
+created: March 29
+modified: March 30
 ---
 
 **Front:**

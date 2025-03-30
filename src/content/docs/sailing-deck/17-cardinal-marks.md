@@ -2,6 +2,7 @@
 title: Cardinal Marks (IALA A)
 description: Understanding the four cardinal marks in IALA A system
 id: 117
+type: basic-media
 tags:
   - sailing-deck
 created: March 29

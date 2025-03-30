@@ -2,6 +2,11 @@
 title: Docking Techniques
 description: Essential skills for safe and controlled docking maneuvers
 id: 136
+type: basic
+tags:
+  - sailing-deck
+created: March 29
+modified: March 30
 ---
 
 **Front:**

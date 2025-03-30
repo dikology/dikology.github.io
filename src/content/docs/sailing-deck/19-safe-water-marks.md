@@ -3,6 +3,7 @@ title: Safe Water Marks (IALA A)
 description: Understanding safe water marks in IALA A system
 created: March 29
 modified: March 30
+type: basic-media
 id: 119
 tags:
   - sailing-deck
