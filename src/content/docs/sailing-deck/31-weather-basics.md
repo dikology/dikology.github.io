@@ -2,6 +2,11 @@
 title: Weather Basics
 description: Essential weather forecasting and interpretation for sailors
 id: 131
+type: basic
+tags:
+  - sailing-deck
+created: March 29
+modified: March 30
 ---
 
 **Front:**

@@ -6,6 +6,7 @@ tags:
   - sailing-deck
 created: March 29
 modified: March 30
+type: basic
 ---
 
 **Front:**

@@ -2,6 +2,11 @@
 title: New Danger Marks (IALA A)
 description: Understanding new danger marks in IALA A system
 id: 121
+type: basic
+tags:
+  - sailing-deck
+created: March 29
+modified: March 30
 ---
 
 **Front:**

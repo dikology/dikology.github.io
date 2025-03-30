@@ -4,6 +4,7 @@ description: Techniques for safely flying and controlling a spinnaker
 created: March 29
 modified: March 30
 id: 134
+type: basic
 tags:
   - sailing-deck
 ---

@@ -4,6 +4,7 @@ description: Understanding isolated danger marks in IALA A system
 created: March 29
 modified: March 30
 id: 118
+type: basic
 tags:
   - sailing-deck
 ---

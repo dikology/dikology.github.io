@@ -4,6 +4,7 @@ description: Technique for pausing progress and stabilizing a sailboat at sea
 created: March 29
 modified: March 29
 id: 127
+type: basic
 tags:
   - sailing-deck
 ---

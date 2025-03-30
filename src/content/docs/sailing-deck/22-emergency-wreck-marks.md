@@ -2,6 +2,11 @@
 title: Emergency Wreck Marking Buoys (IALA A)
 description: Understanding emergency wreck marking buoys in IALA A system
 id: 122
+type: basic
+tags:
+  - sailing-deck
+created: March 29
+modified: March 30
 ---
 
 **Front:**

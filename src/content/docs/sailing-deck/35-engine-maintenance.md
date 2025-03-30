@@ -4,6 +4,7 @@ description: Essential care and troubleshooting for marine engines
 created: March 29
 modified: March 30
 id: 135
+type: basic
 tags:
   - sailing-deck
 ---

@@ -2,6 +2,7 @@
 title: Special Marks (IALA A)
 description: Understanding special marks in IALA A system
 id: 120
+type: basic
 tags:
   - sailing-deck
 created: March 29

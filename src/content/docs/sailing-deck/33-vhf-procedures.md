@@ -6,8 +6,8 @@ tags:
 created: March 29
 modified: March 30
 id: 133
+type: basic
 ---
-
 **Front:**
 # VHF Radio Procedures
 
