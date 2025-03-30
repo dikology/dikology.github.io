@@ -1,6 +1,11 @@
 ---
 title: Heavy Weather Sailing
 description: Strategies and techniques for sailing in rough conditions
+id: 128
+tags:
+  - sailing-deck
+created: March 29
+modified: March 30
 ---
 
 **Front:**
@@ -78,3 +83,6 @@ description: Strategies and techniques for sailing in rough conditions
     <li>Watch for symptoms of seasickness and hypothermia</li>
   </ul>
 </div>
+
+[[01-Sailing-deck]]
+[[Sailing]]

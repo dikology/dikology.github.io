@@ -1,6 +1,11 @@
 ---
 title: Safe Water Marks (IALA A)
 description: Understanding safe water marks in IALA A system
+created: March 29
+modified: March 30
+id: 119
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -27,3 +32,6 @@ description: Understanding safe water marks in IALA A system
 </div>
 
 <p>These marks can be passed on either side but are often used to indicate the middle of a shipping channel, so they may be used as a centerline mark to be kept on a specific side depending on the direction of travel.</p>
+![[safe-water-mark.png]]
+[[01-Sailing-deck]]
+[[Sailing]]

@@ -1,6 +1,8 @@
 ---
 title: Mooring Alongside a Dock (Lag)
 description: A comprehensive guide to mooring your yacht alongside a dock, including preparation, approach techniques, and special considerations for different wind conditions.
+created: March 28
+modified: March 30
 ---
 
 # Mooring Alongside a Dock (Lag)
@@ -133,3 +135,5 @@ This is the most challenging condition. Here's a simplified approach:
 - Practice in calm conditions before attempting in challenging weather
 
 Remember that mastering alongside mooring takes practice. Start in calm conditions and gradually work up to more challenging situations as your confidence grows.
+
+[[Sailing]]

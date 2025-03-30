@@ -2,9 +2,11 @@
 title: Швартовка кормой
 description: card about stern-to mooring procedures
 type: basic
-id: 110
+id: 111
 created: March 19
-modified: March 19
+modified: March 30
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -48,3 +50,5 @@ modified: March 19
 </ol>
 
 <p><strong>Важно:</strong> Всегда учитывать ветер и течение при выборе стороны захода!</p>
+[[01-Sailing-deck]]
+[[Sailing]]

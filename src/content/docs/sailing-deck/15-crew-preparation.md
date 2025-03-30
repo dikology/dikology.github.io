@@ -2,9 +2,9 @@
 title: Подготовка экипажа
 description: Карточка о базовом инструктаже для новых членов экипажа
 type: basic
-id: 114
+id: 115
 created: March 19
-modified: March 29
+modified: March 30
 tags:
   - sailing-deck
 ---
@@ -44,4 +44,8 @@ tags:
 </ol>
 
 <p><strong>Важно:</strong> Весь инструктаж должен проводиться до выхода в море, убедившись, что каждый член экипажа понимает основные процедуры!</p>
+
+<a href='https://www.youtube.com/watch?v=uoBLSBWWyNA'>YouTube</a>
+
 [[01-Sailing-deck]]
+[[Sailing]]

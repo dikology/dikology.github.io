@@ -1,0 +1,846 @@
+{
+  "nodes": [
+    {
+      "id": "03-gym-goals",
+      "path": "src/content/docs/blog-ish/03-gym-goals.md"
+    },
+    {
+      "id": "Health & Fitness",
+      "path": ""
+    },
+    {
+      "id": "01-Sailing-deck",
+      "path": "src/content/docs/blog-ish/01-Sailing-deck.md"
+    },
+    {
+      "id": "Sailing",
+      "path": ""
+    },
+    {
+      "id": "Travel",
+      "path": ""
+    },
+    {
+      "id": "00-NLP-projects",
+      "path": "src/content/docs/blog-ish/00-NLP-projects.md"
+    },
+    {
+      "id": "2025-03-29",
+      "path": "src/content/docs/changelog/2025-03-29.md"
+    },
+    {
+      "id": "astro",
+      "path": ""
+    },
+    {
+      "id": "Self-Expression (Writing)",
+      "path": ""
+    },
+    {
+      "id": "02-boatlife",
+      "path": "src/content/docs/sailing/on-the-yacht/02-boatlife.md"
+    },
+    {
+      "id": "03-actions",
+      "path": "src/content/docs/sailing/at-sea/03-actions.md"
+    },
+    {
+      "id": "02-tips",
+      "path": "src/content/docs/sailing/in-the-plane/02-tips.md"
+    },
+    {
+      "id": "03-media",
+      "path": "src/content/docs/sailing/in-the-plane/03-media.md"
+    },
+    {
+      "id": "01-glossary",
+      "path": "src/content/docs/sailing/in-the-plane/01-glossary.md"
+    },
+    {
+      "id": "00-general",
+      "path": "src/content/docs/sailing/at-home/00-general.md"
+    },
+    {
+      "id": "01-\u0417\u0430\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043c\u0430\u0440\u0448\u0440\u0443\u0442",
+      "path": "src/content/docs/sailing/at-home/01-\u0417\u0430\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043c\u0430\u0440\u0448\u0440\u0443\u0442.md"
+    },
+    {
+      "id": "05-medical",
+      "path": "src/content/docs/sailing/at-home/05-medical.md"
+    },
+    {
+      "id": "03-take",
+      "path": "src/content/docs/sailing/at-home/03-take.md"
+    },
+    {
+      "id": "\u0427\u0435\u043a\u043b\u0438\u0441\u0442 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0438\u043a\u0430",
+      "path": ""
+    },
+    {
+      "id": "04-helpful",
+      "path": "src/content/docs/sailing/at-home/04-helpful.md"
+    },
+    {
+      "id": "02-yacht-info",
+      "path": "src/content/docs/sailing/at-home/02-yacht-info.md"
+    },
+    {
+      "id": "01-preparations",
+      "path": "src/content/docs/sailing/at-sea/01-preparations.md"
+    },
+    {
+      "id": "05-log",
+      "path": "src/content/docs/sailing/at-sea/05-log.md"
+    },
+    {
+      "id": "log.jpg",
+      "path": ""
+    },
+    {
+      "id": "04-lag",
+      "path": "src/content/docs/sailing/at-sea/04-lag.md"
+    },
+    {
+      "id": "01-buying",
+      "path": "src/content/docs/sailing/in-the-marina/01-buying.md"
+    },
+    {
+      "id": "tv-csi-sber-analysis",
+      "path": "src/content/docs/datafolio/tv-csi-sber-analysis.md"
+    },
+    {
+      "id": "Data Analytics",
+      "path": ""
+    },
+    {
+      "id": "Work",
+      "path": ""
+    },
+    {
+      "id": "19-safe-water-marks",
+      "path": "src/content/docs/sailing-deck/19-safe-water-marks.md"
+    },
+    {
+      "id": "safe-water-mark.png",
+      "path": ""
+    },
+    {
+      "id": "01-points-of-sail",
+      "path": "src/content/docs/sailing-deck/01-points-of-sail.md"
+    },
+    {
+      "id": "31-weather-basics",
+      "path": "src/content/docs/sailing-deck/31-weather-basics.md"
+    },
+    {
+      "id": "12-safety-briefing",
+      "path": "src/content/docs/sailing-deck/12-safety-briefing.md"
+    },
+    {
+      "id": "00-intro",
+      "path": "src/content/docs/data-deck/00-intro.md"
+    },
+    {
+      "id": "30-tides-currents",
+      "path": "src/content/docs/sailing-deck/30-tides-currents.md"
+    },
+    {
+      "id": "28-heavy-weather",
+      "path": "src/content/docs/sailing-deck/28-heavy-weather.md"
+    },
+    {
+      "id": "22-emergency-wreck-marks",
+      "path": "src/content/docs/sailing-deck/22-emergency-wreck-marks.md"
+    },
+    {
+      "id": "09-hoisting-mainsail",
+      "path": "src/content/docs/sailing-deck/09-hoisting-mainsail.md"
+    },
+    {
+      "id": "24-colregs",
+      "path": "src/content/docs/sailing-deck/24-colregs.md"
+    },
+    {
+      "id": "29-navigation-basics",
+      "path": "src/content/docs/sailing-deck/29-navigation-basics.md"
+    },
+    {
+      "id": "25-reefing",
+      "path": "src/content/docs/sailing-deck/25-reefing.md"
+    },
+    {
+      "id": "13-sea-preparation",
+      "path": "src/content/docs/sailing-deck/13-sea-preparation.md"
+    },
+    {
+      "id": "18-isolated-danger-marks",
+      "path": "src/content/docs/sailing-deck/18-isolated-danger-marks.md"
+    },
+    {
+      "id": "37-additional-knots",
+      "path": "src/content/docs/sailing-deck/37-additional-knots.md"
+    },
+    {
+      "id": "33-vhf-procedures",
+      "path": "src/content/docs/sailing-deck/33-vhf-procedures.md"
+    },
+    {
+      "id": "04-round-turn-knot",
+      "path": "src/content/docs/sailing-deck/04-round-turn-knot.md"
+    },
+    {
+      "id": "17-cardinal-marks",
+      "path": "src/content/docs/sailing-deck/17-cardinal-marks.md"
+    },
+    {
+      "id": "cardinal-marks.png",
+      "path": ""
+    },
+    {
+      "id": "36-docking-techniques",
+      "path": "src/content/docs/sailing-deck/36-docking-techniques.md"
+    },
+    {
+      "id": "20-special-marks",
+      "path": "src/content/docs/sailing-deck/20-special-marks.md"
+    },
+    {
+      "id": "08-safety-equipment",
+      "path": "src/content/docs/sailing-deck/08-safety-equipment.md"
+    },
+    {
+      "id": "34-spinnaker-handling",
+      "path": "src/content/docs/sailing-deck/34-spinnaker-handling.md"
+    },
+    {
+      "id": "07-parts-of-sail",
+      "path": "src/content/docs/sailing-deck/07-parts-of-sail.md"
+    },
+    {
+      "id": "02-things-to-remember",
+      "path": "src/content/docs/sailing-deck/02-things-to-remember.md"
+    },
+    {
+      "id": "21-new-danger-marks",
+      "path": "src/content/docs/sailing-deck/21-new-danger-marks.md"
+    },
+    {
+      "id": "26-sail-trim",
+      "path": "src/content/docs/sailing-deck/26-sail-trim.md"
+    },
+    {
+      "id": "10-anchoring",
+      "path": "src/content/docs/sailing-deck/10-anchoring.md"
+    },
+    {
+      "id": "05-tacking",
+      "path": "src/content/docs/sailing-deck/05-tacking.md"
+    },
+    {
+      "id": "23-man-overboard",
+      "path": "src/content/docs/sailing-deck/23-man-overboard.md"
+    },
+    {
+      "id": "27-heaving-to",
+      "path": "src/content/docs/sailing-deck/27-heaving-to.md"
+    },
+    {
+      "id": "11-mooring-stern-to",
+      "path": "src/content/docs/sailing-deck/11-mooring-stern-to.md"
+    },
+    {
+      "id": "32-passage-planning",
+      "path": "src/content/docs/sailing-deck/32-passage-planning.md"
+    },
+    {
+      "id": "16-lateral-marks",
+      "path": "src/content/docs/sailing-deck/16-lateral-marks.md"
+    },
+    {
+      "id": "06-jibing",
+      "path": "src/content/docs/sailing-deck/06-jibing.md"
+    },
+    {
+      "id": "14-jib-operations",
+      "path": "src/content/docs/sailing-deck/14-jib-operations.md"
+    },
+    {
+      "id": "15-crew-preparation",
+      "path": "src/content/docs/sailing-deck/15-crew-preparation.md"
+    },
+    {
+      "id": "35-engine-maintenance",
+      "path": "src/content/docs/sailing-deck/35-engine-maintenance.md"
+    },
+    {
+      "id": "03-bowline-knot",
+      "path": "src/content/docs/sailing-deck/03-bowline-knot.md"
+    },
+    {
+      "id": "Git cheatsheet",
+      "path": "src/content/docs/data/Git cheatsheet.md"
+    },
+    {
+      "id": "25-single mean",
+      "path": "src/content/docs/data-deck/25-single mean.md"
+    },
+    {
+      "id": "variance",
+      "path": ""
+    },
+    {
+      "id": "20-mde",
+      "path": "src/content/docs/data-deck/20-mde.md"
+    },
+    {
+      "id": "04-dashboard purpose",
+      "path": "src/content/docs/data-deck/04-dashboard purpose.md"
+    },
+    {
+      "id": "22-sample size",
+      "path": "src/content/docs/data-deck/22-sample size.md"
+    },
+    {
+      "id": "06-dbeaver link folder",
+      "path": "src/content/docs/data-deck/06-dbeaver link folder.md"
+    },
+    {
+      "id": "08-Efficient Visualizations",
+      "path": "src/content/docs/data-deck/08-Efficient Visualizations.md"
+    },
+    {
+      "id": "data visualization",
+      "path": ""
+    },
+    {
+      "id": "30-variance formula",
+      "path": "src/content/docs/data-deck/30-variance formula.md"
+    },
+    {
+      "id": "17-pooled variance",
+      "path": "src/content/docs/data-deck/17-pooled variance.md"
+    },
+    {
+      "id": "01-rename-column",
+      "path": "src/content/docs/data-deck/01-rename-column.md"
+    },
+    {
+      "id": "19-sample size 2",
+      "path": "src/content/docs/data-deck/19-sample size 2.md"
+    },
+    {
+      "id": "03-Consistency",
+      "path": "src/content/docs/data-deck/03-Consistency.md"
+    },
+    {
+      "id": "16-pooled variance 2",
+      "path": "src/content/docs/data-deck/16-pooled variance 2.md"
+    },
+    {
+      "id": "34-z critical",
+      "path": "src/content/docs/data-deck/34-z critical.md"
+    },
+    {
+      "id": "13-null distribution",
+      "path": "src/content/docs/data-deck/13-null distribution.md"
+    },
+    {
+      "id": "12-Importance of Clarity",
+      "path": "src/content/docs/data-deck/12-Importance of Clarity.md"
+    },
+    {
+      "id": "28-treatment proportion",
+      "path": "src/content/docs/data-deck/28-treatment proportion.md"
+    },
+    {
+      "id": "27-total sample size",
+      "path": "src/content/docs/data-deck/27-total sample size.md"
+    },
+    {
+      "id": "26-statistical power",
+      "path": "src/content/docs/data-deck/26-statistical power.md"
+    },
+    {
+      "id": "23-Showing Hierarchy",
+      "path": "src/content/docs/data-deck/23-Showing Hierarchy.md"
+    },
+    {
+      "id": "14-null hyp",
+      "path": "src/content/docs/data-deck/14-null hyp.md"
+    },
+    {
+      "id": "11-hash tables",
+      "path": "src/content/docs/data-deck/11-hash tables.md"
+    },
+    {
+      "id": "data structures and algorithms",
+      "path": ""
+    },
+    {
+      "id": "10-Grouping Metrics",
+      "path": "src/content/docs/data-deck/10-Grouping Metrics.md"
+    },
+    {
+      "id": "18-rounding numbers",
+      "path": "src/content/docs/data-deck/18-rounding numbers.md"
+    },
+    {
+      "id": "29-union relations",
+      "path": "src/content/docs/data-deck/29-union relations.md"
+    },
+    {
+      "id": "dbt",
+      "path": ""
+    },
+    {
+      "id": "21-sample size 3",
+      "path": "src/content/docs/data-deck/21-sample size 3.md"
+    },
+    {
+      "id": "24-significance",
+      "path": "src/content/docs/data-deck/24-significance.md"
+    },
+    {
+      "id": "15-one tailed",
+      "path": "src/content/docs/data-deck/15-one tailed.md"
+    },
+    {
+      "id": "07-delta squared",
+      "path": "src/content/docs/data-deck/07-delta squared.md"
+    },
+    {
+      "id": "09-export args",
+      "path": "src/content/docs/data-deck/09-export args.md"
+    },
+    {
+      "id": "Tech",
+      "path": ""
+    },
+    {
+      "id": "05-data ink ratio",
+      "path": "src/content/docs/data-deck/05-data ink ratio.md"
+    },
+    {
+      "id": "02-big o complexity",
+      "path": "src/content/docs/data-deck/02-big o complexity.md"
+    },
+    {
+      "id": "Screen Shot 2022-05-09 at 4.54.03 PM.png",
+      "path": ""
+    },
+    {
+      "id": "31-z alpha",
+      "path": "src/content/docs/data-deck/31-z alpha.md"
+    },
+    {
+      "id": "33-z critical 2",
+      "path": "src/content/docs/data-deck/33-z critical 2.md"
+    },
+    {
+      "id": "32-z beta",
+      "path": "src/content/docs/data-deck/32-z beta.md"
+    }
+  ],
+  "links": [
+    {
+      "source": "03-gym-goals",
+      "target": "Health & Fitness"
+    },
+    {
+      "source": "01-Sailing-deck",
+      "target": "Sailing"
+    },
+    {
+      "source": "01-Sailing-deck",
+      "target": "Travel"
+    },
+    {
+      "source": "2025-03-29",
+      "target": "astro"
+    },
+    {
+      "source": "2025-03-29",
+      "target": "Self-Expression (Writing)"
+    },
+    {
+      "source": "03-actions",
+      "target": "Sailing"
+    },
+    {
+      "source": "03-media",
+      "target": "Sailing"
+    },
+    {
+      "source": "00-general",
+      "target": "01-\u0417\u0430\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043c\u0430\u0440\u0448\u0440\u0443\u0442"
+    },
+    {
+      "source": "03-take",
+      "target": "\u0427\u0435\u043a\u043b\u0438\u0441\u0442 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0438\u043a\u0430"
+    },
+    {
+      "source": "01-preparations",
+      "target": "Sailing"
+    },
+    {
+      "source": "01-preparations",
+      "target": "05-log"
+    },
+    {
+      "source": "05-log",
+      "target": "log.jpg"
+    },
+    {
+      "source": "05-log",
+      "target": "Sailing"
+    },
+    {
+      "source": "04-lag",
+      "target": "Sailing"
+    },
+    {
+      "source": "01-buying",
+      "target": "Sailing"
+    },
+    {
+      "source": "01-buying",
+      "target": "Travel"
+    },
+    {
+      "source": "tv-csi-sber-analysis",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "tv-csi-sber-analysis",
+      "target": "Work"
+    },
+    {
+      "source": "19-safe-water-marks",
+      "target": "safe-water-mark.png"
+    },
+    {
+      "source": "19-safe-water-marks",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "19-safe-water-marks",
+      "target": "Sailing"
+    },
+    {
+      "source": "00-intro",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "00-intro",
+      "target": "12-safety-briefing"
+    },
+    {
+      "source": "00-intro",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "30-tides-currents",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "28-heavy-weather",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "28-heavy-weather",
+      "target": "Sailing"
+    },
+    {
+      "source": "09-hoisting-mainsail",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "09-hoisting-mainsail",
+      "target": "Sailing"
+    },
+    {
+      "source": "24-colregs",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "29-navigation-basics",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "29-navigation-basics",
+      "target": "Sailing"
+    },
+    {
+      "source": "25-reefing",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "13-sea-preparation",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "13-sea-preparation",
+      "target": "Sailing"
+    },
+    {
+      "source": "18-isolated-danger-marks",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "18-isolated-danger-marks",
+      "target": "Sailing"
+    },
+    {
+      "source": "33-vhf-procedures",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "33-vhf-procedures",
+      "target": "Sailing"
+    },
+    {
+      "source": "04-round-turn-knot",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "04-round-turn-knot",
+      "target": "Sailing"
+    },
+    {
+      "source": "17-cardinal-marks",
+      "target": "cardinal-marks.png"
+    },
+    {
+      "source": "17-cardinal-marks",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "17-cardinal-marks",
+      "target": "Sailing"
+    },
+    {
+      "source": "20-special-marks",
+      "target": "Sailing"
+    },
+    {
+      "source": "20-special-marks",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "08-safety-equipment",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "08-safety-equipment",
+      "target": "Sailing"
+    },
+    {
+      "source": "34-spinnaker-handling",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "07-parts-of-sail",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "07-parts-of-sail",
+      "target": "Sailing"
+    },
+    {
+      "source": "02-things-to-remember",
+      "target": "Sailing"
+    },
+    {
+      "source": "10-anchoring",
+      "target": "Sailing"
+    },
+    {
+      "source": "10-anchoring",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "05-tacking",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "05-tacking",
+      "target": "Sailing"
+    },
+    {
+      "source": "23-man-overboard",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "23-man-overboard",
+      "target": "Sailing"
+    },
+    {
+      "source": "27-heaving-to",
+      "target": "Sailing"
+    },
+    {
+      "source": "27-heaving-to",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "11-mooring-stern-to",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "11-mooring-stern-to",
+      "target": "Sailing"
+    },
+    {
+      "source": "32-passage-planning",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "16-lateral-marks",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "06-jibing",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "06-jibing",
+      "target": "Sailing"
+    },
+    {
+      "source": "15-crew-preparation",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "15-crew-preparation",
+      "target": "Sailing"
+    },
+    {
+      "source": "35-engine-maintenance",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "03-bowline-knot",
+      "target": "01-Sailing-deck"
+    },
+    {
+      "source": "Git cheatsheet",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "Git cheatsheet",
+      "target": "Work"
+    },
+    {
+      "source": "25-single mean",
+      "target": "variance"
+    },
+    {
+      "source": "04-dashboard purpose",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "22-sample size",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "06-dbeaver link folder",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "08-Efficient Visualizations",
+      "target": "data visualization"
+    },
+    {
+      "source": "30-variance formula",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "17-pooled variance",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "19-sample size 2",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "03-Consistency",
+      "target": "data visualization"
+    },
+    {
+      "source": "16-pooled variance 2",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "34-z critical",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "13-null distribution",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "12-Importance of Clarity",
+      "target": "data visualization"
+    },
+    {
+      "source": "28-treatment proportion",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "27-total sample size",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "14-null hyp",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "11-hash tables",
+      "target": "data structures and algorithms"
+    },
+    {
+      "source": "29-union relations",
+      "target": "dbt"
+    },
+    {
+      "source": "21-sample size 3",
+      "target": "variance"
+    },
+    {
+      "source": "24-significance",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "15-one tailed",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "07-delta squared",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "09-export args",
+      "target": "Tech"
+    },
+    {
+      "source": "05-data ink ratio",
+      "target": "data visualization"
+    },
+    {
+      "source": "02-big o complexity",
+      "target": "Screen Shot 2022-05-09 at 4.54.03 PM.png"
+    },
+    {
+      "source": "02-big o complexity",
+      "target": "data structures and algorithms"
+    },
+    {
+      "source": "31-z alpha",
+      "target": "Data Analytics"
+    },
+    {
+      "source": "32-z beta",
+      "target": "Data Analytics"
+    }
+  ]
+}

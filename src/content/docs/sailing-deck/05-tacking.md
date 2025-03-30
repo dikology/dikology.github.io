@@ -2,9 +2,11 @@
 title: Поворот оверштаг
 description: card about tacking maneuver
 type: basic
-id: 104
+id: 105
 created: March 19
-modified: March 19
+modified: March 30
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -25,3 +27,5 @@ modified: March 19
 </ol>
 
 <p><strong>Важно:</strong> При повороте оверштаг нос лодки проходит через линию ветра.</p>
+[[01-Sailing-deck]]
+[[Sailing]]

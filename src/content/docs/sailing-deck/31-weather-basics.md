@@ -1,6 +1,7 @@
 ---
 title: Weather Basics
 description: Essential weather forecasting and interpretation for sailors
+id: 131
 ---
 
 **Front:**

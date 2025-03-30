@@ -2,7 +2,7 @@
 title: Bodyweight Metrics 
 description: Finding meaningful fitness goals beyond arbitrary numbers
 created: March 29
-modified: April 11
+modified: March 30
 ---
 
 When it comes to fitness goals, many people fall into the trap of chasing arbitrary numbers—bench pressing 225 lbs or squatting double their bodyweight. While impressive, these goals may not align with what many of us truly want: sustainable fitness that serves our everyday lives.
@@ -94,3 +94,5 @@ Using bodyweight metrics offers several advantages over arbitrary weight goals:
 ## Conclusion
 
 Fitness doesn't need to be measured in plates on a barbell. By focusing on what your body can do relative to itself, you create a sustainable approach to strength and health that serves you for life—not just in the gym. The true measure of fitness isn't how much weight you can lift once, but what your body can consistently do for years to come.
+
+[[Health & Fitness]]

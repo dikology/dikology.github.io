@@ -1,6 +1,11 @@
 ---
 title: Special Marks (IALA A)
 description: Understanding special marks in IALA A system
+id: 120
+tags:
+  - sailing-deck
+created: March 29
+modified: March 30
 ---
 
 **Front:**
@@ -32,3 +37,6 @@ description: Understanding special marks in IALA A system
 </ul>
 
 <p>Special marks may also be used to mark a channel within a channel (e.g., a preferred route through a wide estuary).</p>
+
+[[Sailing]]
+[[01-Sailing-deck]]

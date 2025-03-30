@@ -1,6 +1,11 @@
 ---
 title: Reefing Techniques
 description: Procedures for reducing sail area in stronger winds
+created: March 29
+modified: March 30
+id: 125
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -65,3 +70,4 @@ description: Procedures for reducing sail area in stronger winds
 </div>
 
 <p><strong>Remember:</strong> It's always easier to reef when conditions are moderate than when they've already deteriorated.</p>
+[[01-Sailing-deck]]

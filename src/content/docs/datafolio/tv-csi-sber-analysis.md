@@ -2,6 +2,9 @@
 title: Пример ноутбука с анализом данных
 description: Converted from Jupyter notebook
 layout: ../../../layouts/NotebookLayout.astro
+tags:
+created: March 29
+modified: March 30
 ---
 
 ## 1. Основной вопрос: Насколько вы довольны телевизором на платформе Салют ТВ?
@@ -161,3 +164,5 @@ layout: ../../../layouts/NotebookLayout.astro
 
 
 
+[[Data Analytics]]
+[[Work]]

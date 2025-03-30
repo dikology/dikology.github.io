@@ -2,7 +2,7 @@
 title: Работа со стакселем
 description: card about hoisting and lowering the jib
 type: basic
-id: 113
+id: 114
 created: March 19
 modified: March 19
 ---

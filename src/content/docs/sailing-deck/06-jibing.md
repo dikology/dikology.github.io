@@ -2,7 +2,7 @@
 title: Поворот фордевинд
 description: card about jibing maneuver
 type: basic
-id: 105
+id: 106
 created: March 19
 modified: March 29
 tags:
@@ -28,3 +28,4 @@ tags:
 
 <p><strong>Важно:</strong> Этот маневр может быть опасен при сильном ветре из-за резкого переброса гика!</p>
 [[01-Sailing-deck]]
+[[Sailing]]
