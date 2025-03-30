@@ -7,7 +7,6 @@ id: 118
 tags:
   - sailing-deck
 ---
-
 **Front:**
 # Isolated Danger Marks
 
@@ -27,3 +26,4 @@ tags:
 
 <p>These marks should be passed at a safe distance in any direction, as they indicate a danger surrounded by navigable water. The size of the danger is typically not indicated on navigation charts, so an appropriate safe distance should be maintained.</p>
 [[01-Sailing-deck]]
+[[Sailing]]

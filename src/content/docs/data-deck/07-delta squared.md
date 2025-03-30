@@ -1,7 +1,10 @@
 ---
 type: basic
-id: 0207
-tags: [sample_size, ab_testing]
+id: 207
+tags:
+  - ab-testing
+created: March 30
+modified: March 30
 ---
 
 **Front:** How do you calculate Delta squared for a proportion?
@@ -14,3 +17,4 @@ Where:
 - \( P_2 \) is the treatment proportion.
 
 ---
+[[Data Analytics]]

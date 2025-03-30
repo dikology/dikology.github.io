@@ -4,7 +4,9 @@ description: card about main parts of a sail
 type: basic
 id: 107
 created: March 19
-modified: March 19
+modified: March 30
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -23,3 +25,5 @@ modified: March 19
   <li>Латы (Battens) - пластиковые планки для поддержания формы паруса</li>
   <li>Риф-банты (Reef points) - точки крепления для уменьшения площади паруса</li>
 </ol>
+[[01-Sailing-deck]]
+[[Sailing]]

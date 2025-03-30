@@ -4,9 +4,8 @@ description: список вещей, которые нужно запомнит
 type: basic
 id: 102
 created: March 16
-modified: March 16
+modified: March 30
 ---
-
 **Front:**
 План по запоминанию
 
@@ -30,3 +29,4 @@ modified: March 16
   <li>Швартовка на бочку (с кормы)</li>
   <li>Узлы</li>
 </ul>
+[[Sailing]]

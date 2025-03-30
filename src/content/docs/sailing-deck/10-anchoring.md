@@ -4,7 +4,9 @@ description: card about anchoring procedures
 type: basic
 id: 110
 created: March 19
-modified: March 19
+modified: March 30
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -43,3 +45,5 @@ modified: March 19
     </ul>
 </ol>
 <p><strong>Важно:</strong> После постановки проверить, что якорь не ползет, наблюдая за береговыми ориентирами!</p>
+[[Sailing]]
+[[01-Sailing-deck]]

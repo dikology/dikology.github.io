@@ -1,7 +1,10 @@
 ---
 type: basic
-id: 0217
-tags: [sample_size, ab_testing]
+id: 217
+tags:
+  - ab-testing
+created: March 30
+modified: March 30
 ---
 
 **Front:** What is the pooled variance in a two-sample case for proportions?
@@ -14,3 +17,4 @@ Where:
 - \( P_2 \) is the proportion for group 2.
 
 ---
+[[Data Analytics]]

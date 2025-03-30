@@ -2,8 +2,11 @@
 title: Cardinal Marks (IALA A)
 description: Understanding the four cardinal marks in IALA A system
 id: 117
+tags:
+  - sailing-deck
+created: March 29
+modified: March 30
 ---
-
 **Front:**
 # Cardinal Marks
 
@@ -59,3 +62,6 @@ id: 117
 </div>
 
 <p><strong>Memory Aid:</strong> "The cones point to where the black is."</p>
+![[cardinal-marks.png]]
+[[01-Sailing-deck]]
+[[Sailing]]

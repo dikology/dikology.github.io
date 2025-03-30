@@ -1,7 +1,10 @@
 ---
 type: basic
-id: 0216
-tags: [sample_size, ab_testing]
+id: 216
+tags:
+  - ab-testing
+created: March 30
+modified: March 30
 ---
 
 **Front:** What is the pooled variance in a two-sample case for means?
@@ -13,3 +16,4 @@ Where:
 - \( S_1^2 \) is the sample variance of the baseline group.
 
 ---
+[[Data Analytics]]

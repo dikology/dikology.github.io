@@ -3,6 +3,8 @@ type: basic
 id: 0211
 tags:
   - dsa
+created: March 30
+modified: March 30
 ---
 
 **Front:** what is a hash table?
@@ -18,3 +20,5 @@ Separate chaining - A linked list is used for each value, so that it stores all 
 Open addressing - All entry records are stored in the bucket array itself. When a new entry has to be inserted, the buckets are examined, starting with the hashed-to slot and proceeding in some probe sequence, until an unoccupied slot is found
 
 - Remember it is a reference to where it is saved in space // this means they are orderless
+
+[[data structures and algorithms]]

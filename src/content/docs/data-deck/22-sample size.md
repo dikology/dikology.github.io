@@ -1,7 +1,10 @@
 ---
 type: basic
-id: 0222
-tags: [sample_size, ab_testing]
+id: 222
+tags:
+  - ab-testing
+created: March 30
+modified: March 30
 ---
 
 **Front:** What is the formula for calculating sample size per group in an A/B test?
@@ -14,3 +17,5 @@ Where:
 - \( Z\_{\beta} \) is the Z critical value for the statistical power (1 - beta).
 - \( \Delta \) is the minimum detectable effect (MDE).
 - \( \sigma^2 \) is the variance of the point estimation.
+
+[[Data Analytics]]

@@ -2,6 +2,10 @@
 title: Navigation Basics
 description: Essential chart reading and navigation techniques for sailors
 id: 129
+tags:
+  - sailing-deck
+created: March 29
+modified: March 30
 ---
 
 **Front:**
@@ -74,3 +78,6 @@ id: 129
     <li>Constantly check for hazards ahead</li>
   </ul>
 </div>
+
+[[01-Sailing-deck]]
+[[Sailing]]

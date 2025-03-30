@@ -1,7 +1,10 @@
 ---
 type: basic
-id: 0219
-tags: [sample_size, ab_testing]
+id: 219
+tags:
+  - ab-testing
+created: March 30
+modified: March 30
 ---
 
 **Front:** What is the approximate sample size formula for a two-sample mean test?
@@ -15,3 +18,4 @@ This approximation assumes:
 - Two-tailed test
 
 ---
+[[Data Analytics]]
