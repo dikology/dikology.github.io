@@ -1,6 +1,7 @@
 ---
 title: Cardinal Marks (IALA A)
 description: Understanding the four cardinal marks in IALA A system
+id: 117
 ---
 
 **Front:**

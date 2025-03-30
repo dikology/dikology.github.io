@@ -2,7 +2,7 @@
 title: Подготовка экипажа
 description: Карточка о базовом инструктаже для новых членов экипажа
 type: basic
-id: 114
+id: 115
 created: March 19
 modified: March 29
 tags:

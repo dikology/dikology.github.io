@@ -2,9 +2,11 @@
 title: Постановка грота
 description: card about hoisting the mainsail
 type: basic
-id: 108
+id: 109
 created: March 19
-modified: March 19
+modified: March 30
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -28,3 +30,5 @@ modified: March 19
 </ol>
 
 <p><strong>Важно:</strong> Следить, чтобы во время подъема парус не цеплялся за краспицы и другие части такелажа!</p>
+[[01-Sailing-deck]]
+[[Sailing]]

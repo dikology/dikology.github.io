@@ -3,6 +3,7 @@ title: Lateral Marks (IALA A)
 description: Understanding port and starboard lateral marks in IALA A system
 created: March 29
 modified: March 29
+id: 116
 tags:
   - sailing-deck
 ---

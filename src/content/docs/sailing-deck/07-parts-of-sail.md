@@ -2,7 +2,7 @@
 title: Части паруса
 description: card about main parts of a sail
 type: basic
-id: 106
+id: 107
 created: March 19
 modified: March 19
 ---

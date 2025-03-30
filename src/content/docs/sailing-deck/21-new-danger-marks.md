@@ -1,6 +1,7 @@
 ---
 title: New Danger Marks (IALA A)
 description: Understanding new danger marks in IALA A system
+id: 121
 ---
 
 **Front:**

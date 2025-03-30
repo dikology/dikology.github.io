@@ -1,6 +1,7 @@
 ---
 title: Emergency Wreck Marking Buoys (IALA A)
 description: Understanding emergency wreck marking buoys in IALA A system
+id: 122
 ---
 
 **Front:**

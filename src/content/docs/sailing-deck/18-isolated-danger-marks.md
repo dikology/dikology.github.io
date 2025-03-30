@@ -1,6 +1,11 @@
 ---
 title: Isolated Danger Marks (IALA A)
 description: Understanding isolated danger marks in IALA A system
+created: March 29
+modified: March 30
+id: 118
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -21,3 +26,4 @@ description: Understanding isolated danger marks in IALA A system
 </div>
 
 <p>These marks should be passed at a safe distance in any direction, as they indicate a danger surrounded by navigable water. The size of the danger is typically not indicated on navigation charts, so an appropriate safe distance should be maintained.</p>
+[[01-Sailing-deck]]

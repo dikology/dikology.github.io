@@ -2,9 +2,11 @@
 title: Спасательное оборудование
 description: card about essential safety equipment
 type: basic
-id: 107
+id: 108
 created: March 19
-modified: March 19
+modified: March 30
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -27,3 +29,4 @@ modified: March 19
 </ol>
 
 <p><strong>Важно:</strong> Все члены экипажа должны знать расположение и правила использования спасательного оборудования!</p>
+[[01-Sailing-deck]]

@@ -1,6 +1,11 @@
 ---
 title: Man Overboard Recovery (MOB)
 description: Essential procedures for person overboard situations
+created: March 29
+modified: March 30
+id: 123
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -59,3 +64,4 @@ description: Essential procedures for person overboard situations
     <li>Practice MOB drills regularly</li>
   </ul>
 </div>
+[[01-Sailing-deck]]

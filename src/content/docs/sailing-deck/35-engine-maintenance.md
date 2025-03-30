@@ -1,6 +1,11 @@
 ---
 title: Basic Engine Maintenance
 description: Essential care and troubleshooting for marine engines
+created: March 29
+modified: March 30
+id: 135
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -105,3 +110,5 @@ description: Essential care and troubleshooting for marine engines
     <li>Disconnect battery or use maintainer</li>
   </ul>
 </div>
+
+[[01-Sailing-deck]]

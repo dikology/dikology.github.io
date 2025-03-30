@@ -1,6 +1,11 @@
 ---
 title: Spinnaker Handling
 description: Techniques for safely flying and controlling a spinnaker
+created: March 29
+modified: March 30
+id: 134
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -111,3 +116,5 @@ description: Techniques for safely flying and controlling a spinnaker
     <li><strong>Collapsing:</strong> Adjust pole height and sheet tension</li>
   </ul>
 </div>
+
+[[01-Sailing-deck]]

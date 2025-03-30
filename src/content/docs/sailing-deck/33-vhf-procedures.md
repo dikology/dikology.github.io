@@ -1,6 +1,11 @@
 ---
 title: VHF Radio Procedures
 description: Essential marine radio communication protocols and procedures
+tags:
+  - sailing-deck
+created: March 29
+modified: March 30
+id: 133
 ---
 
 **Front:**
@@ -87,3 +92,4 @@ description: Essential marine radio communication protocols and procedures
     <li>Response scale: "Loud and clear" to "Weak and distorted"</li>
   </ul>
 </div>
+[[01-Sailing-deck]]

@@ -1,6 +1,7 @@
 ---
 title: Sail Trim Theory
 description: Advanced concepts on sail shape and performance
+id: 126
 ---
 
 **Front:**

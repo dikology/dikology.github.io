@@ -2,9 +2,11 @@
 title: Подготовка к выходу в море
 description: card about preparation for sea
 type: basic
-id: 112
+id: 113
 created: March 19
-modified: March 19
+modified: March 30
+tags:
+  - sailing-deck
 ---
 
 **Front:**
@@ -57,3 +59,4 @@ modified: March 19
 </ol>
 
 <p><strong>Важно:</strong> Проверить прогноз погоды и наличие актуальных навигационных предупреждений!</p>
+[[01-Sailing-deck]]

@@ -2,7 +2,7 @@
 title: Поворот оверштаг
 description: card about tacking maneuver
 type: basic
-id: 104
+id: 105
 created: March 19
 modified: March 19
 ---

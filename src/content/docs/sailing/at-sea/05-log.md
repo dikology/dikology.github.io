@@ -2,9 +2,8 @@
 title: Log
 description: A comprehensive guide to logging your sailing activities
 created: March 29
-modified: March 29
+modified: March 30
 ---
-
 # Vessel Log Book
 
 ## Daily Log Entry Template
@@ -134,4 +133,5 @@ _____________________________________________________________
 Outgoing: _______________ Incoming: _______________
 
 ---
-
+![[log.jpg]]
+[[Sailing]]

@@ -2,7 +2,7 @@
 title: Инструктаж по безопасности
 description: card about safety briefing
 type: basic
-id: 111
+id: 112
 created: March 19
 modified: March 19
 ---

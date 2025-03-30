@@ -4,12 +4,15 @@ description: a card about bowline knot
 type: basic-media
 id: 103
 created: March 16
-modified: March 16
+modified: March 30
+tags:
+  - sailing-deck
 ---
 
 **Front:**
 Беседочный узел
 
 **Back:**
-Беседочный узел
+Петля снизу, и конец заводится снизу
 ![](bowline-knot.gif)
+[[01-Sailing-deck]]

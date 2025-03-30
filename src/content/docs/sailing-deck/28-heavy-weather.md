@@ -1,6 +1,7 @@
 ---
 title: Heavy Weather Sailing
 description: Strategies and techniques for sailing in rough conditions
+id: 128
 ---
 
 **Front:**

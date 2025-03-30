@@ -1,6 +1,7 @@
 ---
 title: Navigation Basics
 description: Essential chart reading and navigation techniques for sailors
+id: 129
 ---
 
 **Front:**

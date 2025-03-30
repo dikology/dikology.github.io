@@ -2,7 +2,7 @@
 title: Постановка на якорь
 description: card about anchoring procedures
 type: basic
-id: 109
+id: 110
 created: March 19
 modified: March 19
 ---
