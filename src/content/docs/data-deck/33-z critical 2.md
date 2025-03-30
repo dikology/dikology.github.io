@@ -1,7 +1,10 @@
 ---
 type: basic
 id: 0233
-tags: [sample_size, ab_testing]
+title: Z Critical
+description: What are the Z critical values for common statistical power levels?
+tags:
+  - ab-testing
 ---
 
 **Front:** What are the Z critical values for common statistical power levels?

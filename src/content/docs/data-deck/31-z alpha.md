@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 231
+title: Z Alpha
+description: What does the term \( Z\_{\alpha} \) represent in the sample size formula?
 tags:
   - ab-testing
 created: March 30

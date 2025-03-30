@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 207
+title: Delta Squared
+description: How do you calculate Delta squared for a proportion?
 tags:
   - ab-testing
 created: March 30

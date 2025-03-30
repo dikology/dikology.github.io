@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 234
+title: Z Critical
+description: What are the Z critical values for common significance levels (alpha) in a two-tailed test?
 tags:
   - ab-testing
 created: March 30

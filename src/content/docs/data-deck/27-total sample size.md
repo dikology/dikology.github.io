@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 0227
+title: Total Sample Size
+description: How do you calculate the total sample size for an A/B test with two groups?
 tags:
   - ab-testing
 created: January 03

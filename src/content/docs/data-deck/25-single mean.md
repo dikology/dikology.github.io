@@ -1,7 +1,10 @@
 ---
 type: basic
 id: 0225
-tags: [sample_size, ab_testing]
+title: Variance
+description: What is the [[variance]] formula for a single mean?
+tags:
+  - ab-testing
 ---
 
 **Front:** What is the [[variance]] formula for a single mean?

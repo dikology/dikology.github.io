@@ -1,7 +1,10 @@
 ---
 type: basic
 id: 0220
-tags: [sample_size, ab_testing]
+title: MDE vs Delta
+description: What is the difference between MDE (Minimum Detectable Effect) and Delta in the sample size formula?
+tags:
+  - ab-testing
 ---
 
 **Front:** What is the difference between MDE (Minimum Detectable Effect) and Delta in the sample size formula?

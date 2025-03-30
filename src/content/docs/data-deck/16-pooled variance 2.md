@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 216
+title: Pooled Variance
+description: What is the pooled variance in a two-sample case for means?
 tags:
   - ab-testing
 created: March 30

@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 0224
+title: Significance Level
+description: What is the significance level (alpha) in hypothesis testing?
 tags:
   - ab-testing
 created: January 03

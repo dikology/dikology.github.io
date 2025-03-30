@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 0228
+title: Treatment Proportion
+description: How do you calculate the treatment proportion (\( P_2 \)) given the baseline proportion (\( P_1 \)) and the MDE?
 tags:
   - ab-testing
 created: January 03

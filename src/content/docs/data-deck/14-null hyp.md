@@ -1,7 +1,10 @@
 ---
 type: basic
 id: 0214
-tags: []
+title: Null Hypothesis
+description: What is the null hypothesis in A/B testing?
+tags:
+  - data-analytics
 created: January 03
 modified: March 30
 ---

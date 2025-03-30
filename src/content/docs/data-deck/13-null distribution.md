@@ -1,7 +1,10 @@
 ---
 type: basic
 id: 0213
-tags: []
+title: Null Distribution
+description: What is the relationship between the null distribution and the alternative distribution in hypothesis testing?
+tags:
+  - data-analytics
 created: January 03
 modified: March 30
 ---

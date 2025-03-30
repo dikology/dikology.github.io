@@ -1,7 +1,10 @@
 ---
 type: basic
 id: 0221
-tags: [sample_size, ab_testing]
+title: Sample Size
+description: What is the total sample size required for an A/B test with a baseline mean of 10, [[variance]] of 20, MDE of 10%, alpha of 0.05, and power of 0.80?
+tags:
+  - ab-testing
 ---
 
 **Front:** What is the total sample size required for an A/B test with a baseline mean of 10, [[variance]] of 20, MDE of 10%, alpha of 0.05, and power of 0.80?

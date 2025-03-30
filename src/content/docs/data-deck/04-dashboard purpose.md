@@ -1,5 +1,7 @@
 ---
 type: basic
+title: Dashboard Purpose
+description: What's the most important step before designing a dashboard?
 id: 0204
 tags:
   - dashboard-design

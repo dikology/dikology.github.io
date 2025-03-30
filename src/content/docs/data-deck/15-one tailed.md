@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 215
+title: One-Tailed Test
+description: What is the difference between a one-tailed and two-tailed test in hypothesis testing?
 tags:
   - ab-testing
 created: March 30

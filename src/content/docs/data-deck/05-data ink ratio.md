@@ -1,5 +1,7 @@
 ---
 type: basic
+title: Data-Ink Ratio
+description: What is the data-ink ratio, and why does it matter?
 id: 0205
 tags:
   - data-viz

@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 0223
+title: Showing Hierarchy
+description: How can you emphasize important KPIs in a dashboard?
 tags:
   - dashboard-design
 ---

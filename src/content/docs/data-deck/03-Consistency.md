@@ -1,5 +1,7 @@
 ---
 type: basic
+title: Consistency
+description: Why is consistency important in dashboards?
 id: 0203
 tags:
   - data-viz

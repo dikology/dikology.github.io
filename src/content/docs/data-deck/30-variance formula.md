@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 0230
+title: Variance Formula
+description: What is the variance formula for a single proportion?
 tags:
   - ab-testing
 created: January 03

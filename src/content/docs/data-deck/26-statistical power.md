@@ -1,7 +1,10 @@
 ---
 type: basic
 id: 0226
-tags: [sample_size, ab_testing]
+title: Statistical Power
+description: What is statistical power in hypothesis testing?
+tags:
+  - ab-testing
 ---
 
 **Front:** What is statistical power in hypothesis testing?

@@ -1,7 +1,10 @@
 ---
 type: basic
 id: 0212
-tags: []
+title: Importance of Clarity
+description: Why should dashboards focus only on the most important data?
+tags:
+  - dashboard-design
 created: December 30
 modified: March 30
 ---

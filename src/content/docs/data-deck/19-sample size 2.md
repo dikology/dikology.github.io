@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 219
+title: Sample Size
+description: What is the approximate sample size formula for a two-sample mean test?
 tags:
   - ab-testing
 created: March 30

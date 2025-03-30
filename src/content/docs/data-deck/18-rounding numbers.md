@@ -1,6 +1,8 @@
 ---
-type: basic
+type: basics
 id: 0218
+title: Rounding Numbers
+description: How does rounding numbers improve dashboard usability?
 tags:
   - dashboard-design
 ---

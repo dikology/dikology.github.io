@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 0208
+title: Efficient Visualizations
+description: How do you choose the most efficient visualization?
 tags:
   - data-viz
 created: December 30

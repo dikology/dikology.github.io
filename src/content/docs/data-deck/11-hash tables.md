@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 0211
+title: Hash Tables
+description: What is a hash table?
 tags:
   - dsa
 created: March 30

@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 217
+title: Pooled Variance
+description: What is the pooled variance in a two-sample case for proportions?
 tags:
   - ab-testing
 created: March 30

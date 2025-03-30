@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 0202
+title: Big O Complexity Chart
+description: Big O complexity chart
 tags:
   - dsa
 created: January 08

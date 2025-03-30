@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 0210
+title: Grouping Metrics
+description: Why should related metrics be grouped together?
 tags:
   - dashboard-design
 ---

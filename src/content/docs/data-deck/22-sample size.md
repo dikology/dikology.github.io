@@ -1,6 +1,8 @@
 ---
 type: basic
 id: 222
+title: Sample Size
+description: What is the formula for calculating sample size per group in an A/B test?
 tags:
   - ab-testing
 created: March 30
