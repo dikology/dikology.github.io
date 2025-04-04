@@ -8,7 +8,6 @@ modified: March 30
 tags:
   - sailing-deck
 ---
-
 **Front:**
 Как правильно поставить грот?
 

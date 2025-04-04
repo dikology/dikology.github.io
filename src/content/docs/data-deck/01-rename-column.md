@@ -29,3 +29,4 @@ RENAME COLUMN genre TO category;
 <p>After executing this query, the column previously known as “genre” will now be called category. Note that renaming a column will not change the data stored in that column, but it will change the column’s name in the table schema.</p>
 
 <p>If renaming doesn’t solve your problem, you can add a new column or [drop a column](https://www.coginiti.co/tutorials/beginner/drop-column/) from your table.</p>
+[[Data Analytics]]

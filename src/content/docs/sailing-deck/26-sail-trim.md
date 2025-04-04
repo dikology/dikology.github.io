@@ -6,9 +6,8 @@ type: basic
 tags:
   - sailing-deck
 created: March 29
-modified: March 30
+modified: April 03
 ---
-
 **Front:**
 # Sail Trim Theory
 
@@ -87,3 +86,6 @@ modified: March 30
     <li>Flapping telltales indicate incorrect sail trim or angle</li>
   </ul>
 </div>
+
+[[01-Sailing-deck]]
+[[Sailing]]

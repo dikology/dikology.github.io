@@ -6,7 +6,6 @@ id: 101
 created: February 08
 modified: March 19
 ---
-
 **Front:**
 Направления ветра и курсы по ветру
 
@@ -21,3 +20,4 @@ modified: March 19
 направлением движения судна составляет менее 90° (меньше 8 румбов).</p>
 
 ![](points-of-sail.jpg)
+[[Sailing]]
