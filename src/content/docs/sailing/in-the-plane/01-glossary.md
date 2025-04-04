@@ -2,7 +2,7 @@
 title: Глоссарий
 description: Глоссарий
 created: March 01
-modified: March 16
+modified: April 02
 ---
 ## Наиболее актуальные  
 Термины, которые постоянно забываются, собираются в [колоду Anki](https://dikology.github.io/decks/sailing-deck.apkg)
@@ -280,3 +280,5 @@ VMG (Velocity Made Good) – Скорость «продвижения на ве
 ЦИВ предполагает передачу коротких формализованных сообщений, представленных в закодированном виде с помощью двоичных символов в ПВ, КВ и УКВ диапазонах. 
 
 ЭКНИС (Электронно-картографическая навигационно-информационная система) – ECDIS (Electronic Chart Display and Information System).
+
+[[Sailing]]

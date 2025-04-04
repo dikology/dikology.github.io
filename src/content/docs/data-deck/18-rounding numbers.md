@@ -1,11 +1,12 @@
 ---
 type: basics
-id: 0218
+id: 218
 title: Rounding Numbers
 description: How does rounding numbers improve dashboard usability?
 tags:
-  - dashboard-design
+  - data-viz
 ---
-
 **Front:** How does rounding numbers improve dashboard usability?  
 **Back:** Overly precise numbers slow down comprehension. Round to meaningful differences and use abbreviations for easier understanding.
+
+[[Data Analytics]]

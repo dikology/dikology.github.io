@@ -8,7 +8,6 @@ id: 119
 tags:
   - sailing-deck
 ---
-
 **Front:**
 # Safe Water Marks
 

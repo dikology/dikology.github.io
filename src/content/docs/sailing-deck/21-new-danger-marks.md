@@ -8,7 +8,6 @@ tags:
 created: March 29
 modified: March 30
 ---
-
 **Front:**
 # New Danger Marks
 
@@ -31,3 +30,5 @@ modified: March 30
   <li>In urgent situations, they may be placed with very short notice</li>
   <li>Mariners should exercise extreme caution when navigating in areas where new dangers are reported, even if marked</li>
 </ul>
+[[01-Sailing-deck]]
+[[Sailing]]

@@ -8,7 +8,6 @@ tags:
 created: March 29
 modified: March 30
 ---
-
 **Front:**
 # Docking Techniques
 
@@ -106,3 +105,5 @@ modified: March 30
     <li>Practice makes perfect - try in open water first</li>
   </ul>
 </div>
+[[01-Sailing-deck]]
+[[Sailing]]

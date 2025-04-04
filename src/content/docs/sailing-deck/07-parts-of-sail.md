@@ -1,14 +1,13 @@
 ---
 title: Части паруса
 description: card about main parts of a sail
-type: basic
+type: basic-media
 id: 107
 created: March 19
-modified: March 30
+modified: April 02
 tags:
   - sailing-deck
 ---
-
 **Front:**
 Назовите основные части паруса
 
@@ -25,5 +24,6 @@ tags:
   <li>Латы (Battens) - пластиковые планки для поддержания формы паруса</li>
   <li>Риф-банты (Reef points) - точки крепления для уменьшения площади паруса</li>
 </ol>
+![](PartsOfSail.jpg)
 [[01-Sailing-deck]]
 [[Sailing]]

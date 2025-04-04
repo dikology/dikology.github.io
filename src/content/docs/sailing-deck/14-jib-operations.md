@@ -6,7 +6,6 @@ id: 114
 created: March 19
 modified: March 19
 ---
-
 **Front:**
 Как правильно ставить и убирать стаксель?
 

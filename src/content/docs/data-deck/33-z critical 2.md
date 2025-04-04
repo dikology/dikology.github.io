@@ -16,3 +16,4 @@ tags:
 - For power = 0.95, \( Z = 1.64 \)
 
 ---
+[[Data Analytics]]

@@ -8,7 +8,6 @@ modified: March 29
 tags:
   - sailing-deck
 ---
-
 **Front:**
 Что такое поворот фордевинд (jibing) и как его выполнить?
 

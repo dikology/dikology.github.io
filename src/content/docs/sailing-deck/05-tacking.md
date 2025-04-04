@@ -8,7 +8,6 @@ modified: March 30
 tags:
   - sailing-deck
 ---
-
 **Front:**
 Что такое поворот оверштаг (tacking) и как его выполнить?
 

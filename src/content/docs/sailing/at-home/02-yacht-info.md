@@ -2,7 +2,7 @@
 title: Общие данные по яхте
 description: Общие данные по яхте
 created: March 01
-modified: March 16
+modified: April 02
 ---
 ## Основные данные по яхте
 
@@ -44,3 +44,5 @@ modified: March 16
 - [ ] Кондиционер (Air conditioner – AC)
 - [ ] Кофемашина (Coffee maker)
 - [ ] Аудиосистема (Radio, CD, Bluetooth, AUX)
+
+[[Sailing]]

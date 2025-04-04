@@ -8,7 +8,6 @@ tags:
 created: March 29
 modified: March 30
 ---
-
 **Front:**
 # Weather Basics
 
@@ -99,3 +98,5 @@ modified: March 30
     <li>Visual observation of clouds and horizon</li>
   </ul>
 </div>
+
+[[Sailing]]
