@@ -3,7 +3,9 @@ import re
 import json
 import networkx as nx
 import matplotlib.pyplot as plt
+import logging
 
+logging.basicConfig(level=logging.INFO)
 
 def extract_links(content):
     """Extract all [[filename]] links from markdown content"""
@@ -51,9 +53,24 @@ def build_content_graph(content_dir="src/content/docs"):
     print(graph)
     return graph, node_metadata
 
+
+def depth_first_search(graph, start_node):
+    stack = [start_node]
+
+    while stack:
+        node = stack.pop()
+        logging.info(f"Visiting node: {node}")
+        for neighbor in graph[node]:
+            stack.append(neighbor)
+
+    return
+
+
 if __name__ == "__main__":
     # Build the graph using dictionary
     dict_graph, node_metadata = build_content_graph()
-    
+
     # Print some statistics
     print(f"Graph contains {len(dict_graph)} nodes and {sum(len(edges) for edges in dict_graph.values())} edges")
+
+    depth_first_search(dict_graph, "01-Sailing-deck")
