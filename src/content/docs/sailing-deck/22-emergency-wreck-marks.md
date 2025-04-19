@@ -6,7 +6,7 @@ type: basic
 tags:
   - sailing-deck
 created: March 29
-modified: March 30
+modified: April 06
 ---
 
 **Front:**
@@ -40,3 +40,5 @@ modified: March 30
 </ul>
 
 <p>Mariners should note that these marks are relatively new additions to the IALA system and should pass them at a safe distance.</p>
+[[01-Sailing-deck]]
+[[Sailing]]
