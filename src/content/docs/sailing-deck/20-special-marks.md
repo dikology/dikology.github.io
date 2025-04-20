@@ -1,6 +1,6 @@
 ---
-title: Special Marks (IALA A)
-description: Understanding special marks in IALA A system
+title: Специальные знаки (IALA A)
+description: Знаки специальных областей в системе IALA A
 id: 120
 type: basic
 tags:
@@ -13,31 +13,31 @@ modified: March 30
 # Special Marks
 
 **Back:**
-<p>Special marks indicate a special area or feature whose nature may be found by consulting a chart or sailing directions. They are not primarily intended for navigation but indicate special areas or features.</p>
+<p>Специальные знаки указывают на специальную область или особенность, природа которой может быть найдена путем консультации с навигационной картой или навигационными указаниями. Они не предназначены для навигации, но указывают на специальные области или особенности.</p>
 
 <div class="mark-section">
-  <h3>Special Mark:</h3>
+  <h3>Специальный знак:</h3>
   <ul>
-    <li><strong>Color:</strong> Yellow</li>
-    <li><strong>Shape:</strong> Optional, but not conflicting with navigational marks; often "X"-shaped or pillar</li>
-    <li><strong>Topmark:</strong> Single yellow "X" (if fitted)</li>
-    <li><strong>Light:</strong> Yellow, any rhythm not used for white lights of other marks</li>
+    <li><strong>Цвет:</strong> Желтый</li>
+    <li><strong>Форма:</strong> Необязательная, но не противоречащая навигационным знакам; часто "X"-образной или столбчатой</li>
+    <li><strong>Верхний знак:</strong> Один желтый "X" (если установлен)</li>
+    <li><strong>Свет:</strong> Желтый, любой ритм, не используемый для белых светов других знаков</li>
   </ul>
 </div>
 
-<p><strong>Common uses include:</strong></p>
+<p><strong>Обычно используются для:</strong></p>
 <ul>
-  <li>Traffic separation schemes</li>
-  <li>Spoil grounds and dredging areas</li>
-  <li>Military exercise zones</li>
-  <li>Cable or pipeline areas including outfalls</li>
-  <li>Recreation zones</li>
-  <li>Boundaries of channel crossings</li>
-  <li>Areas where anchoring is prohibited</li>
-  <li>Fishery or aquaculture areas</li>
+  <li>Схем разделения движения</li>
+  <li>Спавные грунты и зоны очистки</li>
+  <li>Зоны военных упражнений</li>
+  <li>Зоны кабелей и трубопроводов, включая выходы</li>
+  <li>Зоны отдыха</li>
+  <li>Граница пересечения каналов</li>
+  <li>Зоны, где стояночная якорь запрещена</li>
+  <li>Зоны рыболовства или аквакультуры</li>
 </ul>
 
-<p>Special marks may also be used to mark a channel within a channel (e.g., a preferred route through a wide estuary).</p>
+<p>Специальные знаки также могут использоваться для обозначения канала внутри канала (например, предпочтительного маршрута через широкую эстуарий).</p>
 
 [[Sailing]]
 [[01-Sailing-deck]]

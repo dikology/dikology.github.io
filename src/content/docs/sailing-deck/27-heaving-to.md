@@ -1,8 +1,8 @@
 ---
-title: Heaving To
-description: Technique for pausing progress and stabilizing a sailboat at sea
+title: Постановка в дрейф
+description: Техника для приостановки продвижения и стабилизации парусной лодки на море
 created: March 29
-modified: March 29
+modified: April 03
 id: 127
 type: basic
 tags:
@@ -10,46 +10,46 @@ tags:
 ---
 
 **Front:**
-# Heaving To
+# Постановка в дрейф
 
 **Back:**
-What is Heaving To:
-A technique to essentially "park" your sailboat at sea by balancing the forces of your sails and rudder, creating a stable position with minimal forward motion.
+Что такое постановка в дрейф:
+Техника для эффективного "парковки" парусной лодки на море путем балансировки сил парусов и руля, создавая стабильное положение с минимальным продвижением вперед.
 
-**When to Heave To:**
-- During heavy weather to reduce strain on the boat and crew
-- When needing a break for rest, meals, or boat repairs
-- In man overboard situations to stop the boat quickly
-- When waiting (for daylight, better weather, or tide change)
-- To slow down when approaching a destination too early
+**Когда поставить в дрейф:**
+- Во время сильного ветра для уменьшения нагрузки на лодку и команду
+- Когда нужно передохнуть, пообедать или починить лодку
+- В случаях с человеком в воде для быстрой остановки лодки
+- Когда ждать (для светового дня, лучшего ветра или изменения прилива)
+- Чтобы замедлиться, когда приближаешься к месту назначения слишком рано
 
-**How to Heave To:**
+**Как поставить в дрейф:**
 
-**Basic Method:**
-1. Start on a close hauled course
-2. Tack the boat without releasing the jib sheet (jib will remain backed)
-3. Once through the tack, center or slightly leeward the tiller/wheel
-4. Adjust the mainsail to find balance (typically eased)
-5. Fine-tune position of all controls until the boat settles
+**Основной метод:**
+1. Начать на близком бей-угле
+2. Тук без отпускания шкота (парус останется натянутым)
+3. После тура, центрировать или слегка подветренно руль/штурвал
+4. Отрегулируйте парус для баланса (обычно ослабленный)
+5. Настроить положение всех рулей до того, как лодка успокоится
 
-**For Sloop-Rigged Boats:**
-- The backed jib pushes the bow away from the wind
-- The mainsail and rudder push the stern away from the wind
-- These opposing forces create stability with minimal forward motion
-- The boat will make slight forward progress while drifting downwind
+**Для судов с однокорпусным расположением мачты:**
+- Натянутый парус отталкивает нос от ветра
+- Парус и руль отталкивают корму от ветра
+- Эти противоположные силы создают стабильность с минимальным продвижением вперед
+- Лодка будет двигаться немного вперед при дрейфе на ветер
 
 **Considerations:**
-- Different boats will heave to differently (some more effectively than others)
-- Creates a "slick" to windward that can help break incoming waves
-- Forward speed typically reduces to 1-2 knots
-- Practice in moderate conditions before needing it in heavy weather
-- May not be effective in very light or extremely heavy winds
+- Разные лодки будут дрейфовать по-разному (некоторые более эффективно, чем другие)
+- Создает "скользкую" поверхность к ветру, которая может помочь разогнать волны
+- Обычная скорость обычно снижается до 1-2 узлов
+- Лучше практиковаться в умеренных условиях, прежде чем понадобится в сильном ветре
+- Не может быть эффективным в очень слабом или чрезвычайно сильном ветре
 
-**To Resume Sailing:**
-1. Return tiller/wheel to center
-2. Release the backed jib
-3. Trim sails for desired course
-4. Resume normal sailing 
+**Чтобы продолжить движение:**
+1. Вернуть руль/штурвал в центр
+2. Отпустить шкот
+3. Отрегулировать парус для желаемого курса
+4. Продолжать нормальное движение 
 
 [[Sailing]]
 [[01-Sailing-deck]]

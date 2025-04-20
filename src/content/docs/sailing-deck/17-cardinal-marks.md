@@ -1,6 +1,6 @@
 ---
-title: Cardinal Marks (IALA A)
-description: Understanding the four cardinal marks in IALA A system
+title: Кардинальные знаки (IALA A)
+description: Понимание четырёх кардинальных знаков в системе IALA A
 id: 117
 type: basic-media
 tags:
@@ -9,60 +9,56 @@ created: March 29
 modified: March 30
 ---
 **Front:**
-# Cardinal Marks
+# Кардинальные знаки
 
 **Back:**
-<p>Cardinal marks indicate where the deepest water is in relation to the mark. They are named after the compass quadrant (North, East, South, West) in which they are placed.</p>
+<p>Кардинальные знаки указывают на глубину воды в отношении знака. Они названы в честь четырёх основных направлений (север, восток, юг, запад) в которых они установлены.</p>
 
 <div class="mark-section">
-  <h3>North Cardinal Mark:</h3>
+  <h3>Северный кардинальный знак:</h3>
   <ul>
-    <li><strong>Color:</strong> Black over yellow</li>
-    <li><strong>Shape:</strong> Pillar or spar</li>
-    <li><strong>Topmark:</strong> Two black cones, points upward</li>
-    <li><strong>Light:</strong> Continuous quick or very quick white flashes</li>
-    <li><strong>Position:</strong> North of danger</li>
-    <li><strong>Safe passage:</strong> Pass to the north of this mark</li>
+    <li><strong>Цвет:</strong> Черный над желтым</li>
+    <li><strong>Верхний знак:</strong> Два черных конуса, вершины вверх</li>
+    <li><strong>Огонь:</strong> Постоянный быстрый или очень быстрый белый мигающий огонь</li>
+    <li><strong>Положение:</strong> Север от опасности</li>
+    <li><strong>Безопасный путь:</strong> Пройти на север от этого знака</li>
   </ul>
 </div>
 
 <div class="mark-section">
-  <h3>East Cardinal Mark:</h3>
+  <h3>Восточный кардинальный знак:</h3>
   <ul>
-    <li><strong>Color:</strong> Black with yellow horizontal band</li>
-    <li><strong>Shape:</strong> Pillar or spar</li>
-    <li><strong>Topmark:</strong> Two black cones, base to base</li>
-    <li><strong>Light:</strong> Three quick or very quick white flashes, followed by a long flash</li>
-    <li><strong>Position:</strong> East of danger</li>
-    <li><strong>Safe passage:</strong> Pass to the east of this mark</li>
+    <li><strong>Цвет:</strong> Черный с желтой горизонтальной полосой</li>
+    <li><strong>Верхний знак:</strong> Два черных конуса, основания вверх</li>
+    <li><strong>Огонь:</strong> Три быстрых или очень быстрых белых мигания, за которым следует длинный мигающий огонь (на 3 часа)</li>
+    <li><strong>Положение:</strong> Восток от опасности</li>
+    <li><strong>Безопасный путь:</strong> Пройти на восток от этого знака</li>
   </ul>
 </div>
 
 <div class="mark-section">
-  <h3>South Cardinal Mark:</h3>
+  <h3>Южный кардинальный знак:</h3>
   <ul>
-    <li><strong>Color:</strong> Yellow over black</li>
-    <li><strong>Shape:</strong> Pillar or spar</li>
-    <li><strong>Topmark:</strong> Two black cones, points downward</li>
-    <li><strong>Light:</strong> Six quick or very quick white flashes, followed by a long flash</li>
-    <li><strong>Position:</strong> South of danger</li>
-    <li><strong>Safe passage:</strong> Pass to the south of this mark</li>
+    <li><strong>Цвет:</strong> Желтый над черным</li>
+    <li><strong>Верхний знак:</strong> Два черных конуса, вершины вниз</li>
+    <li><strong>Огонь:</strong> Шесть быстрых или очень быстрых белых миганий, за которым следует длинный мигающий огонь (на 6 часов)</li>
+    <li><strong>Положение:</strong> Юг от опасности</li>
+    <li><strong>Безопасный путь:</strong> Пройти на юг от этого знака</li>
   </ul>
 </div>
 
 <div class="mark-section">
-  <h3>West Cardinal Mark:</h3>
+  <h3>Западный кардинальный знак:</h3>
   <ul>
-    <li><strong>Color:</strong> Yellow with black horizontal band</li>
-    <li><strong>Shape:</strong> Pillar or spar</li>
-    <li><strong>Topmark:</strong> Two black cones, point to point</li>
-    <li><strong>Light:</strong> Nine quick or very quick white flashes</li>
-    <li><strong>Position:</strong> West of danger</li>
-    <li><strong>Safe passage:</strong> Pass to the west of this mark</li>
+    <li><strong>Цвет:</strong> Желтый с черной горизонтальной полосой</li>
+    <li><strong>Верхний знак:</strong> Два черных конуса, вершины вниз</li>
+    <li><strong>Огонь:</strong> Девять быстрых или очень быстрых белых миганий (на 9 часов)</li>
+    <li><strong>Положение:</strong> Запад от опасности</li>
+    <li><strong>Безопасный путь:</strong> Пройти на запад от этого знака</li>
   </ul>
 </div>
 
-<p><strong>Memory Aid:</strong> "The cones point to where the black is."</p>
+<p><strong>Помощь для запоминания:</strong> "Черные конусы указывают на то, где черный цвет."</p>
 ![[cardinal-marks.png]]
 [[01-Sailing-deck]]
 [[Sailing]]

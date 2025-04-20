@@ -1,6 +1,6 @@
 ---
-title: Man Overboard Recovery (MOB)
-description: Essential procedures for person overboard situations
+title: Спасение человека, упавшего за борт (MOB)
+description: Основные процедуры для ситуаций, когда человек упал за борт
 created: March 29
 modified: March 30
 type: basic
@@ -9,59 +9,59 @@ tags:
   - sailing-deck
 ---
 **Front:**
-# Man Overboard Recovery
+# Спасение человека, упавшего за борт
 
 **Back:**
-<h3>Immediate Actions:</h3>
+<h3>Немедленные действия:</h3>
 <ol>
-  <li>Shout "MAN OVERBOARD" to alert the crew</li>
-  <li>Assign a crew member as the "spotter" to continuously point at the person in the water</li>
-  <li>Throw flotation devices toward the person</li>
-  <li>Press MOB button on GPS if available</li>
-  <li>Note the position and time</li>
+  <li>Крикнуть "MAN OVERBOARD" для привлечения внимания команды</li>
+  <li>Назначить члена команды в качестве "spotter" для непрерывного указания на человека в воде</li>
+  <li>Бросить спасательные жилеты к человеку</li>
+  <li>Нажать кнопку MOB на GPS, если она доступна</li>
+  <li>Записать положение и время</li>
 </ol>
 
 <div class="recovery-section">
-  <h3>Recovery Methods:</h3>
+  <h3>Методы спасения:</h3>
 
-  <h4>Figure 8 / Williamson Turn:</h4>
+  <h4>Рисунок 8 / Williamson Turn:</h4>
   <ul>
-    <li>Continue on course for about 5 boat lengths</li>
-    <li>Turn sharply to windward and continue until nearly head to wind</li>
-    <li>Tack without releasing the jib</li>
-    <li>Bear away to a broad reach</li>
-    <li>Approach the person from downwind (letting the boat drift toward them)</li>
-    <li>Stop the boat alongside the person</li>
+    <li>Продолжать курс на расстоянии 5 длин лодки</li>
+    <li>Сделать резкий поворот на ветер и продолжать до почти головы ветра</li>
+    <li>Тук без отпускания стакселя</li>
+    <li>Бей-угол</li>
+    <li>Приблизиться к человеку снизу ветра (позволяя лодке дрейфовать к ним)</li>
+    <li>Остановить лодку рядом с человеком</li>
   </ul>
 
-  <h4>Quick Stop:</h4>
+  <h4>Быстрый поворот:</h4>
   <ul>
-    <li>Immediately turn into the wind</li>
-    <li>Tack without releasing the jib</li>
-    <li>Allow the backed jib to push the bow down</li>
-    <li>Circle back to the person from downwind</li>
+    <li>Сразу повернуть на ветер</li>
+    <li>Тук без отпускания стакселя</li>
+    <li>Позволить стакселю оттолкнуть нос лодки вниз</li>
+    <li>Обратно к человеку снизу ветра</li>
   </ul>
 </div>
 
 <div class="tips-section">
-  <h3>Recovery Tips:</h3>
+  <h3>Советы по спасению:</h3>
   <ul>
-    <li>Approach at slow speed from downwind</li>
-    <li>Stop the boat alongside the person</li>
-    <li>Never approach from upwind (risk of drifting over the person)</li>
-    <li>Use the engine if necessary</li>
-    <li>Have recovery equipment ready (ladder, spare halyard, lifting sling)</li>
-    <li>Assign crew to recovery positions before approaching</li>
+    <li>Приблизиться на медленной скорости снизу ветра</li>
+    <li>Остановить лодку рядом с человеком</li>
+    <li>Никогда не подходить сверху ветра (риск дрейфа над человеком)</li>
+    <li>Использовать двигатель, если необходимо</li>
+    <li>Быть готовым к спасению (лестница, запасная шаль, подъемный строп)</li>
+    <li>Назначить членов команды на позиции спасения перед подходом</li>
   </ul>
 </div>
 
 <div class="prevention-section">
-  <h3>Prevention:</h3>
+  <h3>Предотвращение:</h3>
   <ul>
-    <li>Always wear lifejackets on deck</li>
-    <li>Use harnesses and tethers in rough conditions or at night</li>
-    <li>Brief crew on MOB procedures before sailing</li>
-    <li>Practice MOB drills regularly</li>
+    <li>Всегда носить спасательные жилеты на палубе</li>
+    <li>Использовать привязные ремни и тросы в условиях шторма или ночью</li>
+    <li>Обучить команду процедурам спасения MOB перед отплытием</li>
+    <li>Практиковать процедуры спасения MOB регулярно</li>
   </ul>
 </div>
 [[01-Sailing-deck]]

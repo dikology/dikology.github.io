@@ -1,6 +1,6 @@
 ---
-title: Emergency Wreck Marking Buoys (IALA A)
-description: Understanding emergency wreck marking buoys in IALA A system
+title: Знаки аварийного обозначения (IALA A)
+description: Знаки аварийного обозначения в системе IALA A
 id: 122
 type: basic
 tags:
@@ -10,35 +10,35 @@ modified: April 06
 ---
 
 **Front:**
-# Emergency Wreck Marking Buoys
+# Знаки аварийного обозначения
 
 **Back:**
-<p>Emergency Wreck Marking Buoys (EWMB) are used to mark new wrecks or obstructions that pose an immediate danger to navigation. They are deployed as a temporary measure until a more permanent form of marking can be established.</p>
+<p>Знаки аварийного обозначения (EWMB) используются для обозначения новых завалов или препятствий, представляющих опасность для навигации. Они размещаются как временная мера до установки более постоянного обозначения.</p>
 
 <div class="mark-section">
-  <h3>Emergency Wreck Marking Buoy:</h3>
+  <h3>Знак аварийного обозначения:</h3>
   <ul>
-    <li><strong>Color:</strong> Blue and yellow vertical stripes (equal number, minimum of 4 stripes)</li>
-    <li><strong>Shape:</strong> Pillar or spar</li>
-    <li><strong>Topmark:</strong> Yellow upright cross (+)</li>
-    <li><strong>Light:</strong> Alternating blue and yellow flashing light, 1-second flash (Bl 1.0s + Y 1.0s)</li>
-    <li><strong>Range:</strong> Normally visible for at least 4 nautical miles</li>
+    <li><strong>Цвет:</strong> Синие и желтые вертикальные полосы (минимум 4 полосы)</li>
+    <li><strong>Форма:</strong> Столб или мачта</li>
+    <li><strong>Верхний знак:</strong> Желтый вертикальный крест (+)</li>
+    <li><strong>Свет:</strong> Чередующийся синий и желтый мигающий свет, 1-секундный мигание (Bl 1.0s + Y 1.0s)</li>
+    <li><strong>Расстояние:</strong> Обычно видимый на расстоянии не менее 4 морских миль</li>
   </ul>
 </div>
 
-<p><strong>Deployment:</strong></p>
+<p><strong>Размещение:</strong></p>
 <ul>
-  <li>Usually placed as soon as possible after a wreck has been discovered</li>
-  <li>May be deployed in multiples around the wreck perimeter</li>
-  <li>Typically remains in position until:
+  <li>Обычно размещается как можно скорее после обнаружения завала</li>
+  <li>Может быть размещено в нескольких местах вокруг завала</li>
+  <li>Обычно остается на месте до тех пор, пока:
     <ul>
-      <li>The wreck is well known and has been properly published on charts</li>
-      <li>The wreck has been fully surveyed and exact position determined</li>
-      <li>A permanent marking system has been established</li>
+      <li>Завал хорошо известен и правильно опубликован на картах</li>
+      <li>Завал полностью обследован и точное положение определено</li>
+      <li>Установлена постоянная система обозначения</li>
     </ul>
   </li>
 </ul>
 
-<p>Mariners should note that these marks are relatively new additions to the IALA system and should pass them at a safe distance.</p>
+<p>Судоводители должны отметить, что эти знаки являются относительно новыми добавлениями в систему IALA и должны проходить их на безопасном расстоянии.</p>
 [[01-Sailing-deck]]
 [[Sailing]]
