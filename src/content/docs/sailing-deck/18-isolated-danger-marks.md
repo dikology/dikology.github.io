@@ -1,6 +1,6 @@
 ---
-title: Isolated Danger Marks (IALA A)
-description: Understanding isolated danger marks in IALA A system
+title: Знаки опасности (IALA A)
+description: Знаки опасности в системе IALA A
 created: March 29
 modified: March 30
 id: 118
@@ -9,22 +9,22 @@ tags:
   - sailing-deck
 ---
 **Front:**
-# Isolated Danger Marks
+# Знаки опасности
 
 **Back:**
-<p>Isolated danger marks indicate a danger that has navigable water all around it. They are placed on, or near, an isolated danger of limited extent.</p>
+<p>Знаки опасности указывают на опасность, которая окружена навигационной водой. Они располагаются на, или рядом с, изолированной опасности ограниченного размера.</p>
 
 <div class="mark-section">
-  <h3>Isolated Danger Mark:</h3>
+  <h3>Знак опасности:</h3>
   <ul>
-    <li><strong>Color:</strong> Black with one or more broad horizontal red bands</li>
-    <li><strong>Shape:</strong> Pillar or spar</li>
-    <li><strong>Topmark:</strong> Two black spheres, one above the other</li>
-    <li><strong>Light:</strong> White flashes in groups of two (2)</li>
-    <li><strong>Mnemonic for light:</strong> "Two spheres, two flashes"</li>
+    <li><strong>Цвет:</strong> Черный с одной или несколькими широкими красными полосами</li>
+    <li><strong>Форма:</strong> Столб или мачта</li>
+    <li><strong>Верхний знак:</strong> Два черных шара, один над другим</li>
+    <li><strong>Свет:</strong> Белые вспышки группами по два (2)</li>
+    <li><strong>Мнемоническое правило для света:</strong> "Два шара, две вспышки"</li>
   </ul>
 </div>
 
-<p>These marks should be passed at a safe distance in any direction, as they indicate a danger surrounded by navigable water. The size of the danger is typically not indicated on navigation charts, so an appropriate safe distance should be maintained.</p>
+<p>Эти знаки должны быть пройдены на безопасном расстоянии в любом направлении, так как они указывают на опасность, окруженную навигационной водой. Размер опасности обычно не указан на навигационных картах, поэтому должно быть поддержано соответствующее безопасное расстояние.</p>
 [[01-Sailing-deck]]
 [[Sailing]]

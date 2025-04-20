@@ -1,6 +1,6 @@
 ---
-title: Lateral Marks (IALA A)
-description: Understanding port and starboard lateral marks in IALA A system
+title: Латеральные знаки (IALA A)
+description: Понимание левых и правых латеральных знаков в системе IALA A
 created: March 29
 modified: March 29
 type: basic
@@ -10,33 +10,31 @@ tags:
 ---
 
 **Front:**
-# Lateral Marks
+# Латеральные знаки (IALA A)
 
 **Back:**
-<p>Lateral marks indicate the port (left) and starboard (right) sides of navigable channels when approaching from seaward.</p>
+<p>Латеральные знаки указывают на левую и правую стороны навигационных каналов при подходе с моря.</p>
 
 <div class="mark-section">
-  <h3>Port-hand Marks (IALA A):</h3>
+  <h3>Левый знак (IALA A):</h3>
   <ul>
-    <li><strong>Color:</strong> Red</li>
-    <li><strong>Shape:</strong> Can, cylindrical, or spar</li>
-    <li><strong>Topmark:</strong> Red can (if fitted)</li>
-    <li><strong>Light:</strong> Red, any rhythm except those used for cardinal, isolated danger, or safe water marks</li>
-    <li><strong>Memory Aid:</strong> "Red to port when returning"</li>
+    <li><strong>Цвет:</strong> Красный</li>
+    <li><strong>Форма:</strong> Цилиндрическая, столбообразная или с плоской вершиной</li>
+    <li><strong>Верхний знак:</strong> Красный цилиндр (если установлен)</li>
+    <li><strong>Световой сигнал:</strong> Красный, любой ритм кроме 2+1</li>
   </ul>
 </div>
 
 <div class="mark-section">
-  <h3>Starboard-hand Marks (IALA A):</h3>
+  <h3>Правый знак (IALA A):</h3>
   <ul>
-    <li><strong>Color:</strong> Green</li>
-    <li><strong>Shape:</strong> Conical, triangular, or spar</li>
-    <li><strong>Topmark:</strong> Green cone, point upward (if fitted)</li>
-    <li><strong>Light:</strong> Green, any rhythm except those used for cardinal, isolated danger, or safe water marks</li>
-    <li><strong>Memory Aid:</strong> "Green to starboard when returning"</li>
+    <li><strong>Цвет:</strong> Зеленый</li>
+    <li><strong>Форма:</strong> Конусообразная, остроконечная</li>
+    <li><strong>Верхний знак:</strong> Зеленый конус вершиной вверх (если установлен)</li>
+    <li><strong>Световой сигнал:</strong> Зеленый, любой ритм кроме 2+1</li>
   </ul>
 </div>
 
-<p>When entering a harbor or channel from seaward, keep red marks on your port (left) side and green marks on your starboard (right) side.</p>
+<p>При подходе к гавани или каналу из моря держите красные знаки на левой стороне и зеленые знаки на правой стороне.</p>
 
 [[01-Sailing-deck]]

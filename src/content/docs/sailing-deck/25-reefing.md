@@ -1,6 +1,6 @@
 ---
-title: Reefing Techniques
-description: Procedures for reducing sail area in stronger winds
+title: Техника складывания паруса
+description: Процедуры для уменьшения площади паруса в более сильном ветре
 created: March 29
 modified: April 03
 id: 125
@@ -9,63 +9,63 @@ tags:
   - sailing-deck
 ---
 **Front:**
-# Reefing Techniques
+# Техника складывания паруса
 
 **Back:**
 <div class="when-to-reef">
-  <h3>When to Reef:</h3>
+  <h3>Когда складывать парус:</h3>
   <ul>
-    <li>Before you think you need to</li>
-    <li>When you first think about reefing</li>
-    <li>When wind is consistently above force 4-5 (16-21 knots)</li>
-    <li>When inexperienced crew are uncomfortable</li>
-    <li>When excessive heel affects boat handling</li>
+    <li>Перед тем, как подумать, что нужно</li>
+    <li>Когда вы впервые думаете о складывании паруса</li>
+    <li>Когда ветер постоянный выше силы 4-5 (16-21 узлов)</li>
+    <li>Когда не опытная команда чувствует себя неудобно</li>
+    <li>Когда чрезмерный крен влияет на управление лодкой</li>
   </ul>
 </div>
 
 <div class="preparations">
-  <h3>Preparations:</h3>
+  <h3>Подготовка:</h3>
   <ul>
-    <li>Ensure reefing lines are clear and ready</li>
-    <li>Brief crew on their roles</li>
-    <li>Have winch handles ready</li>
-    <li>Position the boat on a comfortable point of sail (close reach or beam reach)</li>
+    <li>Убедитесь, что рейфинг-линии готовы и готовы</li>
+    <li>Обучите команду их ролям</li>
+    <li>Подготовьте штурвалы</li>
+    <li>Позиционируйте лодку на удобной точке солнца (ближний бей-угол или бей-угол)</li>
   </ul>
 </div>
 
 <div class="reefing-methods">
-  <h3>Mainsail Reefing Methods:</h3>
+  <h3>Методы складывания паруса:</h3>
 
   <h4>Slab/Jiffy Reefing:</h4>
   <ol>
-    <li>Head to wind or on a close reach</li>
-    <li>Ease the mainsheet and traveler</li>
-    <li>Tension the topping lift to support boom</li>
-    <li>Lower the halyard to the reefing position</li>
-    <li>Secure the tack cringle to the reefing hook or tack line</li>
-    <li>Tension the reef line to pull clew down and out</li>
-    <li>Secure the halyard</li>
-    <li>Tidy excess sail with reef points or sail ties</li>
-    <li>Ease the topping lift (boom supported by reefed sail)</li>
+    <li>Направьте лодку на ветер или на близкий бей-угол</li>
+    <li>Ослабьте шкот и стаксель</li>
+    <li>Натяните топенант для поддержки мачты</li>
+    <li>Опустите шкот в положение складывания паруса</li>
+    <li>Закрепите шкот в топенанте или шкот-линии</li>
+    <li>Натяните рейфинг-линию для вытягивания шкота вниз и наружу</li>
+    <li>Закрепите шкот</li>
+    <li>Уберите излишки паруса с помощью рейфинг-точек или шнуров</li>
+    <li>Ослабьте топенант (мачта поддерживается складывающимся парусом)</li>
   </ol>
 
   <h4>In-mast Furling Reefing:</h4>
   <ol>
-    <li>Position boat at close reach</li>
-    <li>Apply slight tension on the outhaul</li>
-    <li>Ease the sheet slightly</li>
-    <li>Pull the furling line while easing the outhaul</li>
-    <li>Furl to desired amount of sail</li>
-    <li>Retension the outhaul and sheet</li>
+    <li>Позиционируйте лодку на близком бей-угле</li>
+    <li>Приложите небольшое натяжение на outhaul</li>
+    <li>Ослабьте шкот немного</li>
+    <li>Тяните рейфинг-линию, ослабляя outhaul</li>
+    <li>Складывание паруса до желаемого количества паруса</li>
+    <li>Натяните outhaul и шкот</li>
   </ol>
 
   <h4>Roller Furling Headsail Reefing:</h4>
   <ol>
-    <li>Ease the headsail sheet slightly</li>
-    <li>Apply slight tension to the sheets to maintain sail shape</li>
-    <li>Pull the furling line smoothly</li>
-    <li>Furl to desired amount of sail</li>
-    <li>Retension the sheet</li>
+    <li>Ослабьте шкот немного</li>
+    <li>Приложите небольшое натяжение к шкотам для поддержания формы паруса</li>
+    <li>Тяните рейфинг-линию плавно</li>
+    <li>Складывание паруса до желаемого количества паруса</li>
+    <li>Натяните шкот</li>
   </ol>
 </div>
 

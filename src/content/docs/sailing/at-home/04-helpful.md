@@ -2,7 +2,7 @@
 title: Полезные материалы
 description: Полезные материалы
 created: March 01
-modified: March 16
+modified: April 06
 ---
 ### Полезные приложения
 - [ ] Splitwise – учёт совместных трат
@@ -22,3 +22,5 @@ modified: March 16
 - [Формы RAYS](https://skippers.ru/content/view/536/133)
 - [Инструкция: Как грамотно провести приемку яхты](https://silavetra.com/check-in)
 - [Магазин яхтенной одежды и снаряжения](https://tradeinn.com/waveinn)
+
+[[Sailing]]

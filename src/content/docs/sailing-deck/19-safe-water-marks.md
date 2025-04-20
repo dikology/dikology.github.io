@@ -1,6 +1,6 @@
 ---
-title: Safe Water Marks (IALA A)
-description: Understanding safe water marks in IALA A system
+title: Безопасные знаки (IALA A)
+description: Знаки безопасности в системе IALA A
 created: March 29
 modified: March 30
 type: basic-media
@@ -9,29 +9,29 @@ tags:
   - sailing-deck
 ---
 **Front:**
-# Safe Water Marks
+# Безопасные знаки
 
 **Back:**
-<p>Safe water marks indicate that there is navigable water all around the mark. They are used to indicate mid-channels, fairways, or landfall positions.</p>
+<p>Безопасные знаки указывают на то, что вокруг знака есть навигационная вода. Они используются для указания середины каналов, фарватеров или точек причала.</p>
 
 <div class="mark-section">
-  <h3>Safe Water Mark:</h3>
+  <h3>Безопасный знак:</h3>
   <ul>
-    <li><strong>Color:</strong> Red and white vertical stripes</li>
-    <li><strong>Shape:</strong> Spherical, pillar, or spar</li>
-    <li><strong>Topmark:</strong> Single red sphere (if fitted)</li>
-    <li><strong>Light:</strong> White, showing one of the following rhythms:
+    <li><strong>Цвет:</strong> Красные и белые вертикальные полосы</li>
+    <li><strong>Форма:</strong> Сферическая, столб или мачта</li>
+    <li><strong>Верхний знак:</strong> Один красный шар (если установлен)</li>
+    <li><strong>Свет:</strong> Белый, показывающий один из следующих ритмов:
       <ul>
-        <li>Isophase (equal intervals of light and dark)</li>
-        <li>Occulting (more light than dark)</li>
-        <li>Long flash (single long flash) every 10 seconds</li>
-        <li>Morse code "A" (• —)</li>
+        <li>Равномерные интервалы света и тени</li>
+        <li>Частичное затенение (больше света, чем тени)</li>
+        <li>Длинная вспышка (одна длинная вспышка каждые 10 секунд)</li>
+        <li>Морзе "A" (• —)</li>
       </ul>
     </li>
   </ul>
 </div>
 
-<p>These marks can be passed on either side but are often used to indicate the middle of a shipping channel, so they may be used as a centerline mark to be kept on a specific side depending on the direction of travel.</p>
+<p>Эти знаки могут быть пройдены с любой стороны, но часто используются для указания середины канала для движения, поэтому их можно использовать как центровую линию, которая должна быть пройдена с определенной стороны в зависимости от направления движения.</p>
 ![[safe-water-mark.png]]
 [[01-Sailing-deck]]
 [[Sailing]]
