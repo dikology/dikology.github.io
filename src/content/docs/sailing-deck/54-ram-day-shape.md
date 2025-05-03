@@ -1,6 +1,6 @@
 ---
-title: Restricted in Ability to Manoeuvre (Day Shape)
-description: Day shape for a vessel restricted in ability to manoeuvre
+title: Ограничено в Возможности Маневрировать (Дневной Знак)
+description: Дневной знак для судна, ограниченного в возможности маневрировать
 id: 154
 type: basic
 tags:
@@ -11,9 +11,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Ball diamond ball
+Шар - Ромб - Шар (по вертикали)
 
 **Back:**
-Restricted in ability to manoeuvre
+Судно, ограниченное в возможности маневрировать
 
 [[Sailing]] 

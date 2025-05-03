@@ -1,6 +1,6 @@
 ---
-title: Sailing Vessel Under Power
-description: Day shape for a sailing vessel operating under power
+title: Парусное Судно под Мотором (Дневной Знак)
+description: Дневной знак для парусного судна, идущего под мотором
 id: 153
 type: basic
 tags:
@@ -11,9 +11,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Cone facing downwards
+Конус вершиной вниз (наиболее видном месте)
 
 **Back:**
-Sailing vessel under power during the day
+Парусное судно, идущее под двигателем (днем)
 
 [[Sailing]] 

@@ -1,6 +1,6 @@
 ---
-title: Port Light
-description: Definition of a port light
+title: Левый Бортовой Огонь
+description: Определение левого бортового огня
 id: 162
 type: basic
 tags:
@@ -11,9 +11,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Port light
+Левый бортовой огонь
 
 **Back:**
-Red 112.5° facing front left
+Красный огонь, сектор освещения 112.5°, направленный вперед по левому борту.
 
 [[Sailing]] 

@@ -1,6 +1,6 @@
 ---
-title: Masthead Light
-description: Definition of a masthead light
+title: Топовый Огонь
+description: Определение топового огня
 id: 160
 type: basic
 tags:
@@ -11,9 +11,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Masthead light
+Топовый огонь
 
 **Back:**
-White 225° facing forwards
+Белый огонь, сектор освещения 225°, направленный вперед.
 
 [[Sailing]] 

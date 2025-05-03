@@ -6,9 +6,8 @@ description: How do you calculate the total sample size for an A/B test with two
 tags:
   - ab-testing
 created: January 03
-modified: March 29
+modified: May 03
 ---
-
 **Front:** How do you calculate the total sample size for an A/B test with two groups?
 
 **Back:** First, calculate the sample size per group using the formula:

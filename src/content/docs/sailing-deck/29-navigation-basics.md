@@ -10,73 +10,73 @@ type: basic
 ---
 
 **Front:**
-# Navigation Basics
+# Основы Навигации
 
 **Back:**
 <div class="nautical-charts">
-  <h3>Nautical Charts:</h3>
+  <h3>Морские Карты:</h3>
   <ul>
-    <li><strong>Scale:</strong> Typically 1:10,000 to 1:80,000 for coastal navigation</li>
-    <li><strong>Depths:</strong> Usually shown in meters or fathoms (1 fathom = 6 feet)</li>
-    <li><strong>Heights:</strong> Of land and structures, measured from chart datum</li>
-    <li><strong>Symbols:</strong> Standardized international system for features</li>
-    <li><strong>Compass Rose:</strong> Shows true and magnetic north</li>
+    <li><strong>Масштаб:</strong> Обычно от 1:10,000 до 1:80,000 для прибрежной навигации</li>
+    <li><strong>Глубины:</strong> Обычно указываются в метрах или саженях (1 сажень = 6 футов)</li>
+    <li><strong>Высоты:</strong> Суши и сооружений, измеряются от нуля карты</li>
+    <li><strong>Символы:</strong> Стандартизированная международная система для объектов</li>
+    <li><strong>Картушка Компаса:</strong> Показывает истинный и магнитный север</li>
   </ul>
 </div>
 
 <div class="chart-elements">
-  <h3>Key Chart Elements:</h3>
+  <h3>Ключевые Элементы Карты:</h3>
   <ul>
-    <li><strong>Buoys and Beacons:</strong> Navigation aids with distinctive colors, shapes, and light patterns</li>
-    <li><strong>Hazards:</strong> Rocks, wrecks, shallow areas</li>
-    <li><strong>Restricted Areas:</strong> Military zones, conservation areas</li>
-    <li><strong>Anchorages:</strong> Designated or recommended areas</li>
-    <li><strong>Contour Lines:</strong> Connect points of equal depth</li>
-    <li><strong>Tidal Information:</strong> Height, direction, and speed</li>
+    <li><strong>Буи и Знаки:</strong> Навигационные средства с отличительными цветами, формами и световыми характеристиками</li>
+    <li><strong>Опасности:</strong> Скалы, затонувшие суда, мелководье</li>
+    <li><strong>Запретные Зоны:</strong> Военные зоны, заповедники</li>
+    <li><strong>Якорные Стоянки:</strong> Обозначенные или рекомендуемые места</li>
+    <li><strong>Изобаты:</strong> Линии, соединяющие точки равной глубины</li>
+    <li><strong>Приливная Информация:</strong> Высота, направление и скорость</li>
   </ul>
 </div>
 
 <div class="navigation-tools">
-  <h3>Basic Navigation Tools:</h3>
+  <h3>Основные Навигационные Инструменты:</h3>
   <ul>
-    <li><strong>Dividers/Compass:</strong> For measuring distance and plotting bearings</li>
-    <li><strong>Parallel Rules:</strong> For transferring bearings to compass rose</li>
-    <li><strong>Pencil and Eraser:</strong> For plotting courses</li>
-    <li><strong>Calculator:</strong> For time, speed, and distance calculations</li>
-    <li><strong>Tide Tables:</strong> For determining water depths at specific times</li>
+    <li><strong>Измеритель/Циркуль:</strong> Для измерения расстояния и прокладки пеленгов</li>
+    <li><strong>Параллельная Линейка:</strong> Для переноса пеленгов на картушку компаса</li>
+    <li><strong>Карандаш и Ластик:</strong> Для прокладки курсов</li>
+    <li><strong>Калькулятор:</strong> Для расчетов времени, скорости и расстояния</li>
+    <li><strong>Таблицы Приливов:</strong> Для определения глубины воды в определенное время</li>
   </ul>
 </div>
 
 <div class="position-finding">
-  <h3>Position Finding:</h3>
+  <h3>Определение Местоположения:</h3>
   <ul>
-    <li><strong>Latitude/Longitude:</strong> Primary position coordinates</li>
-    <li><strong>Bearings:</strong> Angular measurement from North (000°) clockwise (e.g., East is 090°)</li>
-    <li><strong>Transit Lines:</strong> Lining up two fixed objects</li>
-    <li><strong>Cross Bearings:</strong> Taking bearings of two or more objects</li>
-    <li><strong>Running Fix:</strong> Single bearing plus dead reckoning</li>
+    <li><strong>Широта/Долгота:</strong> Основные координаты местоположения</li>
+    <li><strong>Пеленги:</strong> Угловое измерение от Севера (000°) по часовой стрелке (например, Восток - 090°)</li>
+    <li><strong>Створные Линии:</strong> Совмещение двух неподвижных объектов</li>
+    <li><strong>Обратные Засечки:</strong> Взятие пеленгов на два или более объекта</li>
+    <li><strong>Крюйс-пеленг:</strong> Один пеленг плюс счисление пути</li>
   </ul>
 </div>
 
 <div class="course-planning">
-  <h3>Course Planning:</h3>
+  <h3>Планирование Курса:</h3>
   <ul>
-    <li>Plot intended route on chart</li>
-    <li>Mark significant waypoints</li>
-    <li>Calculate distance, heading, and estimated time</li>
-    <li>Note hazards, tide restrictions, and alternative harbors</li>
-    <li>Consider leeway and tidal effects on course</li>
+    <li>Проложить предполагаемый маршрут на карте</li>
+    <li>Отметить важные точки маршрута</li>
+    <li>Рассчитать расстояние, курс и предполагаемое время</li>
+    <li>Отметить опасности, приливные ограничения и альтернативные гавани</li>
+    <li>Учитывать дрейф и влияние приливов на курс</li>
   </ul>
 </div>
 
 <div class="navigation-at-sea">
-  <h3>Navigation at Sea:</h3>
+  <h3>Навигация в Море:</h3>
   <ul>
-    <li>Regularly update position on chart</li>
-    <li>Monitor depth against chart expectations</li>
-    <li>Use visual landmarks to confirm position</li>
-    <li>Maintain log of positions, course, and speed</li>
-    <li>Constantly check for hazards ahead</li>
+    <li>Регулярно обновлять позицию на карте</li>
+    <li>Следить за глубиной по сравнению с картой</li>
+    <li>Использовать визуальные ориентиры для подтверждения позиции</li>
+    <li>Вести судовой журнал позиций, курса и скорости</li>
+    <li>Постоянно проверять наличие опасностей впереди</li>
   </ul>
 </div>
 

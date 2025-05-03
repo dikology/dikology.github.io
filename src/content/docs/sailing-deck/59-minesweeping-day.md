@@ -1,6 +1,6 @@
 ---
-title: Minesweeping (Day Shape)
-description: Day shape for a minesweeping vessel
+title: Траление Мин (Дневной Знак)
+description: Дневной знак для судна, занятого тралением мин
 id: 159
 type: basic
 tags:
@@ -11,9 +11,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Three balls in a triangle
+Три шара (один на топе мачты, по одному на каждой ноке рея)
 
 **Back:**
-Minesweeping
+Судно, занятое тралением мин
 
 [[Sailing]] 

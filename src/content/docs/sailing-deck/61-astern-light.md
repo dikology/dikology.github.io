@@ -1,6 +1,6 @@
 ---
-title: Astern Light
-description: Definition of an astern light
+title: Кормовой Огонь
+description: Определение кормового огня
 id: 161
 type: basic
 tags:
@@ -11,9 +11,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Astern light
+Кормовой огонь
 
 **Back:**
-White 135° facing backwards
+Белый огонь, сектор освещения 135°, направленный назад (в корму).
 
 [[Sailing]] 

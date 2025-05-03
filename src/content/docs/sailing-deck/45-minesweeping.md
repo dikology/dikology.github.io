@@ -1,6 +1,6 @@
 ---
-title: Minesweeping
-description: Navigation light configuration for minesweeping vessels
+title: Траление Мин (Огни)
+description: Конфигурация навигационных огней для судов, занятых тралением мин
 id: 145
 type: basic
 tags:
@@ -10,9 +10,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-3 green lights in a triangle
+Три зеленых круговых огня (один на топе мачты, по одному на каждой ноке рея)
 
 **Back:**
-Minesweeping
+Судно, занятое тралением мин
 
 [[Sailing]] 

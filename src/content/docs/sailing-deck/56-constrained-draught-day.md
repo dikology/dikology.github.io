@@ -1,6 +1,6 @@
 ---
-title: Constrained by Draught (Day Shape)
-description: Day shape for a vessel constrained by draught
+title: Стеснено Осадкой (Дневной Знак)
+description: Дневной знак для судна, стесненного своей осадкой
 id: 156
 type: basic
 tags:
@@ -11,9 +11,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Single can
+Один цилиндр
 
 **Back:**
-Constrained by draught
+Судно, стесненное своей осадкой
 
 [[Sailing]] 

@@ -1,6 +1,6 @@
 ---
 title: Работа со стакселем на закрутке
-description: card about furling and unfurling the jib
+description: Как раскручивать и закручивать стаксель с системой закрутки
 type: basic
 id: 114
 created: March 19

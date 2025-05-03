@@ -1,6 +1,6 @@
 ---
-title: Long Tow
-description: Navigation light configuration for vessels with a long tow (over 200m)
+title: Длинный Буксир (>200м)
+description: Конфигурация огней для судна, буксирующего на длинном тросе (более 200м)
 id: 147
 type: basic
 tags:
@@ -10,9 +10,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-3 white masthead lights over one another
+Три топовых огня (белые, 225°) по вертикали
 
 **Back:**
-Long tow, over 200m
+Судно с механическим двигателем, занятое буксировкой (длина буксира > 200 м)
 
 [[Sailing]] 
