@@ -1,6 +1,6 @@
 ---
-title: Diving
-description: Navigation light configuration for diving vessels
+title: Водолазные Работы
+description: Конфигурация навигационных огней для судов, обеспечивающих водолазные работы
 id: 151
 type: basic
 tags:
@@ -10,9 +10,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Red white red on mast
+Три круговых огня по вертикали: Красный-Белый-Красный
 
 **Back:**
-Diving
+Судно, ограниченное в возможности маневрировать (из-за водолазных работ)
 
 [[Sailing]] 

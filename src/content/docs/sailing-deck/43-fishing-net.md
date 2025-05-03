@@ -1,6 +1,6 @@
 ---
-title: Fishing by Surface Net
-description: Navigation light configuration for vessels fishing by surface net
+title: Лов Рыбы (кроме траления)
+description: Конфигурация огней для судов, занятых ловом рыбы (кроме траления)
 id: 143
 type: basic
 tags:
@@ -10,9 +10,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Red over white
+Красный круговой над белым круговым (по вертикали)
 
 **Back:**
-Fishing by (surface) net
+Судно, занятое ловом рыбы (кроме траления)
 
 [[Sailing]] 

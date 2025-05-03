@@ -1,6 +1,6 @@
 ---
-title: Underwater Work (Day Shape)
-description: Day shape for a vessel carrying out underwater work
+title: Подводные Работы / Драгирование (Дневной Знак)
+description: Дневной знак для судна, выполняющего подводные работы или драгирование
 id: 155
 type: basic
 tags:
@@ -11,9 +11,11 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Ball diamond ball with two diamonds to the starboard and two ball to the port
+Шар-Ромб-Шар (по вертикали) ПЛЮС (если есть препятствие):
+Два ромба (по вертикали) - со стороны безопасного прохода.
+Два шара (по вертикали) - со стороны препятствия.
 
 **Back:**
-Carrying out underwater work
+Судно, занятое подводными работами или драгированием (ограничено в возможности маневрировать)
 
 [[Sailing]] 

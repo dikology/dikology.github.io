@@ -1,6 +1,6 @@
 ---
-title: Towing (Viewed From Astern)
-description: Navigation light configuration for vessels being towed (viewed from astern)
+title: Буксировка (Вид с Кормы)
+description: Конфигурация огней для буксирующего судна (вид с кормы буксируемого)
 id: 149
 type: basic
 tags:
@@ -10,9 +10,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Yellow over white (from astern)
+Желтый над белым (по вертикали)
 
 **Back:**
-Towing
+Буксирующий огонь (желтый) над кормовым огнем (белый) буксирующего судна
 
 [[Sailing]] 

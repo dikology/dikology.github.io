@@ -1,6 +1,6 @@
 ---
-title: Ship at Anchor (Under 50m)
-description: Navigation light configuration for a ship under 50m at anchor
+title: Судно на Якоре (<50м)
+description: Конфигурация огней для судна менее 50м на якоре
 id: 144
 type: basic
 tags:
@@ -10,9 +10,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Single white masthead
+Один белый круговой огонь
 
 **Back:**
-Ship under 50m, at anchor all other lights are off
+Судно (< 50 м) на якоре (все остальные ходовые огни выключены)
 
 [[Sailing]] 

@@ -1,6 +1,6 @@
 ---
-title: Pilot on Duty (Lights)
-description: Navigation light configuration for a pilot on duty
+title: Лоцманское Судно (Огни)
+description: Конфигурация навигационных огней для лоцманского судна при исполнении обязанностей
 id: 146
 type: basic
 tags:
@@ -10,9 +10,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-All round white over all round red
+Белый круговой над красным круговым (по вертикали)
 
 **Back:**
-Pilot on duty
+Лоцманское судно при исполнении лоцманских обязанностей
 
 [[Sailing]] 

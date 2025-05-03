@@ -1,6 +1,6 @@
 ---
-title: Fishing Vessel (Day Shape)
-description: Day shape for a fishing vessel
+title: Судно, Занятое Ловом Рыбы (Дневной Знак)
+description: Дневной знак для судна, занятого ловом рыбы
 id: 157
 type: basic
 tags:
@@ -11,9 +11,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Two cones facing one another
+Два конуса, соединенные вершинами
 
 **Back:**
-Fishing vessel
+Судно, занятое ловом рыбы (кроме траления)
 
 [[Sailing]] 

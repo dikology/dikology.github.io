@@ -1,6 +1,6 @@
 ---
-title: Short Tow
-description: Navigation light configuration for vessels with a short tow (under 200m)
+title: Короткий Буксир (<200м)
+description: Конфигурация огней для судна, буксирующего на коротком тросе (менее 200м)
 id: 148
 type: basic
 tags:
@@ -10,9 +10,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-2 white masthead lights over one another
+Два топовых огня (белые, 225°) по вертикали
 
 **Back:**
-Short tow, under 200m
+Судно с механическим двигателем, занятое буксировкой (длина буксира < 200 м)
 
 [[Sailing]] 

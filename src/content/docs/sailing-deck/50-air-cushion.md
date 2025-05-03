@@ -1,6 +1,6 @@
 ---
-title: Air Cushion Vessel
-description: Navigation light configuration for air cushion vessels
+title: Судно на Воздушной Подушке
+description: Конфигурация навигационных огней для судов на воздушной подушке
 id: 150
 type: basic
 tags:
@@ -10,9 +10,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Flashing yellow with trailing white
+Проблесковый желтый (круговой) и стандартные огни судна с мех. двигателем
 
 **Back:**
-Air cushion vessel
+Судно на воздушной подушке (при движении в неводоизмещающем состоянии)
 
 [[Sailing]] 

@@ -1,6 +1,6 @@
 ---
-title: Starboard Light
-description: Definition of a starboard light
+title: Правый Бортовой Огонь
+description: Определение правого бортового огня
 id: 163
 type: basic
 tags:
@@ -11,9 +11,9 @@ created: April 05
 modified: April 05
 ---
 **Front:**
-Starboard light
+Правый бортовой огонь
 
 **Back:**
-Green 112.5° facing front right
+Зеленый огонь, сектор освещения 112.5°, направленный вперед по правому борту.
 
 [[Sailing]] 
