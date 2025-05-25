@@ -2,7 +2,7 @@
 title: Tides and Currents
 description: Understanding and calculating tidal effects for safe navigation
 created: March 28
-modified: March 29
+modified: May 21
 id: 130
 type: basic
 tags:

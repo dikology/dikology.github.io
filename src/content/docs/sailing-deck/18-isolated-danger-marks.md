@@ -2,9 +2,9 @@
 title: Знаки опасности (IALA A)
 description: Знаки опасности в системе IALA A
 created: March 29
-modified: March 30
+modified: May 04
 id: 118
-type: basic
+type: basic-media
 tags:
   - sailing-deck
 ---
@@ -12,6 +12,8 @@ tags:
 # Знаки опасности
 
 **Back:**
+
+![[isolated-danger.webp]]
 <p>Знаки опасности указывают на опасность, которая окружена навигационной водой. Они располагаются на, или рядом с, изолированной опасности ограниченного размера.</p>
 
 <div class="mark-section">
