@@ -2,13 +2,13 @@
 title: Log
 description: A comprehensive guide to logging your sailing activities
 created: March 29
-modified: March 30
+modified: May 04
 ---
 # Vessel Log Book
 
 ## Daily Log Entry Template
 
-### Date: YYYY-MM-DD
+### Date: 
 
 **Voyage Information:**
 - Vessel Name: _______________
@@ -28,19 +28,15 @@ modified: March 30
 - Fuel Remaining: _______________ (liters/gallons)
 
 **Weather Conditions:**
+
 | Time    | Wind Speed | Wind Direction | Sea State | Visibility | Barometer | Cloud Cover | Temperature |
-|---------|------------|----------------|-----------|------------|-----------|-------------|-------------|
+| ------- | ---------- | -------------- | --------- | ---------- | --------- | ----------- | ----------- |
 | Morning |            |                |           |            |           |             |             |
 | Midday  |            |                |           |            |           |             |             |
 | Evening |            |                |           |            |           |             |             |
 | Night   |            |                |           |            |           |             |             |
-
-**Weather Forecast:**
-- Morning: _______________
-- Afternoon: _______________
-- Evening/Night: _______________
-
 **Position Log:**
+
 | Time | Latitude | Longitude | COG | SOG | Log | Remarks |
 |------|----------|-----------|-----|-----|-----|---------|
 |      |          |           |     |     |     |         |
@@ -48,13 +44,14 @@ modified: March 30
 |      |          |           |     |     |     |         |
 
 **Engine Operation Timeline:**
+
 | Time | Operation | Notes |
 |------|-----------|-------|
 |      |           |       |
 |      |           |       |
 |      |           |       |
 
-**Pre-Departure Checklist:**
+### **Pre-Departure Checklist:**
 - [ ] Navigation Plan
 - [ ] Engine Checks
 - [ ] Documentation

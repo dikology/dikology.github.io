@@ -6,7 +6,7 @@ description: What is the formula for calculating sample size per group in an A/B
 tags:
   - ab-testing
 created: March 30
-modified: March 30
+modified: May 03
 ---
 
 **Front:** What is the formula for calculating sample size per group in an A/B test?
@@ -21,3 +21,4 @@ Where:
 - \( \sigma^2 \) is the variance of the point estimation.
 
 [[Data Analytics]]
+#flashcard 

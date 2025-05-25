@@ -4,11 +4,10 @@ description: a card about bowline knot
 type: basic-media
 id: 103
 created: March 16
-modified: March 30
+modified: May 04
 tags:
   - sailing-deck
 ---
-
 **Front:**
 Беседочный узел
 

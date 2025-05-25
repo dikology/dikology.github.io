@@ -2,7 +2,7 @@
 title: Спасение человека, упавшего за борт (MOB)
 description: Основные процедуры для ситуаций "человек за бортом"
 created: March 29
-modified: March 30
+modified: May 04
 type: basic
 id: 123
 tags:

@@ -5,7 +5,6 @@ id: 156
 type: basic
 tags:
   - sailing-deck
-  - nav-lights
   - day-shapes
 created: April 05
 modified: April 05
